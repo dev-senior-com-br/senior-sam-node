@@ -100,6 +100,7 @@ import IncidentTypeActionType from "./lib/model/lobby/IncidentTypeActionType";
 import IncidentTypeReactionEmail from "./lib/model/lobby/IncidentTypeReactionEmail";
 import InputState from "./lib/model/lobby/InputState";
 import VisitAccessCall from "./lib/model/lobby/VisitAccessCall";
+import ScheduledCredential from "./lib/model/lobby/ScheduledCredential";
 
 export {
     SAMApi, ListPersonLookupIn, LobbyCredentialTechnologiesIn, CardTechnology, CreateCardProvisoryCredentialIn, InformationCardCredentialRecord, Visitor, List, Scheduling,
@@ -111,5 +112,5 @@ export {
     CredentialOwner, VirtualLobby, VirtualLobbyDevice, VirtualLobbyAction, VirtualLobbyCamera, VirtualLobbySituation, CallGenerationType, VirtualLobbyActionOutput, VirtualLobbyActionType,
     VirtualLobbyMovementType, Camera, CameraDevice, CctvProxy, CameraStatus, DvrServer, DvrServerType, VehicleUse, ReaderDeviceAction, PersonRole, PersonRoleSuspension, IncidentProcedure,
     AccessType, OutputDevice, OutputState, IncidentViewed, Incident, IncidentPerson, PersonSituation, PersonSituationType, Email, Phone, IncidentAttachment, IncidentPriority, IncidentStatus,
-    IncidentProcedureType, IncidentType, IncidentTypeReactionManagerDevice, IncidentTypeAction, IncidentTypeActionType, IncidentTypeReactionEmail, InputState, VisitAccessCall
+    IncidentProcedureType, IncidentType, IncidentTypeReactionManagerDevice, IncidentTypeAction, IncidentTypeActionType, IncidentTypeReactionEmail, InputState, VisitAccessCall, ScheduledCredential
 }

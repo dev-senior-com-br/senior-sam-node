@@ -1,5 +1,6 @@
 import { BaseModel } from "../BaseModel";
 import Person from "./Person";
+import { ScheduledCredential } from "../../..";
 
 export default class VisitAccessCall extends BaseModel {
     /**
