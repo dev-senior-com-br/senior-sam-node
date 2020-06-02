@@ -1,6 +1,7 @@
 import { BaseModel } from "../BaseModel";
 import ReaderDeviceAccessCall from "./ReaderDeviceAccessCall";
-import { VirtualLobby, VirtualLobbyMovementType, InputDeviceAccessCall, VisitAccessCall } from "../../..";
+import { VirtualLobby, VirtualLobbyMovementType, VirtualLobbyMovement, 
+    InputDeviceAccessCall, VisitAccessCall, AccessCallStatus, AccessCallOrigin} from "../../..";
 
 export default class AccessCall extends BaseModel {
     /**

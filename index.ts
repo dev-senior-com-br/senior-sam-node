@@ -95,12 +95,21 @@ import IncidentStatus from "./lib/model/lobby/IncidentStatus";
 import IncidentProcedureType from "./lib/model/lobby/IncidentProcedureType";
 import IncidentType from "./lib/model/lobby/IncidentType";
 import IncidentTypeReactionManagerDevice from "./lib/model/lobby/IncidentTypeReactionManagerDevice";
-import IncidentTypeAction from "./lib/model/IncidentTypeAction";
+import IncidentTypeAction from "./lib/model/lobby/IncidentTypeAction";
 import IncidentTypeActionType from "./lib/model/lobby/IncidentTypeActionType";
 import IncidentTypeReactionEmail from "./lib/model/lobby/IncidentTypeReactionEmail";
 import InputState from "./lib/model/lobby/InputState";
 import VisitAccessCall from "./lib/model/lobby/VisitAccessCall";
 import ScheduledCredential from "./lib/model/lobby/ScheduledCredential";
+import AccessCallStatus from "./lib/model/lobby/AccessCallStatus";
+import AccessCallOrigin from "./lib/model/lobby/AccessCallOrigin";
+import MovementDirection from "./lib/model/lobby/MovementDirection";
+import Person from "./lib/model/lobby/Person";
+import VirtualLobbyMovement from "./lib/model/lobby/VirtualLobbyMovement";
+import DocumentType from "./lib/model/lobby/DocumentType";
+import OffsetDaylightSavingType from "./lib/model/lobby/OffsetDaylightSavingType";
+import LocalTimezone from "./lib/model/lobby/LocalTimezone";
+import Timezone from "./lib/model/lobby/Timezone";
 
 export {
     SAMApi, ListPersonLookupIn, LobbyCredentialTechnologiesIn, CardTechnology, CreateCardProvisoryCredentialIn, InformationCardCredentialRecord, Visitor, List, Scheduling,
@@ -112,5 +121,6 @@ export {
     CredentialOwner, VirtualLobby, VirtualLobbyDevice, VirtualLobbyAction, VirtualLobbyCamera, VirtualLobbySituation, CallGenerationType, VirtualLobbyActionOutput, VirtualLobbyActionType,
     VirtualLobbyMovementType, Camera, CameraDevice, CctvProxy, CameraStatus, DvrServer, DvrServerType, VehicleUse, ReaderDeviceAction, PersonRole, PersonRoleSuspension, IncidentProcedure,
     AccessType, OutputDevice, OutputState, IncidentViewed, Incident, IncidentPerson, PersonSituation, PersonSituationType, Email, Phone, IncidentAttachment, IncidentPriority, IncidentStatus,
-    IncidentProcedureType, IncidentType, IncidentTypeReactionManagerDevice, IncidentTypeAction, IncidentTypeActionType, IncidentTypeReactionEmail, InputState, VisitAccessCall, ScheduledCredential
+    IncidentProcedureType, IncidentType, IncidentTypeReactionManagerDevice, IncidentTypeAction, IncidentTypeActionType, IncidentTypeReactionEmail, InputState, VisitAccessCall, ScheduledCredential,
+    AccessCallStatus, AccessCallOrigin, MovementDirection, Person, VirtualLobbyMovement, DocumentType, OffsetDaylightSavingType, LocalTimezone, Timezone
 }
