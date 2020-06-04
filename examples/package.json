@@ -10,12 +10,15 @@
     "watch-ts": "tsc -w"
   },
   "compilerOptions": {
-    "outDir": "./built",
+    "outDir": "./dist",
     "allowJs": true,
     "target": "es5"
   },
   "dependencies": {
     "dotenv": "^8.2.0",
     "xml2js": "^0.4.23"
+  },
+  "devDependencies": {
+    "@seniorsistemas/senior-core": "^1.0.1591213629"
   }
 }

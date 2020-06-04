@@ -2,13 +2,11 @@ require('dotenv').config({
     path: "../.env"
 });
 
-var username = process.env.SENIOR_USERNAME;
-var password = process.env.PASS;
-var SAMApi = require('../built/index').SAMApi;
-var ListPersonLookupIn = require('../built/index').ListPersonLookupIn;
-var LobbyCredentialTechnologiesIn = require('../built/index').LobbyCredentialTechnologiesIn;
-var CardTechnology = require('../built/index').CardTechnology;
-var CreateCardProvisoryCredentialIn = require('../built/index').CreateCardProvisoryCredentialIn;
+var SAMApi = require('../dist/index').SAMApi;
+var ListPersonLookupIn = require('../dist/index').ListPersonLookupIn;
+var LobbyCredentialTechnologiesIn = require('../dist/index').LobbyCredentialTechnologiesIn;
+var CardTechnology = require('../dist/index').CardTechnology;
+var CreateCardProvisoryCredentialIn = require('../dist/index').CreateCardProvisoryCredentialIn;
 
 var username = process.env.SENIOR_USERNAME;
 var password = process.env.PASS;

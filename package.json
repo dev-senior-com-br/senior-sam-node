@@ -1,8 +1,12 @@
 {
   "name": "@seniorsistemas/senior-sam",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Senior HCM SAM para Node.js",
   "main": "index.js",
+  "files": [
+    "dist",
+    "lib"
+  ],
   "author": "Senior ECOAPI Team",
   "license": "MIT",
   "scripts": {
@@ -38,6 +42,7 @@
     "lib": "lib"
   },
   "devDependencies": {
+    "@seniorsistemas/senior-core": "^1.2.4",
     "@types/lodash": "^4.14.149",
     "@types/q": "^1.5.2",
     "@types/request": "^2.48.4",

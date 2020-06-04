@@ -1,8 +1,9 @@
-import RequestClient from "../base/RequestClient";
 import { HttpMethod } from "../model/HttpMethod";
 import ListPersonLookupIn from "../model/lobby/ListPersonLookupIn";
 import SAMApi from "../SAMApi";
 import LobbyCredentialTechnologiesIn from "../model/lobby/LobbyCredentialTechnologiesIn";
+import RequestClient from '@seniorsistemas/senior-core/lib/base/RequestClient';
+import ENVIRONMENTS from "@seniorsistemas/senior-core/lib/Environments";
 
 export default class Lobby extends RequestClient {
     private _client: RequestClient;
