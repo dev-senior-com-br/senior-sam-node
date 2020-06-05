@@ -2,7 +2,7 @@ import { BaseModel } from "../BaseModel";
 import InformationCardCredentialRecord from "./InformationCardCredentialRecord";
 import Visitor from "./Visitor";
 
-export default class CreateCardProvisoryCredentialIn extends BaseModel {
+export = class CreateCardProvisoryCredentialIn extends BaseModel {
     /**
      * Se deve suspender a credencial existente
      */

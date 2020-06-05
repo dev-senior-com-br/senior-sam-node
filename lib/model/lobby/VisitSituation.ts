@@ -17,4 +17,4 @@ enum VisitSituation {
     NOT_OCCURRED = "NOT_OCCURRED"
 }
 
-export default VisitSituation;
+export = VisitSituation;

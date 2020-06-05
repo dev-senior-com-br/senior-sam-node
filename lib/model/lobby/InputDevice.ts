@@ -4,7 +4,7 @@ import Device from "./Device";
 import { DeviceType, DeviceSituation, PhysicalLocation, DeviceCommunicationStatus, ExtensibleConfiguration, IncidentType, IncidentPriority, OutputDeviceActivations, InputState } from "../../..";
 import InputMasking from "./InputMasking";
 
-export default class InputDevice extends BaseModel {
+export = class InputDevice extends BaseModel {
     /**
      * ID
      */

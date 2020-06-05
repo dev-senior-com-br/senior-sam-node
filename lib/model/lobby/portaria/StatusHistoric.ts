@@ -15,4 +15,4 @@ enum StatusHistoric {
     PAST = "PAST"
 }
 
-export default StatusHistoric;
+export = StatusHistoric;

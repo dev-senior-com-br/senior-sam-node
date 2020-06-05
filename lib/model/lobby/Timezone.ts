@@ -1,6 +1,6 @@
 import { BaseModel } from "../BaseModel";
 
-export default class Timezone extends BaseModel {
+export = class Timezone extends BaseModel {
     /**
     * ID
     */

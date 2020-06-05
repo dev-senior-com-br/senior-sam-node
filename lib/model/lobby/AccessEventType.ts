@@ -196,4 +196,4 @@ enum AccessEventType {
 
 }
 
-export default AccessEventType;
+export = AccessEventType;

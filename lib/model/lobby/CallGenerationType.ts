@@ -19,4 +19,4 @@ enum CallGenerationType {
      */
     ON_ACCESS_DENIED = "ON_ACCESS_DENIED"
 }
-export default CallGenerationType;
+export = CallGenerationType;

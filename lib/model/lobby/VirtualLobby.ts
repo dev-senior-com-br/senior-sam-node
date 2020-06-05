@@ -3,7 +3,7 @@ import { PhysicalLocation, VirtualLobbyDevice, VirtualLobbyAction, VirtualLobbyC
 import Group from "./Group";
 import List from "../List";
 
-export default class VirtualLobby extends BaseModel {
+export = class VirtualLobby extends BaseModel {
     /**
     * ID
     */

@@ -2,14 +2,13 @@ import { HttpMethod } from "../model/HttpMethod";
 import ListPersonLookupIn from "../model/lobby/ListPersonLookupIn";
 import SAMApi from "../SAMApi";
 import LobbyCredentialTechnologiesIn from "../model/lobby/LobbyCredentialTechnologiesIn";
-import RequestClient from '@seniorsistemas/senior-core/lib/base/RequestClient';
-import ENVIRONMENTS from "@seniorsistemas/senior-core/lib/Environments";
+import RequestClient from '@seniorsistemas/senior-core/dist/lib/base/RequestClient';
 
-export default class Lobby extends RequestClient {
-    private _client: RequestClient;
+export = class Lobby extends RequestClient {
+    seniorApi: any;
 
     constructor(samApi: SAMApi) {
-        super(samApi);
+        super(samApi, "sam", "lobby");
     }
 
     listPersonLookup = (listPersonLookupIn: ListPersonLookupIn) => {

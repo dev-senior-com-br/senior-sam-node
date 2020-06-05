@@ -4,7 +4,7 @@ import { CredentialFormat, PhysicalLocation } from "../../..";
 import Role from "./Role";
 import Group from "./Group";
 
-export default class ScheduledCredential extends BaseModel {
+export = class ScheduledCredential extends BaseModel {
     /**
     * ID
     */

@@ -16,4 +16,4 @@ enum VehicleUse {
      */
     FREE_USE = "FREE_USE"
 }
-export default VehicleUse;
+export = VehicleUse;

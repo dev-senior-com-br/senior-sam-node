@@ -8,4 +8,4 @@ enum MovementDirection {
      */
     ENTRANCE
 }
-export default MovementDirection;
+export = MovementDirection;

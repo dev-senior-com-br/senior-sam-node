@@ -1,7 +1,7 @@
 import { BaseModel } from "../BaseModel";
 import { Scheduling } from "../../..";
 
-export default class VisitedPerson extends BaseModel{
+export = class VisitedPerson extends BaseModel{
     /**
      * ID
      */

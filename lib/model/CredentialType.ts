@@ -9,4 +9,4 @@ enum CredentialType {
      */
     PROVISORY = "PPROVISORY"
 }
-export default CredentialType;
+export = CredentialType;

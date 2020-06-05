@@ -19,4 +19,4 @@ enum DvrServerType {
      */
     AXXON = "AXXON"
 }
-export default DvrServerType;
+export = DvrServerType;

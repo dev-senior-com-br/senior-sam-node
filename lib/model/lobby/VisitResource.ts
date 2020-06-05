@@ -1,7 +1,7 @@
 import { BaseModel } from "../BaseModel";
 import { VisitType, LobbyResource } from "../../..";
 
-export default class VisitResource extends BaseModel {
+export = class VisitResource extends BaseModel {
     /**
      * ID
      */

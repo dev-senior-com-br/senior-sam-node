@@ -2,7 +2,7 @@ import { BaseModel } from "../BaseModel";
 import { AccessType } from "../../..";
 import OutputDevice from "./OutputDevice";
 
-export default class ReaderDeviceAction extends BaseModel {
+export = class ReaderDeviceAction extends BaseModel {
     /**
     * ID
     */

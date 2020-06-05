@@ -1,7 +1,7 @@
 import { BaseModel } from "../BaseModel";
 import { Incident } from "../../..";
 
-export default class IncidentViewed extends BaseModel {
+export = class IncidentViewed extends BaseModel {
     /**
     * ID
     */

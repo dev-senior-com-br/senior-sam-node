@@ -15,4 +15,4 @@ enum VisitLimitControl {
     BLOCK = "BLOCK"
 }
 
-export default VisitLimitControl;
+export = VisitLimitControl;

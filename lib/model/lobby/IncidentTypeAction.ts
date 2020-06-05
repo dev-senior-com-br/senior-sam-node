@@ -3,7 +3,7 @@ import { Device } from "../../..";
 import IncidentTypeActionType from "./IncidentTypeActionType";
 import { BaseModel } from "../BaseModel";
 
-export default class IncidentTypeAction extends BaseModel {
+export = class IncidentTypeAction extends BaseModel {
     /**
     * ID
     */

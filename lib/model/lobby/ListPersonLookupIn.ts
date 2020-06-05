@@ -1,6 +1,6 @@
 import { BaseModel } from "../BaseModel";
 
-export default class ListPersonLookupIn extends BaseModel {
+export = class ListPersonLookupIn extends BaseModel {
     /**
      * Campo de busca por nome ou documento
      */

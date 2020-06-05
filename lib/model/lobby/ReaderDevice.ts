@@ -2,7 +2,7 @@ import { BaseModel } from "../BaseModel";
 import { PhysicalLocation, Device, DeviceType, DeviceSituation, DeviceCommunicationStatus, ExtensibleConfiguration, ReaderDirection, BiometricValidation, ReaderDeviceTechnology, BiometricManufacturer, BiometricOneToOneValidationType, ReaderValidationType, ReaderDeviceCardFormat, ReaderDeviceAction } from "../../..";
 import List from "../List";
 
-export default class ReaderDevice extends BaseModel {
+export = class ReaderDevice extends BaseModel {
     /**
     * ID
     */

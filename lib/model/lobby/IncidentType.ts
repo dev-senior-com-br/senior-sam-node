@@ -2,7 +2,7 @@ import { BaseModel } from "../BaseModel";
 import { IncidentPriority, IncidentTypeReactionManagerDevice, IncidentTypeAction, IncidentTypeReactionEmail } from "../../..";
 import List from "../List";
 
-export default class IncidentType extends BaseModel {
+export = class IncidentType extends BaseModel {
      /**
      * ID
      */

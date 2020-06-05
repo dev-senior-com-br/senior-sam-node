@@ -2,7 +2,7 @@ import { BaseModel } from "../BaseModel";
 import { PhysicalLocation, CameraDevice, CctvProxy, CameraStatus, DvrServer } from "../../..";
 import List from "../List";
 
-export default class Camera extends BaseModel {
+export = class Camera extends BaseModel {
     /**
      * ID
      */

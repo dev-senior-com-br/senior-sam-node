@@ -1,7 +1,7 @@
 import { BaseModel } from "../BaseModel";
 import PhysicalLocationStatus from "./PhysicalLocationStatus";
 
-export default class PhysicalLocation extends BaseModel {
+export = class PhysicalLocation extends BaseModel {
     /**
      * ID
      */

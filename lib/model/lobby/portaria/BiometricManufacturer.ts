@@ -39,4 +39,4 @@ enum BiometricManufacturer {
      */
     HANDKEY_IR = "HANDKEY_IR"
 }
-export default BiometricManufacturer;
+export = BiometricManufacturer;

@@ -2,7 +2,7 @@ import { BaseModel } from "../BaseModel";
 import { AccessCall, AccessEventType } from "../../..";
 import ReaderDevice from "./ReaderDevice";
 
-export default class ReaderDeviceAccessCall extends BaseModel {
+export = class ReaderDeviceAccessCall extends BaseModel {
     /**
     * ID
     */

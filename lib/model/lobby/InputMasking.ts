@@ -1,6 +1,6 @@
 import { BaseModel } from "../BaseModel";
 
-export default class InputMasking extends BaseModel {
+export = class InputMasking extends BaseModel {
     /**
      * ID
      */

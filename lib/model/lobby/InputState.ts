@@ -9,4 +9,4 @@ enum InputState {
      */
     ACTIVE = "ACTIVE"
 }
-export default InputState;
+export = InputState;

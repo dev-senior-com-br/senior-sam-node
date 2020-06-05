@@ -1,6 +1,6 @@
 import { BaseModel } from "../BaseModel";
 
-export default class Phone extends BaseModel {
+export = class Phone extends BaseModel {
     /**
      * ID
      */

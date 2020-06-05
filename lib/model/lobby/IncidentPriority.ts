@@ -24,4 +24,4 @@ enum IncidentPriority {
      */
     CRITICAL = "CRITICAL"
 }
-export default IncidentPriority;
+export = IncidentPriority;

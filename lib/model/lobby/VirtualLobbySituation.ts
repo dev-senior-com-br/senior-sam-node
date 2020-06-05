@@ -9,4 +9,4 @@ enum VirtualLobbySituation {
      */
     ACTIVE = "ACTIVE"
 }
-export default VirtualLobbySituation;
+export = VirtualLobbySituation;

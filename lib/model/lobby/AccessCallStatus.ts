@@ -20,4 +20,4 @@ enum AccessCallStatus {
      */
     FINISHED_ACCESS_DENIED
 }
-export default AccessCallStatus;
+export = AccessCallStatus;

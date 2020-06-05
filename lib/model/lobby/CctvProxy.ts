@@ -1,6 +1,6 @@
 import { BaseModel } from "../BaseModel";
 
-export default class CctvProxy extends BaseModel {
+export = class CctvProxy extends BaseModel {
     /**
      * ID
      */

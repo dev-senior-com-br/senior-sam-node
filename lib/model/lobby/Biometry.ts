@@ -2,7 +2,7 @@ import { BaseModel } from "../BaseModel";
 import { BiometricManufacturer, BiometryTemplate } from "../../..";
 import List from "../List";
 
-export default class Biometry extends BaseModel {
+export = class Biometry extends BaseModel {
     /**
      * ID
      */

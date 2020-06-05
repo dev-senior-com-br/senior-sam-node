@@ -1,7 +1,7 @@
 import { BaseModel } from "../BaseModel";
 import { StatusHistoric } from "../../..";
 
-export default class PersonRoleSuspension extends BaseModel {
+export = class PersonRoleSuspension extends BaseModel {
     /**
    * ID
    */

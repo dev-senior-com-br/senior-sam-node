@@ -14,4 +14,4 @@ enum VirtualLobbyMovementType {
      */
     REGISTER_ENTRY = "REGISTER_ENTRY"
 }
-export default VirtualLobbyMovementType;
+export = VirtualLobbyMovementType;

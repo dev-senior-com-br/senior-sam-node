@@ -13,4 +13,4 @@ enum Gender {
     FEMALE = "FEMALE"
 }
 
-export default Gender;
+export = Gender;

@@ -4,7 +4,7 @@ import List from "../List";
 import { VisitType, PhysicalLocation, VisitedPerson, SchedulingResource, VisitSituation } from "../../..";
 import LobbyEntity from "./LobbyEntity";
 
-export default class Scheduling extends BaseModel {
+export = class Scheduling extends BaseModel {
     /**
      * ID
      */

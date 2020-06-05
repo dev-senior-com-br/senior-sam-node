@@ -3,7 +3,7 @@ import LobbyEntity from "./LobbyEntity";
 import { Scheduling, Role, List, InformationCardCredentialRecord, Group, AccessCall, Vehicle, StatusHistoric, Biometry, CredentialFormat, CredentialType, CredentialSituation, CredentialOwner, VirtualLobby } from "../../..";
 import Person from "./Person";
 
-export default class Credential extends BaseModel {
+export = class Credential extends BaseModel {
     /**
      * ID
      */

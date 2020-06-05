@@ -1,7 +1,7 @@
 import { BaseModel } from "../BaseModel";
 import { InputDevice } from "../../..";
 
-export default class InputDeviceAccessCall extends BaseModel {
+export = class InputDeviceAccessCall extends BaseModel {
     /**
      * ID
      */

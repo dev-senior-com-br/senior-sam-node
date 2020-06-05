@@ -1,6 +1,6 @@
 import { BaseModel } from "../BaseModel";
 
-export default class DocumentType extends BaseModel {
+export = class DocumentType extends BaseModel {
 
     /**
     * ID

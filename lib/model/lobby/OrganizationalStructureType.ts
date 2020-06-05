@@ -1,6 +1,6 @@
 import { BaseModel } from "../BaseModel";
 
-export default class OrganizationalStructureType extends BaseModel {
+export = class OrganizationalStructureType extends BaseModel {
     /**
      * ID
      */

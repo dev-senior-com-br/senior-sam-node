@@ -24,4 +24,4 @@ enum CredentialFormat {
      */
     BLUETOOTH = "BLUETOOTH"
 }
-export default CredentialFormat;
+export = CredentialFormat;

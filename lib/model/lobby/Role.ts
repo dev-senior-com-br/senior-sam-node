@@ -1,6 +1,6 @@
 import { BaseModel } from "../BaseModel";
 
-export default class Role extends BaseModel {
+export = class Role extends BaseModel {
     /**
      * ID
      */

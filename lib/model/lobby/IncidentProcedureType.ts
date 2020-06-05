@@ -24,4 +24,4 @@ enum IncidentProcedureType {
      */
     UPDATE_STATUS = "UPDATE_STATUS"
 }
-export default IncidentProcedureType;
+export = IncidentProcedureType;

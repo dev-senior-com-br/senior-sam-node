@@ -9,4 +9,4 @@ enum CredentialSituation {
      */
     BLOCKED = "BLOCKED"
 }
-export default CredentialSituation;
+export = CredentialSituation;

@@ -6,7 +6,7 @@ import User from "./User";
 import Gender from "./Gender";
 import Email from "./Email";
 
-export default class Person extends BaseModel {
+export = class Person extends BaseModel {
      /**
      * ID
      */

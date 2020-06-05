@@ -1,7 +1,7 @@
 import { BaseModel } from "../BaseModel";
 import { Person, DocumentType } from "../../..";
 
-export default class Document extends BaseModel {
+export = class Document extends BaseModel {
 
     /**
     * ID

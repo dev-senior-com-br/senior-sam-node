@@ -3,7 +3,7 @@ import { PhysicalLocation } from "../../..";
 import List from "../List";
 import GroupPerson from "./GroupPerson";
 
-export default class Group extends BaseModel {
+export = class Group extends BaseModel {
     /**
      * ID
      */

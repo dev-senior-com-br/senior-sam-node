@@ -1,7 +1,7 @@
 import { BaseModel } from "../BaseModel";
 import Camera from "./Camera";
 
-export default class VirtualLobbyCamera extends BaseModel {
+export = class VirtualLobbyCamera extends BaseModel {
     /**
     * ID
     */

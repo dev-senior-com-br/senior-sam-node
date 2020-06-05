@@ -1,6 +1,6 @@
 import { CardTechnology } from "../../..";
 
-export default class InformationCardCredentialRecord {
+export = class InformationCardCredentialRecord {
     /**
      * Código identificador
      */

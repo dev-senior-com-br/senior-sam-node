@@ -1,7 +1,7 @@
 import { BaseModel } from "../BaseModel";
 import { LobbyResource, Scheduling } from "../../..";
 
-export default class SchedulingResource extends BaseModel {
+export = class SchedulingResource extends BaseModel {
     /**
      * ID
      */

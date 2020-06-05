@@ -110,6 +110,7 @@ import DocumentType from "./lib/model/lobby/DocumentType";
 import OffsetDaylightSavingType from "./lib/model/lobby/OffsetDaylightSavingType";
 import LocalTimezone from "./lib/model/lobby/LocalTimezone";
 import Timezone from "./lib/model/lobby/Timezone";
+import Lobby from "./lib/resources/Lobby";
 
 export {
     SAMApi, ListPersonLookupIn, LobbyCredentialTechnologiesIn, CardTechnology, CreateCardProvisoryCredentialIn, InformationCardCredentialRecord, Visitor, List, Scheduling,
@@ -122,5 +123,5 @@ export {
     VirtualLobbyMovementType, Camera, CameraDevice, CctvProxy, CameraStatus, DvrServer, DvrServerType, VehicleUse, ReaderDeviceAction, PersonRole, PersonRoleSuspension, IncidentProcedure,
     AccessType, OutputDevice, OutputState, IncidentViewed, Incident, IncidentPerson, PersonSituation, PersonSituationType, Email, Phone, IncidentAttachment, IncidentPriority, IncidentStatus,
     IncidentProcedureType, IncidentType, IncidentTypeReactionManagerDevice, IncidentTypeAction, IncidentTypeActionType, IncidentTypeReactionEmail, InputState, VisitAccessCall, ScheduledCredential,
-    AccessCallStatus, AccessCallOrigin, MovementDirection, Person, VirtualLobbyMovement, DocumentType, OffsetDaylightSavingType, LocalTimezone, Timezone
+    AccessCallStatus, AccessCallOrigin, MovementDirection, Person, VirtualLobbyMovement, DocumentType, OffsetDaylightSavingType, LocalTimezone, Timezone, Lobby
 }

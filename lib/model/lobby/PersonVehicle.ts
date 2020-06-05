@@ -2,7 +2,7 @@ import { BaseModel } from "../BaseModel";
 import Person from "./Person";
 import StatusHistoric from "./portaria/StatusHistoric";
 
-export default class PersonVehicle extends BaseModel {
+export = class PersonVehicle extends BaseModel {
      /**
      * ID
      */

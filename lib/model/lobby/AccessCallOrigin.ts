@@ -12,4 +12,4 @@ enum AccessCallOrigin {
      */
     SELFSERVICE_TERMINAL
 }
-export default AccessCallOrigin;
+export = AccessCallOrigin;

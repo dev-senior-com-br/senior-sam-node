@@ -1,6 +1,6 @@
 import { BaseModel } from "../BaseModel"
 
-export default class Procedure extends BaseModel {
+export = class Procedure extends BaseModel {
     /**
      * ID
      */

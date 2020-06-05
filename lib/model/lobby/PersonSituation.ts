@@ -1,6 +1,6 @@
 import { BaseModel } from "../BaseModel";
 
-export default class PersonSituation extends BaseModel {
+export = class PersonSituation extends BaseModel {
      /**
      * ID
      */

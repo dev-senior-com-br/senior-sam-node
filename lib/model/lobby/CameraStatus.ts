@@ -9,4 +9,4 @@ enum CameraStatus {
      */
     INACTIVE = "INACTIVE"
 }
-export default CameraStatus;
+export = CameraStatus;

@@ -1,6 +1,6 @@
 import { BaseModel } from "../BaseModel";
 
-export default class IncidentAttachment extends BaseModel {
+export = class IncidentAttachment extends BaseModel {
     /**
     * ID
     */

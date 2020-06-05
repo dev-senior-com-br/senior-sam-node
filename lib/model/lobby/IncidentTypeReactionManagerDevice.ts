@@ -1,7 +1,7 @@
 import { BaseModel } from "../BaseModel";
 import { Device } from "../../..";
 
-export default class IncidentTypeReactionManagerDevice extends BaseModel {
+export = class IncidentTypeReactionManagerDevice extends BaseModel {
     /**
     * ID
     */

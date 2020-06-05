@@ -1,7 +1,7 @@
 import { BaseModel } from "../BaseModel";
 import CardTechnology from "./CardTechnology";
 
-export default class LobbyCredentialTechnologiesIn extends BaseModel {
+export = class LobbyCredentialTechnologiesIn extends BaseModel {
     /**
      * ID, utilizado ao substituir ou atualizar um registro
      */

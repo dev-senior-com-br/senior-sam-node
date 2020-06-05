@@ -1,7 +1,7 @@
 import { BaseModel } from "../BaseModel";
 import { IncidentAttachment, IncidentPriority, IncidentStatus, IncidentProcedureType } from "../../..";
 
-export default class IncidentProcedure extends BaseModel {
+export = class IncidentProcedure extends BaseModel {
     /**
     * ID
     */

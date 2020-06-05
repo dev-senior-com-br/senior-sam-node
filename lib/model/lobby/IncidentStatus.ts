@@ -19,4 +19,4 @@ enum IncidentStatus {
      */
     DONE = "DONE"
 }
-export default IncidentStatus;
+export = IncidentStatus;

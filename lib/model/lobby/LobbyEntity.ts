@@ -1,7 +1,7 @@
 import { BaseModel } from "../BaseModel";
 import { PhysicalLocation, VisitLimitControl, LobbyCredentialTechnology } from "../../..";
 
-export default class LobbyEntity extends BaseModel {
+export = class LobbyEntity extends BaseModel {
    
     /**
      * ID

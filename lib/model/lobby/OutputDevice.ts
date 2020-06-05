@@ -1,7 +1,7 @@
 import { BaseModel } from "../BaseModel";
 import { DeviceType, DeviceSituation, PhysicalLocation, DeviceCommunicationStatus, ExtensibleConfiguration, Device, OutputState } from "../../..";
 
-export default class OutputDevice extends BaseModel {
+export = class OutputDevice extends BaseModel {
     /**
 * ID
 */

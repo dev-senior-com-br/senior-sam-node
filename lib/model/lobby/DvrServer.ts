@@ -1,7 +1,7 @@
 import { BaseModel } from "../BaseModel";
 import { DvrServerType } from "../../..";
 
-export default class DvrServer extends BaseModel {
+export = class DvrServer extends BaseModel {
     /**
      * ID
      */

@@ -29,4 +29,4 @@ enum ReaderDeviceTechnology {
      */
     BLUETOOTH = "BLUETOOTH"
 }
-export default ReaderDeviceTechnology;
+export = ReaderDeviceTechnology;

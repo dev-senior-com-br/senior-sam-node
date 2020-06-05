@@ -1,6 +1,6 @@
 import { BaseModel } from "../BaseModel";
 
-export default class BiometryTemplate extends BaseModel {
+export = class BiometryTemplate extends BaseModel {
     /**
      * ID
      */

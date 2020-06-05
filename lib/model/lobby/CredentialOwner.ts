@@ -9,4 +9,4 @@ enum CredentialOwner {
      */
     VEHICLE = "VEHICLE"
 }
-export default CredentialOwner;
+export = CredentialOwner;

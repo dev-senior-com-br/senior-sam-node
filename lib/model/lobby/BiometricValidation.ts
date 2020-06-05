@@ -14,4 +14,4 @@ enum BiometricValidation {
      */
     ONE_TO_MANY = "ONE_TO_MANY"
 }
-export default BiometricValidation;
+export = BiometricValidation;

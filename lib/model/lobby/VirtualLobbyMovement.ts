@@ -1,7 +1,7 @@
 import { BaseModel } from "../BaseModel";
 import { VirtualLobby, Person, MovementDirection, Role, AccessCall} from "../../..";
 
-export default class VirtualLobbyMovement extends BaseModel {
+export = class VirtualLobbyMovement extends BaseModel {
     /**
     * ID
     */

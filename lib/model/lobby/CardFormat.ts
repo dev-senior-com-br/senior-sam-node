@@ -1,6 +1,6 @@
 import { BaseModel } from "../BaseModel";
 
-export default class CardFormat extends BaseModel {
+export = class CardFormat extends BaseModel {
     /**
      * ID
      */

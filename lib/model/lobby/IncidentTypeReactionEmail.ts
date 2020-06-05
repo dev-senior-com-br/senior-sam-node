@@ -1,6 +1,6 @@
 import { BaseModel } from "../BaseModel";
 
-export default class IncidentTypeReactionEmail extends BaseModel {
+export = class IncidentTypeReactionEmail extends BaseModel {
     /**
      * ID
      */

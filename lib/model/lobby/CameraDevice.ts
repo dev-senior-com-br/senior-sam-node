@@ -1,7 +1,7 @@
 import { BaseModel } from "../BaseModel";
 import Device from "./Device";
 
-export default class CameraDevice extends BaseModel {
+export = class CameraDevice extends BaseModel {
     /**
      * ID
      */

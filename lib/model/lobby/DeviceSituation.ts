@@ -9,4 +9,4 @@ enum DeviceSituation {
     ACTIVE = "ACTIVE"
 }
 
-export default DeviceSituation;
+export = DeviceSituation;

@@ -15,4 +15,4 @@ enum BiometricOneToOneValidationType {
     REQUIRED = "REQUIRED"
 }
 
-export default BiometricOneToOneValidationType;
+export = BiometricOneToOneValidationType;

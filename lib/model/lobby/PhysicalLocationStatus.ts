@@ -12,4 +12,4 @@ enum PhysicalLocationStatus {
     ENABLED = "ENABLED"
 }
 
-export default PhysicalLocationStatus;
+export = PhysicalLocationStatus;

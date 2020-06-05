@@ -1,7 +1,7 @@
 import { BaseModel } from "../BaseModel";
 import { OffsetDaylightSavingType, Timezone } from "../../..";
 
-export default class LocalTimezone extends BaseModel {
+export = class LocalTimezone extends BaseModel {
 
     /**
     * ID

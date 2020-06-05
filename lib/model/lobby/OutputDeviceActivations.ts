@@ -1,6 +1,6 @@
 import { BaseModel } from "../BaseModel";
 
-export default class OutputDeviceActivations extends BaseModel {
+export = class OutputDeviceActivations extends BaseModel {
     /**
      * ID
      */

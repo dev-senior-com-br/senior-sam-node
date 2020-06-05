@@ -2,7 +2,7 @@ import { BaseModel } from "../BaseModel";
 import LobbyEntity from "./LobbyEntity";
 import CardTechnology from "./CardTechnology";
 
-export default class LobbyCredentialTechnology extends BaseModel {
+export = class LobbyCredentialTechnology extends BaseModel {
     /**
      * ID
      */

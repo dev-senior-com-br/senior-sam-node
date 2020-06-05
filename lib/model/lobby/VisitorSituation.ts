@@ -28,4 +28,4 @@ enum VisitorSituation {
 
 }
 
-export default VisitorSituation;
+export = VisitorSituation;

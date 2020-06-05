@@ -9,4 +9,4 @@ enum DeviceCommunicationStatus {
     ONLINE = "ONLINE"
 }
 
-export default DeviceCommunicationStatus;
+export = DeviceCommunicationStatus;

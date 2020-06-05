@@ -1,7 +1,7 @@
 import { BaseModel } from "../BaseModel";
 import Role from "./Role";
 
-export default class User extends BaseModel {
+export = class User extends BaseModel {
     /**
      * ID
      */

@@ -2,7 +2,7 @@ import { BaseModel } from "../BaseModel";
 import Device from "./Device";
 import { VirtualLobbyAction, CallGenerationType } from "../../..";
 
-export default class VirtualLobbyDevice extends BaseModel {
+export = class VirtualLobbyDevice extends BaseModel {
     /**
      * ID
      */

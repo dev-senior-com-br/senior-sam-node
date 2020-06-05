@@ -3,7 +3,7 @@ import Role from "./Role";
 import { PhysicalLocation, PersonVehicle, VehicleUse } from "../../..";
 import List from "../List";
 
-export default class Vehicle extends BaseModel {
+export = class Vehicle extends BaseModel {
     /**
     * ID
     */

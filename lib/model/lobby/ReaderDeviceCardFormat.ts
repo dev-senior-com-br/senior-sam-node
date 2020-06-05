@@ -1,7 +1,7 @@
 import { BaseModel } from "../BaseModel";
 import { CardFormat } from "../../..";
 
-export default class ReaderDeviceCardFormat extends BaseModel {
+export = class ReaderDeviceCardFormat extends BaseModel {
     /**
      * ID
      */

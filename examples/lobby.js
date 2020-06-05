@@ -7,11 +7,13 @@ var ListPersonLookupIn = require('../dist/index').ListPersonLookupIn;
 var LobbyCredentialTechnologiesIn = require('../dist/index').LobbyCredentialTechnologiesIn;
 var CardTechnology = require('../dist/index').CardTechnology;
 var CreateCardProvisoryCredentialIn = require('../dist/index').CreateCardProvisoryCredentialIn;
+var ENVIRONMENTS = require('../dist/index').ENVIRONMENTS;
 
 var username = process.env.SENIOR_USERNAME;
 var password = process.env.PASS;
 
 var samApi = new SAMApi();
+samApi.environment = "PROD";
 var listPersonLookupIn = new ListPersonLookupIn();
 var lobbyCredentialTechnologiesIn = new LobbyCredentialTechnologiesIn();
 var createCardProvisoryCredentialIn = new CreateCardProvisoryCredentialIn();
@@ -57,5 +59,6 @@ samApi.authentication.login(username, password).then(function (json) {
         });
     }
 }).catch(function (error) {
+    console.error('ENV: ' + samApi.environment);
     console.error("Erro na tentativa de efetuar login: ", error);
 });

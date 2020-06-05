@@ -1,7 +1,7 @@
 import { BaseModel } from "../BaseModel";
 import OrganizationalStructure from "./OrganizationalStructure";
 
-export default class OrganizationalStructurePerson extends BaseModel {
+export = class OrganizationalStructurePerson extends BaseModel {
     /**
     * ID
     */

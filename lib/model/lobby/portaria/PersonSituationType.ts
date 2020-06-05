@@ -9,4 +9,4 @@ enum PersonSituationType {
      */
     BLOCKED = "BLOCKED"
 }
-export default PersonSituationType;
+export = PersonSituationType;

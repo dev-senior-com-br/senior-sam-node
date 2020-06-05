@@ -2,7 +2,7 @@ import { BaseModel } from "../BaseModel";
 import List from "../List";
 import { VirtualLobbyActionOutput, VirtualLobbyMovementType } from "../../..";
 
-export default class VirtualLobbyAction extends BaseModel {
+export = class VirtualLobbyAction extends BaseModel {
     /**
     * ID
     */

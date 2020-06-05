@@ -12,4 +12,4 @@ enum OffsetDaylightSavingType {
      */
     PLUS_ONE_HOUR
 }
-export default OffsetDaylightSavingType;
+export = OffsetDaylightSavingType;

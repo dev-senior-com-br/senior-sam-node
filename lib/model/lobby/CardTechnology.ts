@@ -16,4 +16,4 @@ enum CardTechnology {
 }
 
 
-export default CardTechnology;
+export = CardTechnology;

@@ -24,4 +24,4 @@ enum DeviceType {
      */
     OUTPUT = "OUTPUT"
 }
-export default DeviceType;
+export = DeviceType;

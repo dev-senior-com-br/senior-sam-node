@@ -2,7 +2,7 @@ import { BaseModel } from "../BaseModel";
 import VisitType from "./VisitType";
 import { Procedure } from "../../..";
 
-export default class VisitProcedure extends BaseModel {
+export = class VisitProcedure extends BaseModel {
     /**
      * ID
      */

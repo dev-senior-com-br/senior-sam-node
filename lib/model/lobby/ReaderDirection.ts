@@ -15,4 +15,4 @@ enum ReaderDirection {
     BOTH = "BOTH"
 }
 
-export default ReaderDirection;
+export = ReaderDirection;

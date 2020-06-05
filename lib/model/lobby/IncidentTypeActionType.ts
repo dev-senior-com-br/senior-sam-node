@@ -16,4 +16,4 @@ enum IncidentTypeActionType {
      */
     ENABLE_ACTION_WITH_TIMEOUT = "ENABLE_ACTION_WITH_TIMEOUT"
 }
-export default IncidentTypeActionType;
+export = IncidentTypeActionType;

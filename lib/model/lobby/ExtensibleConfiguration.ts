@@ -2,7 +2,7 @@ import { BaseModel } from "../BaseModel";
 import List from "../List";
 import ExtensibleProperty from "./ExtensibleProperty";
 
-export default class ExtensibleConfiguration extends BaseModel {
+export = class ExtensibleConfiguration extends BaseModel {
     /**
      * ID
      */

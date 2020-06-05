@@ -9,4 +9,4 @@ enum AccessType {
      */
     ACCESS_DENIED = "ACCESS_DENIED"
 }
-export default AccessType;
+export = AccessType;

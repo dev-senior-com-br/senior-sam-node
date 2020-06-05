@@ -29,4 +29,4 @@ enum ReaderValidationType {
      */
     FACILITY_CODE = "FACILITY_CODE"
 }
-export default ReaderValidationType;
+export = ReaderValidationType;
