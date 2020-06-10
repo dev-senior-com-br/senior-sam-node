@@ -14,11 +14,34 @@ export abstract class BaseModel {
                 }
             }
         );
+        json = this.replaceArray(json);
+        return json;
+    }
+
+    replaceArray(json: string): string {
+        let jsonObj = JSON.parse(json);
+        Object.values(jsonObj).forEach(
+            value => {
+                if (this.isArray(value)) {
+                    let jsonArray = JSON.parse(JSON.stringify(value));
+                    for (var i = 0; i < jsonArray.length; i++) {
+                        console.log(jsonArray[i]);
+                        Object.keys(jsonArray[i]).forEach(key => {
+                            json = json.replace(key, key.substring(1));
+                        });
+                    }
+                }
+            }
+        );
 
         return json;
     }
 
     toJson(): any {
         return JSON.parse(this.toJsonString());
+    }
+
+    private isArray(what) {
+        return '' + what === '[object Object]';
     }
 }
