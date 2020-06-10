@@ -36,4 +36,10 @@ export = class InformationCardCredentialRecord {
     public get cardNumber() {
         return this._cardNumber;
     }
+
+    constructor(cardTechnology: CardTechnology, cardNumber: number) {    
+      this._cardTechnology = cardTechnology;
+      this._cardNumber = cardNumber;
+    }
+
 }

@@ -2,7 +2,6 @@ import SAMApi from "./lib/SAMApi";
 import ListPersonLookupIn from "./lib/model/lobby/ListPersonLookupIn";
 import LobbyCredentialTechnologiesIn from "./lib/model/lobby/LobbyCredentialTechnologiesIn";
 import CardTechnology from "./lib/model/lobby/CardTechnology";
-import CreateCardProvisoryCredentialIn from "./lib/model/lobby/CreateCardProvisoryCredentialIn";
 import InformationCardCredentialRecord from "./lib/model/lobby/InformationCardCredentialRecord";
 import Visitor from "./lib/model/lobby/Visitor";
 import List from "./lib/model/List";
@@ -111,9 +110,12 @@ import OffsetDaylightSavingType from "./lib/model/lobby/OffsetDaylightSavingType
 import LocalTimezone from "./lib/model/lobby/LocalTimezone";
 import Timezone from "./lib/model/lobby/Timezone";
 import Lobby from "./lib/resources/Lobby";
+import BaseCreateProvisoryCredential from "./lib/model/lobby/BaseCreateProvisoryCredential";
+import CreatePersonProvisoryCredential from "./lib/model/lobby/CreatePersonProvisoryCredential";
+import CreateVisitorProvisoryCredential from "./lib/model/lobby/CreatePersonProvisoryCredential";
 
 export {
-    SAMApi, ListPersonLookupIn, LobbyCredentialTechnologiesIn, CardTechnology, CreateCardProvisoryCredentialIn, InformationCardCredentialRecord, Visitor, List, Scheduling,
+    SAMApi, ListPersonLookupIn, LobbyCredentialTechnologiesIn, CardTechnology, InformationCardCredentialRecord, Visitor, List, Scheduling,
     VisitType, VisitProcedure, Procedure, Role, VisitResource, LobbyResource, PhysicalLocation, PhysicalLocationStatus, VisitedPerson, VisitorSituation, VisitorCompany,
     VisitLimitControl, LobbyCredentialTechnology, SchedulingResource, VisitSituation, Credential, GroupPerson, Group, User, Gender, OrganizationalStructureType, OrganizationalStructurePerson,
     OrganizationalStructure, AccessCall, AccessEventType, ExtensibleConfiguration, ExtensibleProperty, DeviceCommunicationStatus, DeviceSituation, DeviceType, Device, ReaderDirection,
@@ -123,5 +125,6 @@ export {
     VirtualLobbyMovementType, Camera, CameraDevice, CctvProxy, CameraStatus, DvrServer, DvrServerType, VehicleUse, ReaderDeviceAction, PersonRole, PersonRoleSuspension, IncidentProcedure,
     AccessType, OutputDevice, OutputState, IncidentViewed, Incident, IncidentPerson, PersonSituation, PersonSituationType, Email, Phone, IncidentAttachment, IncidentPriority, IncidentStatus,
     IncidentProcedureType, IncidentType, IncidentTypeReactionManagerDevice, IncidentTypeAction, IncidentTypeActionType, IncidentTypeReactionEmail, InputState, VisitAccessCall, ScheduledCredential,
-    AccessCallStatus, AccessCallOrigin, MovementDirection, Person, VirtualLobbyMovement, DocumentType, OffsetDaylightSavingType, LocalTimezone, Timezone, Lobby
+    AccessCallStatus, AccessCallOrigin, MovementDirection, Person, VirtualLobbyMovement, DocumentType, OffsetDaylightSavingType, LocalTimezone, Timezone, Lobby,BaseCreateProvisoryCredential,
+    CreatePersonProvisoryCredential, CreateVisitorProvisoryCredential
 }

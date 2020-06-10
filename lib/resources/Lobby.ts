@@ -3,6 +3,7 @@ import ListPersonLookupIn from "../model/lobby/ListPersonLookupIn";
 import SAMApi from "../SAMApi";
 import LobbyCredentialTechnologiesIn from "../model/lobby/LobbyCredentialTechnologiesIn";
 import RequestClient from '@seniorsistemas/senior-core/dist/lib/base/RequestClient';
+import { CreatePersonProvisoryCredential, CreateVisitorProvisoryCredential } from "../..";
 
 export = class Lobby extends RequestClient {
     seniorApi: any;
@@ -14,7 +15,7 @@ export = class Lobby extends RequestClient {
     listPersonLookup = (listPersonLookupIn: ListPersonLookupIn) => {
         let listPersonLookupInJSON = listPersonLookupIn.toJson();
         const clientOptions = {
-            url: "/rest/sam/lobby/queries/listPersonLookup",
+            url: "/sam/lobby/queries/listPersonLookup",
             method: HttpMethod.POST,
             data: listPersonLookupInJSON,
             headers: {
@@ -27,7 +28,7 @@ export = class Lobby extends RequestClient {
     lobbyCredentialTechnologies = (parentId: number, lobbyCredentialTechnologiesIn: LobbyCredentialTechnologiesIn) => {
         let lobbyCredentialTechnologiesInJSON = lobbyCredentialTechnologiesIn.toJson();
         const clientOptions = {
-            url: `/rest/sam/lobby/entities/lobby/${parentId}/lobbyCredentialTechnologies`,
+            url: `/sam/lobby/entities/lobby/${parentId}/lobbyCredentialTechnologies`,
             method: HttpMethod.POST,
             data: lobbyCredentialTechnologiesInJSON,
             headers: {
@@ -37,12 +38,13 @@ export = class Lobby extends RequestClient {
         return this.request(clientOptions);
     };
 
-    createCardProvisoryCredential = (listPersonLookupIn: ListPersonLookupIn) => {
-        let listPersonLookupInJSON = listPersonLookupIn.toJson();
+    createPersonProvisoryCredentialCard = (createPersonProvisoryCredential: CreatePersonProvisoryCredential) => {
+        let createPersonProvisoryCredentialJSON = createPersonProvisoryCredential.toJson();
+        console.log("LemoelMarquesVieira: " + createPersonProvisoryCredential.toJsonString());
         const clientOptions = {
-            url: "/rest/sam/lobby/actions/createCardProvisoryCredential",
+            url: "/sam/lobby/actions/createPersonProvisoryCredentialCard",
             method: HttpMethod.POST,
-            data: listPersonLookupInJSON,
+            data: createPersonProvisoryCredentialJSON,
             headers: {
                 authorization: this.seniorApi.accessToken
             }
@@ -50,11 +52,25 @@ export = class Lobby extends RequestClient {
         return this.request(clientOptions);
     };
 
-    getGredentials = (listPersonLookupIn: ListPersonLookupIn) => {
+    createVisitorProvisoryCredentialCard = (createVisitorProvisoryCredential: CreateVisitorProvisoryCredential) => {
+        let createVisitorProvisoryCredentialJSON = createVisitorProvisoryCredential.toJson();
+        console.log("LemoelMarquesVieira: " + createVisitorProvisoryCredential.toJsonString());
+        const clientOptions = {
+            url: "/sam/lobby/actions/createVisitorProvisoryCredentialCard",
+            method: HttpMethod.POST,
+            data: createVisitorProvisoryCredentialJSON,
+            headers: {
+                authorization: this.seniorApi.accessToken
+            }
+        };        
+        return this.request(clientOptions);
+    };
+
+    getGredentials = (personId: number, listPersonLookupIn: ListPersonLookupIn) => {
         let listPersonLookupInJSON = listPersonLookupIn.toJson();
         const clientOptions = {
-            url: "/rest/sam/application/entities/person/{parentId}/credentials",
-            method: HttpMethod.POST,
+            url: `/sam/application/entities/person/${personId}/credentials`,
+            method: HttpMethod.GET,
             data: listPersonLookupInJSON,
             headers: {
                 authorization: this.seniorApi.accessToken
