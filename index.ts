@@ -112,7 +112,7 @@ import Timezone from "./lib/model/lobby/Timezone";
 import Lobby from "./lib/resources/Lobby";
 import BaseCreateProvisoryCredential from "./lib/model/lobby/BaseCreateProvisoryCredential";
 import CreatePersonProvisoryCredential from "./lib/model/lobby/CreatePersonProvisoryCredential";
-import CreateVisitorProvisoryCredential from "./lib/model/lobby/CreatePersonProvisoryCredential";
+import CreateVisitorProvisoryCredential from "./lib/model/lobby/CreateVisitorProvisoryCredential";
 
 export {
     SAMApi, ListPersonLookupIn, LobbyCredentialTechnologiesIn, CardTechnology, InformationCardCredentialRecord, Visitor, List, Scheduling,

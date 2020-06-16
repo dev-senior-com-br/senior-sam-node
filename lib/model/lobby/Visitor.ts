@@ -109,4 +109,10 @@ export = class Visitor extends BaseModel {
     public get checkoutDate() {
         return this._checkoutDate;
     }
+
+    constructor(id: number){
+        super();
+        this._id = id;
+    }
+
 }

@@ -1,5 +1,7 @@
+import InformationCardCredentialRecord from "./InformationCardCredentialRecord";
 import BaseCreateProvisoryCredential from "./BaseCreateProvisoryCredential";
 import Visitor from "./Visitor";
+import List from "../List";
 
 export = class CreateVisitorProvisoryCredential extends BaseCreateProvisoryCredential {
     
@@ -40,6 +42,17 @@ export = class CreateVisitorProvisoryCredential extends BaseCreateProvisoryCrede
 
     public get schedulingId() {
         return this._schedulingId;
+    }
+
+    /**
+     * This convenience constructor allows initialization of all required fields.
+    */
+    constructor(isCheckedOverlap: boolean, cardCredentialList: List<InformationCardCredentialRecord>, endDate: Date,
+                    roleId: number, visitor: Visitor, schedulingId: number) {
+       super(isCheckedOverlap, cardCredentialList, endDate);
+       this._roleId = roleId;
+       this._visitor = visitor;
+       this._schedulingId = schedulingId;
     }
 
 }
