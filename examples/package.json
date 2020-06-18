@@ -1,0 +1,23 @@
+{
+  "name": "sam-examples",
+  "version": "0.0.1",
+  "repository": "",
+  "author": "ECOAPI Team",
+  "license": "BSD",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --watch"
+  },
+  "compilerOptions": {
+    "outDir": "../dist",
+    "allowJs": true,
+    "target": "es5"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "xml2js": "^0.4.23"
+  },
+  "devDependencies": {
+    "@seniorsistemas/senior-core": "^1.2.12"
+  }
+}
