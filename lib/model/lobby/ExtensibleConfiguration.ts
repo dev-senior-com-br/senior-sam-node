@@ -1,6 +1,6 @@
-import { BaseModel } from "../BaseModel";
-import List from "../List";
-import ExtensibleProperty from "./ExtensibleProperty";
+import { BaseModel } from '../BaseModel';
+import List from '../List';
+import ExtensibleProperty from './ExtensibleProperty';
 
 export = class ExtensibleConfiguration extends BaseModel {
     /**
@@ -8,11 +8,11 @@ export = class ExtensibleConfiguration extends BaseModel {
      */
     private _id: number;
     public set id(value: number) {
-        this._id = value;
+      this._id = value;
     }
 
     public get id() {
-        return this._id;
+      return this._id;
     }
 
     /**
@@ -20,11 +20,11 @@ export = class ExtensibleConfiguration extends BaseModel {
      */
     private _name: string;
     public set name(value: string) {
-        this._name = value;
+      this._name = value;
     }
 
     public get name() {
-        return this._name;
+      return this._name;
     }
 
     /**
@@ -32,11 +32,11 @@ export = class ExtensibleConfiguration extends BaseModel {
      */
     private _extensibleProperty: List<ExtensibleProperty>;
     public set extensibleProperty(value: List<ExtensibleProperty>) {
-        this._extensibleProperty = value;
+      this._extensibleProperty = value;
     }
 
     public get extensibleProperty() {
-        return this._extensibleProperty;
+      return this._extensibleProperty;
     }
 
 }

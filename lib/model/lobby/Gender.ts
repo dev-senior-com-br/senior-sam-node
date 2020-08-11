@@ -2,15 +2,15 @@ enum Gender {
     /**
      * Desconhecido
      */
-    UNKNOWN = "UNKNOWN",
+    UNKNOWN = 'UNKNOWN',
     /**
      * Masculino
      */
-    MALE = "MALE",
+    MALE = 'MALE',
     /**
      * Feminino
      */
-    FEMALE = "FEMALE"
+    FEMALE = 'FEMALE'
 }
 
 export = Gender;

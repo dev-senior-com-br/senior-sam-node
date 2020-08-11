@@ -2,11 +2,11 @@ enum DeviceCommunicationStatus {
     /**
      * Offline
      */
-    OFFLINE = "OFFLINE",
+    OFFLINE = 'OFFLINE',
     /**
      * Online
      */
-    ONLINE = "ONLINE"
+    ONLINE = 'ONLINE'
 }
 
 export = DeviceCommunicationStatus;

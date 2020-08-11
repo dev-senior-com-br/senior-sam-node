@@ -1,4 +1,4 @@
-import { BaseModel } from "../BaseModel";
+import { BaseModel } from '../BaseModel';
 
 export = class VisitorCompany extends BaseModel {
     /**
@@ -6,11 +6,11 @@ export = class VisitorCompany extends BaseModel {
      */
     private _id: number;
     public set id(value: number) {
-        this._id = value;
+      this._id = value;
     }
 
     public get id() {
-        return this._id;
+      return this._id;
     }
 
     /**
@@ -18,11 +18,11 @@ export = class VisitorCompany extends BaseModel {
      */
     private _name: string;
     public set name(value: string) {
-        this._name = value;
+      this._name = value;
     }
 
     public get name() {
-        return this._name;
+      return this._name;
     }
 
 }

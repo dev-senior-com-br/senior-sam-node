@@ -1,5 +1,5 @@
-import { DirectionType } from "../enum/DirectionType";
-import { BaseModel } from "./BaseModel";
+import { DirectionType } from '../enum/DirectionType';
+import { BaseModel } from './BaseModel';
 
 export = class Ordination extends BaseModel {
 
@@ -9,11 +9,11 @@ export = class Ordination extends BaseModel {
     private _field: string;
 
     public set field(value: string) {
-        this._field = value;
+      this._field = value;
     }
 
     public get field() {
-        return this._field;
+      return this._field;
     }
 
     /**
@@ -22,11 +22,11 @@ export = class Ordination extends BaseModel {
     private _direction: DirectionType;
 
     public set direction(value: DirectionType) {
-        this._direction = value;
+      this._direction = value;
     }
 
     public get direction() {
-        return this._direction;
+      return this._direction;
     }
 
 }

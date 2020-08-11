@@ -1,5 +1,5 @@
-import { BaseModel } from "../BaseModel";
-import { Role, StatusHistoric, List, PersonRoleSuspension } from "../../..";
+import { BaseModel } from '../BaseModel';
+import { Role, StatusHistoric, List, PersonRoleSuspension } from '../../..';
 
 export = class PersonRole extends BaseModel {
     /**
@@ -7,11 +7,11 @@ export = class PersonRole extends BaseModel {
    */
     private _id: number;
     public set id(value: number) {
-        this._id = value;
+      this._id = value;
     }
 
     public get id() {
-        return this._id;
+      return this._id;
     }
 
     /**
@@ -19,11 +19,11 @@ export = class PersonRole extends BaseModel {
      */
     private _role: Role;
     public set role(value: Role) {
-        this._role = value;
+      this._role = value;
     }
 
     public get role() {
-        return this._role;
+      return this._role;
     }
 
     /**
@@ -31,11 +31,11 @@ export = class PersonRole extends BaseModel {
      */
     private _startDate: Date;
     public set startDate(value: Date) {
-        this._startDate = value;
+      this._startDate = value;
     }
 
     public get startDate() {
-        return this._startDate;
+      return this._startDate;
     }
 
     /**
@@ -43,11 +43,11 @@ export = class PersonRole extends BaseModel {
      */
     private _endDate: Date;
     public set endDate(value: Date) {
-        this._endDate = value;
+      this._endDate = value;
     }
 
     public get endDate() {
-        return this._endDate;
+      return this._endDate;
     }
 
     /**
@@ -55,11 +55,11 @@ export = class PersonRole extends BaseModel {
      */
     private _status: StatusHistoric;
     public set status(value: StatusHistoric) {
-        this._status = value;
+      this._status = value;
     }
 
     public get status() {
-        return this._status;
+      return this._status;
     }
 
     /**
@@ -67,10 +67,10 @@ export = class PersonRole extends BaseModel {
      */
     private _personRoleSuspensions: List<PersonRoleSuspension>;
     public set personRoleSuspensions(value: List<PersonRoleSuspension>) {
-        this._personRoleSuspensions = value;
+      this._personRoleSuspensions = value;
     }
 
     public get personRoleSuspensions() {
-        return this._personRoleSuspensions;
+      return this._personRoleSuspensions;
     }
 }

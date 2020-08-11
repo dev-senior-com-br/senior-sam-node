@@ -2,11 +2,11 @@ enum DeviceSituation {
     /**
      * Inativo
      */
-    INACTIVE = "INACTIVE",
+    INACTIVE = 'INACTIVE',
     /**
      * Ativo
      */
-    ACTIVE = "ACTIVE"
+    ACTIVE = 'ACTIVE'
 }
 
 export = DeviceSituation;

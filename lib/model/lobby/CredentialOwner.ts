@@ -2,11 +2,11 @@ enum CredentialOwner {
     /**
      * Pessoa
      */
-    PERSON = "PERSON",
+    PERSON = 'PERSON',
 
     /**
      * Veículo
      */
-    VEHICLE = "VEHICLE"
+    VEHICLE = 'VEHICLE'
 }
 export = CredentialOwner;

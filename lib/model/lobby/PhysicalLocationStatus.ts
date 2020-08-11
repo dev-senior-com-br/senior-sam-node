@@ -1,15 +1,15 @@
-import { BaseModel } from "../BaseModel";
+import { BaseModel } from '../BaseModel';
 
 enum PhysicalLocationStatus {
     /**
      * Desabilitado
      */
-    DISABLED = "DISABLED",
+    DISABLED = 'DISABLED',
 
     /**
      * Habilitado
      */
-    ENABLED = "ENABLED"
+    ENABLED = 'ENABLED'
 }
 
 export = PhysicalLocationStatus;

@@ -1,5 +1,5 @@
-import { BaseModel } from "../BaseModel";
-import { ExtensibleConfiguration } from "../../..";
+import { BaseModel } from '../BaseModel';
+import { ExtensibleConfiguration } from '../../..';
 
 export = class ExtensibleProperty extends BaseModel {
     /**
@@ -7,11 +7,11 @@ export = class ExtensibleProperty extends BaseModel {
     */
     private _id: number;
     public set id(value: number) {
-        this._id = value;
+      this._id = value;
     }
 
     public get id() {
-        return this._id;
+      return this._id;
     }
 
     /**
@@ -19,11 +19,11 @@ export = class ExtensibleProperty extends BaseModel {
      */
     private _key: string;
     public set key(value: string) {
-        this._key = value;
+      this._key = value;
     }
 
     public get key() {
-        return this._key;
+      return this._key;
     }
 
     /**
@@ -31,11 +31,11 @@ export = class ExtensibleProperty extends BaseModel {
      */
     private _value: string;
     public set value(value: string) {
-        this._value = value;
+      this._value = value;
     }
 
     public get value() {
-        return this._value;
+      return this._value;
     }
 
 }

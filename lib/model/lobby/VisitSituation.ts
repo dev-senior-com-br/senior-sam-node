@@ -2,19 +2,19 @@ enum VisitSituation {
     /**
      * Pendente
      */
-    PENDING = "PENDING",
+    PENDING = 'PENDING',
     /**
      * Em andamento
      */
-    IN_PROGRESS = "IN_PROGRESS",
+    IN_PROGRESS = 'IN_PROGRESS',
     /**
      * Finalizada
      */
-    FINISHED = "FINISHED",
+    FINISHED = 'FINISHED',
     /**
      * Não realizada
      */
-    NOT_OCCURRED = "NOT_OCCURRED"
+    NOT_OCCURRED = 'NOT_OCCURRED'
 }
 
 export = VisitSituation;

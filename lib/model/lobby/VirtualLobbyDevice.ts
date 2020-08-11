@@ -1,6 +1,6 @@
-import { BaseModel } from "../BaseModel";
-import Device from "./Device";
-import { VirtualLobbyAction, CallGenerationType } from "../../..";
+import { BaseModel } from '../BaseModel';
+import Device from './Device';
+import { VirtualLobbyAction, CallGenerationType } from '../../..';
 
 export = class VirtualLobbyDevice extends BaseModel {
     /**
@@ -8,11 +8,11 @@ export = class VirtualLobbyDevice extends BaseModel {
      */
     private _id: number;
     public set id(value: number) {
-        this._id = value;
+      this._id = value;
     }
 
     public get id() {
-        return this._id;
+      return this._id;
     }
 
     /**
@@ -25,11 +25,11 @@ export = class VirtualLobbyDevice extends BaseModel {
      */
     private _callGenerationType: CallGenerationType;
     public set callGenerationType(value: CallGenerationType) {
-        this._callGenerationType = value;
+      this._callGenerationType = value;
     }
 
     public get callGenerationType() {
-        return this._callGenerationType;
+      return this._callGenerationType;
     }
 
     /**
@@ -37,11 +37,11 @@ export = class VirtualLobbyDevice extends BaseModel {
      */
     private _virtualLobbyAction: VirtualLobbyAction;
     public set virtualLobbyAction(value: VirtualLobbyAction) {
-        this._virtualLobbyAction = value;
+      this._virtualLobbyAction = value;
     }
 
     public get virtualLobbyAction() {
-        return this._virtualLobbyAction;
+      return this._virtualLobbyAction;
     }
 
 }

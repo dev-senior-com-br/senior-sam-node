@@ -1,5 +1,5 @@
-import { BaseModel } from "../BaseModel";
-import { VisitProcedure, Role, VisitResource } from "../../..";
+import { BaseModel } from '../BaseModel';
+import { VisitProcedure, Role, VisitResource } from '../../..';
 
 export = class VisitType extends BaseModel {
     /**
@@ -7,11 +7,11 @@ export = class VisitType extends BaseModel {
      */
     private _id: number;
     public set id(value: number) {
-        this._id = value;
+      this._id = value;
     }
 
     public get id() {
-        return this._id;
+      return this._id;
     }
 
     /**
@@ -19,11 +19,11 @@ export = class VisitType extends BaseModel {
      */
     private _name: string;
     public set name(value: string) {
-        this._name = value;
+      this._name = value;
     }
 
     public get name() {
-        return this._name;
+      return this._name;
     }
 
     /**
@@ -31,11 +31,11 @@ export = class VisitType extends BaseModel {
      */
     private _visitProcedures: VisitProcedure;
     public set visitProcedures(value: VisitProcedure) {
-        this._visitProcedures = value;
+      this._visitProcedures = value;
     }
 
     public get visitProcedures() {
-        return this._visitProcedures;
+      return this._visitProcedures;
     }
 
     /**
@@ -43,11 +43,11 @@ export = class VisitType extends BaseModel {
      */
     private _role: Role;
     public set role(value: Role) {
-        this._role = value;
+      this._role = value;
     }
 
     public get role() {
-        return this._role;
+      return this._role;
     }
 
     /**
@@ -55,11 +55,11 @@ export = class VisitType extends BaseModel {
      */
     private _visitResources: VisitResource;
     public set visitResources(value: VisitResource) {
-        this._visitResources = value;
+      this._visitResources = value;
     }
 
     public get visitResources() {
-        return this._visitResources;
+      return this._visitResources;
     }
 
     /**
@@ -67,11 +67,11 @@ export = class VisitType extends BaseModel {
      */
     private _usedBySelfServiceTerminal: boolean;
     public set usedBySelfServiceTerminal(value: boolean) {
-        this._usedBySelfServiceTerminal = value;
+      this._usedBySelfServiceTerminal = value;
     }
 
     public get usedBySelfServiceTerminal() {
-        return this._usedBySelfServiceTerminal;
+      return this._usedBySelfServiceTerminal;
     }
 
     /**
@@ -79,11 +79,11 @@ export = class VisitType extends BaseModel {
      */
     private _sendEmailToVisited: boolean;
     public set sendEmailToVisited(value: boolean) {
-        this._sendEmailToVisited = value;
+      this._sendEmailToVisited = value;
     }
 
     public get sendEmailToVisited() {
-        return this._sendEmailToVisited;
+      return this._sendEmailToVisited;
     }
 
     /**
@@ -91,11 +91,11 @@ export = class VisitType extends BaseModel {
      */
     private _integratedWithGAS: boolean;
     public set integratedWithGAS(value: boolean) {
-        this._integratedWithGAS = value;
+      this._integratedWithGAS = value;
     }
 
     public get integratedWithGAS() {
-        return this._integratedWithGAS;
+      return this._integratedWithGAS;
     }
 
 }

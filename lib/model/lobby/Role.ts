@@ -1,4 +1,4 @@
-import { BaseModel } from "../BaseModel";
+import { BaseModel } from '../BaseModel';
 
 export = class Role extends BaseModel {
     /**
@@ -6,11 +6,11 @@ export = class Role extends BaseModel {
      */
     private _id: number;
     public set id(value: number) {
-        this._id = value;
+      this._id = value;
     }
 
     public get id() {
-        return this._id;
+      return this._id;
     }
 
     /**
@@ -18,11 +18,11 @@ export = class Role extends BaseModel {
     */
     private _name: string;
     public set name(value: string) {
-        this._name = value;
+      this._name = value;
     }
 
     public get name() {
-        return this._name;
+      return this._name;
     }
 
     /**
@@ -30,11 +30,11 @@ export = class Role extends BaseModel {
     */
     private _usedByProvisory: boolean;
     public set usedByProvisory(value: boolean) {
-        this._usedByProvisory = value;
+      this._usedByProvisory = value;
     }
 
     public get usedByProvisory() {
-        return this._usedByProvisory;
+      return this._usedByProvisory;
     }
 
     /**
@@ -42,11 +42,11 @@ export = class Role extends BaseModel {
     */
     private _receiveVisit: boolean;
     public set receiveVisit(value: boolean) {
-        this._receiveVisit = value;
+      this._receiveVisit = value;
     }
 
     public get receiveVisit() {
-        return this._receiveVisit;
+      return this._receiveVisit;
     }
 
 }

@@ -1,7 +1,7 @@
-import { BaseModel } from "../BaseModel";
-import { PhysicalLocation } from "../../..";
-import List from "../List";
-import GroupPerson from "./GroupPerson";
+import { BaseModel } from '../BaseModel';
+import { PhysicalLocation } from '../../..';
+import List from '../List';
+import GroupPerson from './GroupPerson';
 
 export = class Group extends BaseModel {
     /**
@@ -9,11 +9,11 @@ export = class Group extends BaseModel {
      */
     private _id: number;
     public set id(value: number) {
-        this._id = value;
+      this._id = value;
     }
 
     public get id() {
-        return this._id;
+      return this._id;
     }
 
     /**
@@ -21,11 +21,11 @@ export = class Group extends BaseModel {
      */
     private _parent: number;
     public set parent(value: number) {
-        this._parent = value;
+      this._parent = value;
     }
 
     public get parent() {
-        return this._parent;
+      return this._parent;
     }
 
     /**
@@ -33,11 +33,11 @@ export = class Group extends BaseModel {
      */
     private _name: string;
     public set name(value: string) {
-        this._name = value;
+      this._name = value;
     }
 
     public get name() {
-        return this._name;
+      return this._name;
     }
 
     /**
@@ -45,11 +45,11 @@ export = class Group extends BaseModel {
      */
     private _physicalLocation: PhysicalLocation;
     public set physicalLocation(value: PhysicalLocation) {
-        this._physicalLocation = value;
+      this._physicalLocation = value;
     }
 
     public get physicalLocation() {
-        return this._physicalLocation;
+      return this._physicalLocation;
     }
 
     /**
@@ -57,11 +57,11 @@ export = class Group extends BaseModel {
      */
     private _parkingSpace: number;
     public set parkingSpace(value: number) {
-        this._parkingSpace = value;
+      this._parkingSpace = value;
     }
 
     public get parkingSpace() {
-        return this._parkingSpace;
+      return this._parkingSpace;
     }
 
     /**
@@ -69,11 +69,11 @@ export = class Group extends BaseModel {
      */
     private _parkingSpaceInUse: number;
     public set parkingSpaceInUse(value: number) {
-        this._parkingSpaceInUse = value;
+      this._parkingSpaceInUse = value;
     }
 
     public get parkingSpaceInUse() {
-        return this._parkingSpaceInUse;
+      return this._parkingSpaceInUse;
     }
 
     /**
@@ -81,11 +81,11 @@ export = class Group extends BaseModel {
      */
     private _people: List<GroupPerson>;
     public set people(value: List<GroupPerson>) {
-        this._people = value;
+      this._people = value;
     }
 
     public get people() {
-        return this._people;
+      return this._people;
     }
 
     /**
@@ -93,10 +93,10 @@ export = class Group extends BaseModel {
      */
     private _fullHierarchicalPath: string;
     public set fullHierarchicalPath(value: string) {
-        this._fullHierarchicalPath = value;
+      this._fullHierarchicalPath = value;
     }
 
     public get fullHierarchicalPath() {
-        return this._fullHierarchicalPath;
+      return this._fullHierarchicalPath;
     }
 }

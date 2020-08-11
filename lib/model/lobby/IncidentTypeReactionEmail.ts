@@ -1,4 +1,4 @@
-import { BaseModel } from "../BaseModel";
+import { BaseModel } from '../BaseModel';
 
 export = class IncidentTypeReactionEmail extends BaseModel {
     /**
@@ -6,11 +6,11 @@ export = class IncidentTypeReactionEmail extends BaseModel {
      */
     private _id: number;
     private set id(value: number) {
-        this._id = value;
+      this._id = value;
     }
 
     private get id() {
-        return this._id;
+      return this._id;
     }
 
     /**
@@ -18,11 +18,11 @@ export = class IncidentTypeReactionEmail extends BaseModel {
      */
     private _email:string;
     private set email(value: string) {
-        this._email = value;
+      this._email = value;
     }
 
     private get email() {
-        return this._email;
+      return this._email;
     }
 
   

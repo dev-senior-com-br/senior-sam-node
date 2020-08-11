@@ -1,5 +1,5 @@
-import { BaseModel } from "../BaseModel";
-import { IncidentAttachment, IncidentPriority, IncidentStatus, IncidentProcedureType } from "../../..";
+import { BaseModel } from '../BaseModel';
+import { IncidentAttachment, IncidentPriority, IncidentStatus, IncidentProcedureType } from '../../..';
 
 export = class IncidentProcedure extends BaseModel {
     /**
@@ -7,11 +7,11 @@ export = class IncidentProcedure extends BaseModel {
     */
     private _id: number;
     public set id(value: number) {
-        this._id = value;
+      this._id = value;
     }
 
     public get id() {
-        return this._id;
+      return this._id;
     }
 
     /**
@@ -19,11 +19,11 @@ export = class IncidentProcedure extends BaseModel {
      */
     private _description: string;
     public set description(value: string) {
-        this._description = value;
+      this._description = value;
     }
 
     public get description() {
-        return this._description;
+      return this._description;
     }
 
     /**
@@ -31,11 +31,11 @@ export = class IncidentProcedure extends BaseModel {
      */
     private _user: number;
     public set user(value: number) {
-        this._user = value;
+      this._user = value;
     }
 
     public get user() {
-        return this._user;
+      return this._user;
     }
 
     /**
@@ -43,11 +43,11 @@ export = class IncidentProcedure extends BaseModel {
      */
     private _procedureDate: Date;
     public set procedureDate(value: Date) {
-        this._procedureDate = value;
+      this._procedureDate = value;
     }
 
     public get procedureDate() {
-        return this._procedureDate;
+      return this._procedureDate;
     }
 
     /**
@@ -55,11 +55,11 @@ export = class IncidentProcedure extends BaseModel {
      */
     private _incidentProcedureType: IncidentProcedureType;
     public set incidentProcedureType(value: IncidentProcedureType) {
-        this._incidentProcedureType = value;
+      this._incidentProcedureType = value;
     }
 
     public get incidentProcedureType() {
-        return this._incidentProcedureType;
+      return this._incidentProcedureType;
     }
 
     /**
@@ -67,11 +67,11 @@ export = class IncidentProcedure extends BaseModel {
      */
     private _previousStatus: IncidentStatus;
     public set previousStatus(value: IncidentStatus) {
-        this._previousStatus = value;
+      this._previousStatus = value;
     }
 
     public get previousStatus() {
-        return this._previousStatus;
+      return this._previousStatus;
     }
 
     /**
@@ -79,11 +79,11 @@ export = class IncidentProcedure extends BaseModel {
      */
     private _newStatus: IncidentStatus;
     public set newStatus(value: IncidentStatus) {
-        this._newStatus = value;
+      this._newStatus = value;
     }
 
     public get newStatus() {
-        return this._newStatus;
+      return this._newStatus;
     }
 
     /**
@@ -91,11 +91,11 @@ export = class IncidentProcedure extends BaseModel {
      */
     private _previousPriority: IncidentPriority;
     public set previousPriority(value: IncidentPriority) {
-        this._previousPriority = value;
+      this._previousPriority = value;
     }
 
     public get previousPriority() {
-        return this._previousPriority;
+      return this._previousPriority;
     }
 
     /**
@@ -103,11 +103,11 @@ export = class IncidentProcedure extends BaseModel {
      */
     private _newPriority: IncidentPriority;
     public set newPriority(value: IncidentPriority) {
-        this._newPriority = value;
+      this._newPriority = value;
     }
 
     public get newPriority() {
-        return this._newPriority;
+      return this._newPriority;
     }
 
     /**
@@ -115,10 +115,10 @@ export = class IncidentProcedure extends BaseModel {
      */
     private _incidentAttachment: IncidentAttachment;
     public set incidentAttachment(value: IncidentAttachment) {
-        this._incidentAttachment = value;
+      this._incidentAttachment = value;
     }
 
     public get incidentAttachment() {
-        return this._incidentAttachment;
+      return this._incidentAttachment;
     }
 }

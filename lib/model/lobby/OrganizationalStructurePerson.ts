@@ -1,5 +1,5 @@
-import { BaseModel } from "../BaseModel";
-import OrganizationalStructure from "./OrganizationalStructure";
+import { BaseModel } from '../BaseModel';
+import OrganizationalStructure from './OrganizationalStructure';
 
 export = class OrganizationalStructurePerson extends BaseModel {
     /**
@@ -7,11 +7,11 @@ export = class OrganizationalStructurePerson extends BaseModel {
     */
     private _id: number;
     public set id(value: number) {
-        this._id = value;
+      this._id = value;
     }
 
     public get id() {
-        return this._id;
+      return this._id;
     }
 
     /**
@@ -19,10 +19,10 @@ export = class OrganizationalStructurePerson extends BaseModel {
      */
     private _organizationalStructure: OrganizationalStructure;
     public set organizationalStructure(value: OrganizationalStructure) {
-        this._organizationalStructure = value;
+      this._organizationalStructure = value;
     }
 
     public get organizationalStructure() {
-        return this._organizationalStructure;
+      return this._organizationalStructure;
     }
 }

@@ -1,16 +1,16 @@
-import { BaseModel } from "../BaseModel";
+import { BaseModel } from '../BaseModel';
 
 export = class PersonSituation extends BaseModel {
-     /**
+  /**
      * ID
      */
     private _id:number;
     public set id(value: number) {
-        this._id = value;
+      this._id = value;
     }
 
     public get id() {
-        return this._id;
+      return this._id;
     }
 
     /**
@@ -18,11 +18,11 @@ export = class PersonSituation extends BaseModel {
      */
     private _blockDate:Date;
     public set blockDate(value: Date) {
-        this._blockDate = value;
+      this._blockDate = value;
     }
 
     public get blockDate() {
-        return this._blockDate;
+      return this._blockDate;
     }
 
     /**
@@ -30,11 +30,11 @@ export = class PersonSituation extends BaseModel {
      */
     private _blockReason:string;
     public set blockReason(value: string) {
-        this._blockReason = value;
+      this._blockReason = value;
     }
 
     public get blockReason() {
-        return this._blockReason;
+      return this._blockReason;
     }
 
     /**
@@ -42,11 +42,11 @@ export = class PersonSituation extends BaseModel {
      */
     private _unblockDate:Date;
     public set unblockDate(value: Date) {
-        this._unblockDate = value;
+      this._unblockDate = value;
     }
 
     public get unblockDate() {
-        return this._unblockDate;
+      return this._unblockDate;
     }
 
     /**
@@ -54,11 +54,11 @@ export = class PersonSituation extends BaseModel {
      */
     private _unblockProcedure:string;
     public set unblockProcedure(value: string) {
-        this._unblockProcedure = value;
+      this._unblockProcedure = value;
     }
 
     public get unblockProcedure() {
-        return this._unblockProcedure;
+      return this._unblockProcedure;
     }
 
     /**
@@ -66,10 +66,10 @@ export = class PersonSituation extends BaseModel {
      */
     private _unblockJustification:string;
     public set unblockJustification(value: string) {
-        this._unblockJustification = value;
+      this._unblockJustification = value;
     }
 
     public get unblockJustification() {
-        return this._unblockJustification;
+      return this._unblockJustification;
     }
 }

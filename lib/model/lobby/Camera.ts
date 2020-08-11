@@ -1,6 +1,6 @@
-import { BaseModel } from "../BaseModel";
-import { PhysicalLocation, CameraDevice, CctvProxy, CameraStatus, DvrServer } from "../../..";
-import List from "../List";
+import { BaseModel } from '../BaseModel';
+import { PhysicalLocation, CameraDevice, CctvProxy, CameraStatus, DvrServer } from '../../..';
+import List from '../List';
 
 export = class Camera extends BaseModel {
     /**
@@ -8,11 +8,11 @@ export = class Camera extends BaseModel {
      */
     private _id: number;
     public set id(value: number) {
-        this._id = value;
+      this._id = value;
     }
 
     public get id() {
-        return this._id;
+      return this._id;
     }
 
     /**
@@ -20,11 +20,11 @@ export = class Camera extends BaseModel {
       */
     private _name: string;
     public set name(value: string) {
-        this._name = value;
+      this._name = value;
     }
 
     public get name() {
-        return this._name;
+      return this._name;
     }
 
     /**
@@ -32,11 +32,11 @@ export = class Camera extends BaseModel {
      */
     private _isPTZ: boolean;
     public set isPTZ(value: boolean) {
-        this._isPTZ = value;
+      this._isPTZ = value;
     }
 
     public get isPTZ() {
-        return this._isPTZ;
+      return this._isPTZ;
     }
 
     /**
@@ -44,11 +44,11 @@ export = class Camera extends BaseModel {
    */
     private _dvrServer: DvrServer;
     public set dvrServer(value: DvrServer) {
-        this._dvrServer = value;
+      this._dvrServer = value;
     }
 
     public get dvrServer() {
-        return this._dvrServer;
+      return this._dvrServer;
     }
 
     /**
@@ -56,11 +56,11 @@ export = class Camera extends BaseModel {
    */
     private _cameraServerId: string;
     public set cameraServerId(value: string) {
-        this._cameraServerId = value;
+      this._cameraServerId = value;
     }
 
     public get cameraServerId() {
-        return this._cameraServerId;
+      return this._cameraServerId;
     }
 
     /**
@@ -68,11 +68,11 @@ export = class Camera extends BaseModel {
    */
     private _streamLink: string;
     public set streamLink(value: string) {
-        this._streamLink = value;
+      this._streamLink = value;
     }
 
     public get streamLink() {
-        return this._streamLink;
+      return this._streamLink;
     }
 
     /**
@@ -80,11 +80,11 @@ export = class Camera extends BaseModel {
    */
     private _physicalLocation: PhysicalLocation;
     public set physicalLocation(value: PhysicalLocation) {
-        this._physicalLocation = value;
+      this._physicalLocation = value;
     }
 
     public get _hysicalLocation() {
-        return this._physicalLocation;
+      return this._physicalLocation;
     }
 
     /**
@@ -92,11 +92,11 @@ export = class Camera extends BaseModel {
    */
     private _status: CameraStatus;
     public set status(value: CameraStatus) {
-        this._status = value;
+      this._status = value;
     }
 
     public get status() {
-        return this._status;
+      return this._status;
     }
 
     /**
@@ -104,11 +104,11 @@ export = class Camera extends BaseModel {
      */
     private _cctvProxy: CctvProxy;
     public set cctvProxy(value: CctvProxy) {
-        this._cctvProxy = value;
+      this._cctvProxy = value;
     }
 
     public get cctvProxy() {
-        return this._cctvProxy;
+      return this._cctvProxy;
     }
 
     /**
@@ -116,11 +116,11 @@ export = class Camera extends BaseModel {
    */
     private _devices: List<CameraDevice>;
     public set devices(value: List<CameraDevice>) {
-        this._devices = value;
+      this._devices = value;
     }
 
     public get devices() {
-        return this._devices;
+      return this._devices;
     }
 
     /**
@@ -128,11 +128,11 @@ export = class Camera extends BaseModel {
    */
     private _urlStreaming: string;
     public set urlStreaming(value: string) {
-        this._urlStreaming = value;
+      this._urlStreaming = value;
     }
 
     public get urlStreaming() {
-        return this._urlStreaming;
+      return this._urlStreaming;
     }
 
 }

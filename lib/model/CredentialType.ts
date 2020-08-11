@@ -1,12 +1,12 @@
 enum CredentialType {
-    /**
-     * Titular
-     */
-    HOLDER = "HOLDER",
+  /**
+   * Titular
+   */
+  HOLDER = 'HOLDER',
 
-    /**
-     * Provisória
-     */
-    PROVISORY = "PPROVISORY"
+  /**
+   * Provisória
+   */
+  PROVISORY = 'PPROVISORY',
 }
 export = CredentialType;

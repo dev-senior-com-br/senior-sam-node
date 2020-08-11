@@ -1,5 +1,5 @@
-import { BaseModel } from "../BaseModel";
-import { PhysicalLocation, VisitLimitControl, LobbyCredentialTechnology } from "../../..";
+import { BaseModel } from '../BaseModel';
+import { PhysicalLocation, VisitLimitControl, LobbyCredentialTechnology } from '../../..';
 
 export = class LobbyEntity extends BaseModel {
    
@@ -8,11 +8,11 @@ export = class LobbyEntity extends BaseModel {
      */
     private _id :number;
     public set id(value: number) {
-        this._id = value;
+      this._id = value;
     }
 
     public get id() {
-        return this._id;
+      return this._id;
     }  
 
     /**
@@ -20,33 +20,33 @@ export = class LobbyEntity extends BaseModel {
      */
     private _name : string;
     public set name(value: string) {
-        this._name = value;
+      this._name = value;
     }
 
     public get_name() {
-        return this._name;
+      return this._name;
     }      
     /**
      * Local físico
      */
     private _physicalLocation : PhysicalLocation;
     public set physicalLocation(value: PhysicalLocation) {
-        this._physicalLocation = value;
+      this._physicalLocation = value;
     }
 
     public get physicalLocation() {
-        return this._physicalLocation;
+      return this._physicalLocation;
     }  
     /**
      * Validade da foto do colaborador em dias =>  minValue : 0
      */
     private _provisoryCardPhotoValidityInDays :number;
     public set provisoryCardPhotoValidityInDays(value: number) {
-        this._provisoryCardPhotoValidityInDays = value;
+      this._provisoryCardPhotoValidityInDays = value;
     }
 
     public get provisoryCardPhotoValidityInDays() {
-        return this._provisoryCardPhotoValidityInDays;
+      return this._provisoryCardPhotoValidityInDays;
     }  
 
     /**
@@ -54,33 +54,33 @@ export = class LobbyEntity extends BaseModel {
      */
     private _scheduledVisitPhotoValidityInDays :number; 
     public set scheduledVisitPhotoValidityInDays(value: number) {
-        this._scheduledVisitPhotoValidityInDays = value;
+      this._scheduledVisitPhotoValidityInDays = value;
     }
 
     public get scheduledVisitPhotoValidityInDays() {
-        return this._scheduledVisitPhotoValidityInDays;
+      return this._scheduledVisitPhotoValidityInDays;
     }      
     /**
      * Validade da credencial provisória em dias => minValue : 1
      */
     private _provisoryCredentialValidityInDays : number;
     public set provisoryCredentialValidityInDays(value: number) {
-        this._provisoryCredentialValidityInDays = value;
+      this._provisoryCredentialValidityInDays = value;
     }
 
     public get provisoryCredentialValidityInDays() {
-        return this._provisoryCredentialValidityInDays;
+      return this._provisoryCredentialValidityInDays;
     }      
     /**
      * Validade da credencial de visitante em horas => minValue : 1
      */
     private _schedulingCredentialValidityInHours : number;
     public set schedulingCredentialValidityInHours(value: number) {
-        this._schedulingCredentialValidityInHours = value;
+      this._schedulingCredentialValidityInHours = value;
     }
 
     public get schedulingCredentialValidityInHours() {
-        return this._schedulingCredentialValidityInHours;
+      return this._schedulingCredentialValidityInHours;
     }  
 
     /**
@@ -88,11 +88,11 @@ export = class LobbyEntity extends BaseModel {
      */
     private _schedulingToleranceInMinutes :number; 
     public set schedulingToleranceInMinutes(value: number) {
-        this._schedulingToleranceInMinutes = value;
+      this._schedulingToleranceInMinutes = value;
     }
 
     public get schedulingToleranceInMinutes() {
-        return this._schedulingToleranceInMinutes;
+      return this._schedulingToleranceInMinutes;
     }  
 
     /**
@@ -100,11 +100,11 @@ export = class LobbyEntity extends BaseModel {
      */
     private _provisoryCredentialsMonthlyLimit :number; 
     public set provisoryCredentialsMonthlyLimit(value: number) {
-        this._provisoryCredentialsMonthlyLimit = value;
+      this._provisoryCredentialsMonthlyLimit = value;
     }
 
     public get provisoryCredentialsMonthlyLimititor() {
-        return this._provisoryCredentialsMonthlyLimit;
+      return this._provisoryCredentialsMonthlyLimit;
     }  
 
     /**
@@ -112,11 +112,11 @@ export = class LobbyEntity extends BaseModel {
      */
     private _isActive: boolean;
     public set isActive(value: boolean) {
-        this._isActive = value;
+      this._isActive = value;
     }
 
     public get isActive() {
-        return this._isActive;
+      return this._isActive;
     }  
 
     /**
@@ -124,11 +124,11 @@ export = class LobbyEntity extends BaseModel {
      */
     private _integratedWithGAS: boolean;
     public set integratedWithGAS(value: boolean) {
-        this._integratedWithGAS = value;
+      this._integratedWithGAS = value;
     }
 
     public get integratedWithGAS() {
-        return this._integratedWithGAS;
+      return this._integratedWithGAS;
     }  
 
     /**
@@ -136,11 +136,11 @@ export = class LobbyEntity extends BaseModel {
      */
     private _schedulingReportId: string;
     public set schedulingReportId(value: string) {
-        this._schedulingReportId = value;
+      this._schedulingReportId = value;
     }
 
     public get schedulingReportId() {
-        return this._schedulingReportId;
+      return this._schedulingReportId;
     }  
 
     /**
@@ -148,11 +148,11 @@ export = class LobbyEntity extends BaseModel {
      */
     private _usesCredential: boolean; 
     public set usesCredential(value: boolean) {
-        this._usesCredential = value;
+      this._usesCredential = value;
     }
 
     public get usesCredential() {
-        return this._usesCredential;
+      return this._usesCredential;
     }  
 
     /**
@@ -160,11 +160,11 @@ export = class LobbyEntity extends BaseModel {
      */
     private _lobbyCredentialTechnologies: LobbyCredentialTechnology;
     public set lobbyCredentialTechnologies(value: LobbyCredentialTechnology) {
-        this._lobbyCredentialTechnologies = value;
+      this._lobbyCredentialTechnologies = value;
     }
 
     public get lobbyCredentialTechnologies() {
-        return this._lobbyCredentialTechnologies;
+      return this._lobbyCredentialTechnologies;
     }  
 
     /**
@@ -172,11 +172,11 @@ export = class LobbyEntity extends BaseModel {
      */
     private _visitLimitControl: VisitLimitControl;
     public set visitLimitControl(value: VisitLimitControl) {
-        this._visitLimitControl = value;
+      this._visitLimitControl = value;
     }
 
     public get visitLimitControl() {
-        return this._visitLimitControl;
+      return this._visitLimitControl;
     }  
 
     /**
@@ -184,10 +184,10 @@ export = class LobbyEntity extends BaseModel {
      */
     private _limitOfDaysWithVisitPerWeek : number;
     public set limitOfDaysWithVisitPerWeek(value: number) {
-        this._limitOfDaysWithVisitPerWeek = value;
+      this._limitOfDaysWithVisitPerWeek = value;
     }
 
     public get limitOfDaysWithVisitPerWeek() {
-        return this._limitOfDaysWithVisitPerWeek;
+      return this._limitOfDaysWithVisitPerWeek;
     }      
 }

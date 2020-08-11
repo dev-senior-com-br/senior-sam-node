@@ -2,26 +2,26 @@ enum DeviceType {
     /**
      * Gerênciador
      */
-    MANAGER = "MANAGER",
+    MANAGER = 'MANAGER',
 
     /**
      * Leitora
      */
-    READER = "READER",
+    READER = 'READER',
 
     /**
      * Módulo
      */
-    MODULE = "MODULE",
+    MODULE = 'MODULE',
 
     /**
      * Entrada
      */
-    INPUT = "INPUT",
+    INPUT = 'INPUT',
 
     /**
      * Saída
      */
-    OUTPUT = "OUTPUT"
+    OUTPUT = 'OUTPUT'
 }
 export = DeviceType;

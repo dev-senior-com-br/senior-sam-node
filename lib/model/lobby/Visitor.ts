@@ -1,5 +1,5 @@
-import { BaseModel } from "../BaseModel";
-import { Scheduling, VisitorSituation, VisitorCompany } from "../../..";
+import { BaseModel } from '../BaseModel';
+import { Scheduling, VisitorSituation, VisitorCompany } from '../../..';
 
 export = class Visitor extends BaseModel {
     /**
@@ -7,11 +7,11 @@ export = class Visitor extends BaseModel {
      */
     private _id: number;
     public set id(value: number) {
-        this._id = value;
+      this._id = value;
     }
 
     public get id() {
-        return this._id;
+      return this._id;
     }
 
     /**
@@ -19,11 +19,11 @@ export = class Visitor extends BaseModel {
      */
     private _personId: number;
     public set personId(value: number) {
-        this._personId = value;
+      this._personId = value;
     }
 
     public get personId() {
-        return this._personId;
+      return this._personId;
     }
 
     /**
@@ -31,11 +31,11 @@ export = class Visitor extends BaseModel {
      */
     private _scheduling: Scheduling;
     public set scheduling(value: Scheduling) {
-        this._scheduling = value;
+      this._scheduling = value;
     }
 
     public get scheduling() {
-        return this._scheduling;
+      return this._scheduling;
     }
 
     /**
@@ -43,11 +43,11 @@ export = class Visitor extends BaseModel {
      */
     private _visitorSituation: VisitorSituation;
     public set visitorSituation(value: VisitorSituation) {
-        this._visitorSituation = value;
+      this._visitorSituation = value;
     }
 
     public get visitorSituation() {
-        return this._visitorSituation;
+      return this._visitorSituation;
     }
 
     /**
@@ -55,11 +55,11 @@ export = class Visitor extends BaseModel {
      */
     private _company: VisitorCompany;
     public set company(value: VisitorCompany) {
-        this._company = value;
+      this._company = value;
     }
 
     public get company() {
-        return this._company;
+      return this._company;
     }
 
     /**
@@ -67,11 +67,11 @@ export = class Visitor extends BaseModel {
      */
     private _locator: string;
     public set locator(value: string) {
-        this._locator = value;
+      this._locator = value;
     }
 
     public get locator() {
-        return this._locator;
+      return this._locator;
     }
 
     /**
@@ -79,11 +79,11 @@ export = class Visitor extends BaseModel {
      */
     private _checkinDate: Date;
     public set checkinDate(value: Date) {
-        this._checkinDate = value;
+      this._checkinDate = value;
     }
 
     public get checkinDate() {
-        return this._checkinDate;
+      return this._checkinDate;
     }
 
     /**
@@ -91,11 +91,11 @@ export = class Visitor extends BaseModel {
      */
     private _entranceDate: Date;
     public set entranceDate(value: Date) {
-        this._entranceDate = value;
+      this._entranceDate = value;
     }
 
     public get entranceDate() {
-        return this._entranceDate;
+      return this._entranceDate;
     }
 
     /**
@@ -103,16 +103,16 @@ export = class Visitor extends BaseModel {
      */
     private _checkoutDate: Date;
     public set checkoutDate(value: Date) {
-        this._checkoutDate = value;
+      this._checkoutDate = value;
     }
 
     public get checkoutDate() {
-        return this._checkoutDate;
+      return this._checkoutDate;
     }
 
     constructor(id: number){
-        super();
-        this._id = id;
+      super();
+      this._id = id;
     }
 
 }

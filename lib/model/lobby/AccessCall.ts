@@ -1,7 +1,7 @@
-import { BaseModel } from "../BaseModel";
-import ReaderDeviceAccessCall from "./ReaderDeviceAccessCall";
+import { BaseModel } from '../BaseModel';
+import ReaderDeviceAccessCall from './ReaderDeviceAccessCall';
 import { VirtualLobby, VirtualLobbyMovementType, VirtualLobbyMovement, 
-    InputDeviceAccessCall, VisitAccessCall, AccessCallStatus, AccessCallOrigin} from "../../..";
+  InputDeviceAccessCall, VisitAccessCall, AccessCallStatus, AccessCallOrigin } from '../../..';
 
 export = class AccessCall extends BaseModel {
     /**
@@ -9,11 +9,11 @@ export = class AccessCall extends BaseModel {
     */
     private _id: number;
     public set id(value: number) {
-        this._id = value;
+      this._id = value;
     }
 
     public get id() {
-        return this._id;
+      return this._id;
     }
 
     /**
@@ -21,11 +21,11 @@ export = class AccessCall extends BaseModel {
      */
     private _creationDate: Date;
     public set creationDate(value: Date) {
-        this._creationDate = value;
+      this._creationDate = value;
     }
 
     public get creationDate() {
-        return this._creationDate;
+      return this._creationDate;
     }
 
     /**
@@ -33,11 +33,11 @@ export = class AccessCall extends BaseModel {
      */
     private _startDate: Date;
     public set startDate(value: Date) {
-        this._startDate = value;
+      this._startDate = value;
     }
 
     public get startDate() {
-        return this._startDate;
+      return this._startDate;
     }
 
     /**
@@ -45,11 +45,11 @@ export = class AccessCall extends BaseModel {
      */
     private _endDate: Date;
     public set endDate(value: Date) {
-        this._endDate = value;
+      this._endDate = value;
     }
 
     public get endDate() {
-        return this._endDate;
+      return this._endDate;
     }
 
     /**
@@ -57,11 +57,11 @@ export = class AccessCall extends BaseModel {
      */
     private _accessCallStatus: AccessCallStatus;
     public set accessCallStatus(value: AccessCallStatus) {
-        this._accessCallStatus = value;
+      this._accessCallStatus = value;
     }
 
     public get accessCallStatusd() {
-        return this._accessCallStatus;
+      return this._accessCallStatus;
     }
 
     /**
@@ -69,11 +69,11 @@ export = class AccessCall extends BaseModel {
      */
     private _accessCallOrigin: AccessCallOrigin;
     public set accessCallOrigin(value: AccessCallOrigin) {
-        this._accessCallOrigin = value;
+      this._accessCallOrigin = value;
     }
 
     public get accessCallOrigin() {
-        return this._accessCallOrigin;
+      return this._accessCallOrigin;
     }
 
     /**
@@ -81,11 +81,11 @@ export = class AccessCall extends BaseModel {
      */
     private _userName: string;
     public set userName(value: string) {
-        this._userName = value;
+      this._userName = value;
     }
 
     public get userName() {
-        return this._userName;
+      return this._userName;
     }
 
     /**
@@ -93,11 +93,11 @@ export = class AccessCall extends BaseModel {
      */
     private _virtualLobby: VirtualLobby;
     public set virtualLobby(value: VirtualLobby) {
-        this._virtualLobby = value;
+      this._virtualLobby = value;
     }
 
     public get virtualLobby() {
-        return this._virtualLobby;
+      return this._virtualLobby;
     }
 
     /**
@@ -105,11 +105,11 @@ export = class AccessCall extends BaseModel {
      */
     private _virtualLobbyMovement: VirtualLobbyMovement;
     public set virtualLobbyMovement(value: VirtualLobbyMovement) {
-        this._virtualLobbyMovement = value;
+      this._virtualLobbyMovement = value;
     }
 
     public get virtualLobbyMovement() {
-        return this._virtualLobbyMovement;
+      return this._virtualLobbyMovement;
     }
 
     /**
@@ -117,11 +117,11 @@ export = class AccessCall extends BaseModel {
      */
     private _virtualLobbyMovementType: VirtualLobbyMovementType;
     public set virtualLobbyMovementType(value: VirtualLobbyMovementType) {
-        this._virtualLobbyMovementType = value;
+      this._virtualLobbyMovementType = value;
     }
 
     public get virtualLobbyMovementType() {
-        return this._virtualLobbyMovementType;
+      return this._virtualLobbyMovementType;
     }
 
     /**
@@ -129,11 +129,11 @@ export = class AccessCall extends BaseModel {
      */
     private _visitAccessCall: VisitAccessCall;
     public set visitAccessCall(value: VisitAccessCall) {
-        this._visitAccessCall = value;
+      this._visitAccessCall = value;
     }
 
     public get visitAccessCall() {
-        return this._visitAccessCall;
+      return this._visitAccessCall;
     }
 
     /**
@@ -141,11 +141,11 @@ export = class AccessCall extends BaseModel {
      */
     private _inputDeviceAccessCall: InputDeviceAccessCall;
     public set inputDeviceAccessCall(value: InputDeviceAccessCall) {
-        this._inputDeviceAccessCall = value;
+      this._inputDeviceAccessCall = value;
     }
 
     public get inputDeviceAccessCall() {
-        return this._inputDeviceAccessCall;
+      return this._inputDeviceAccessCall;
     }
 
     /**
@@ -153,11 +153,11 @@ export = class AccessCall extends BaseModel {
      */
     private _readerDeviceAccessCall: ReaderDeviceAccessCall;
     public set readerDeviceAccessCall(value: ReaderDeviceAccessCall) {
-        this._readerDeviceAccessCall = value;
+      this._readerDeviceAccessCall = value;
     }
 
     public get readerDeviceAccessCall() {
-        return this._readerDeviceAccessCall;
+      return this._readerDeviceAccessCall;
     }
 
 }

@@ -1,5 +1,5 @@
-import { BaseModel } from "../BaseModel";
-import { Scheduling } from "../../..";
+import { BaseModel } from '../BaseModel';
+import { Scheduling } from '../../..';
 
 export = class VisitedPerson extends BaseModel{
     /**
@@ -7,11 +7,11 @@ export = class VisitedPerson extends BaseModel{
      */
     private _id : number;
     public set id(value: number) {
-        this._id = value;
+      this._id = value;
     }
 
     public get id() {
-        return this._id;
+      return this._id;
     }
     
     /**
@@ -19,11 +19,11 @@ export = class VisitedPerson extends BaseModel{
      */
     private _personId : number;
     public set personId(value: number) {
-        this._personId = value;
+      this._personId = value;
     }
 
     public get personId() {
-        return this._personId;
+      return this._personId;
     }
 
     /**
@@ -31,11 +31,11 @@ export = class VisitedPerson extends BaseModel{
      */
     private _scheduling : Scheduling;
     public set scheduling(value: Scheduling) {
-        this._scheduling = value;
+      this._scheduling = value;
     }
 
     public get scheduling() {
-        return this._scheduling;
+      return this._scheduling;
     }
   
 }

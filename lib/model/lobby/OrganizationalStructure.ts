@@ -1,5 +1,5 @@
-import { BaseModel } from "../BaseModel";
-import OrganizationalStructureType from "./OrganizationalStructureType";
+import { BaseModel } from '../BaseModel';
+import OrganizationalStructureType from './OrganizationalStructureType';
 
 export = class OrganizationalStructure extends BaseModel {
     /**
@@ -7,11 +7,11 @@ export = class OrganizationalStructure extends BaseModel {
      */
     private _id: number;
     public set id(value: number) {
-        this._id = value;
+      this._id = value;
     }
 
     public get id() {
-        return this._id;
+      return this._id;
     }
 
     /**
@@ -19,11 +19,11 @@ export = class OrganizationalStructure extends BaseModel {
      */
     private _parent: number;
     public set parent(value: number) {
-        this._parent = value;
+      this._parent = value;
     }
 
     public get parent() {
-        return this._parent;
+      return this._parent;
     }
 
     /**
@@ -31,11 +31,11 @@ export = class OrganizationalStructure extends BaseModel {
      */
     private _organizationalStructureType: OrganizationalStructureType;
     public set organizationalStructureType(value: OrganizationalStructureType) {
-        this._organizationalStructureType = value;
+      this._organizationalStructureType = value;
     }
 
     public get organizationalStructureType() {
-        return this._organizationalStructureType;
+      return this._organizationalStructureType;
     }
 
     /**
@@ -43,11 +43,11 @@ export = class OrganizationalStructure extends BaseModel {
      */
     private _description: string;
     public set description(value: string) {
-        this._description = value;
+      this._description = value;
     }
 
     public get description() {
-        return this._description;
+      return this._description;
     }
 
     /**
@@ -55,11 +55,11 @@ export = class OrganizationalStructure extends BaseModel {
      */
     private _integrated: boolean;
     public set integrated(value: boolean) {
-        this._integrated = value;
+      this._integrated = value;
     }
 
     public get integrated() {
-        return this._integrated;
+      return this._integrated;
     }
 
 }

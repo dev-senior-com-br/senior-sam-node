@@ -1,5 +1,5 @@
-import { BaseModel } from "../BaseModel";
-import { VisitResource } from "../../..";
+import { BaseModel } from '../BaseModel';
+import { VisitResource } from '../../..';
 
 export = class LobbyResource extends BaseModel {
     /**
@@ -7,11 +7,11 @@ export = class LobbyResource extends BaseModel {
      */
     private _id: number;
     public set id(value: number) {
-        this._id = value;
+      this._id = value;
     }
 
     public get id() {
-        return this._id;
+      return this._id;
     }
 
     /**
@@ -19,11 +19,11 @@ export = class LobbyResource extends BaseModel {
      */
     private _name: string;
     public set name(value: string) {
-        this._name = value;
+      this._name = value;
     }
 
     public get name() {
-        return this._name;
+      return this._name;
     }
 
     /**
@@ -31,10 +31,10 @@ export = class LobbyResource extends BaseModel {
      */
     private _visitResources: VisitResource;
     public set visitResources(value: VisitResource) {
-        this._visitResources = value;
+      this._visitResources = value;
     }
 
     public get visitResources() {
-        return this._visitResources;
+      return this._visitResources;
     }
 }

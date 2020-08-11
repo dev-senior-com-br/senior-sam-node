@@ -2,21 +2,21 @@ enum DvrServerType {
  /**
      * Servidor Digifort
      */
-    DIGIFORT = "DIGIFORT",
+    DIGIFORT = 'DIGIFORT',
 
     /**
      * Servidor Camerite
      */
-    CAMERITE = "CAMERITE",
+    CAMERITE = 'CAMERITE',
 
     /**
      * Servidor Milestone
      */
-    MILESTONE = "MILESTONE",
+    MILESTONE = 'MILESTONE',
 
     /**
      * Axxon
      */
-    AXXON = "AXXON"
+    AXXON = 'AXXON'
 }
 export = DvrServerType;

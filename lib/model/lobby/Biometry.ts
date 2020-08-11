@@ -1,6 +1,6 @@
-import { BaseModel } from "../BaseModel";
-import { BiometricManufacturer, BiometryTemplate } from "../../..";
-import List from "../List";
+import { BaseModel } from '../BaseModel';
+import { BiometricManufacturer, BiometryTemplate } from '../../..';
+import List from '../List';
 
 export = class Biometry extends BaseModel {
     /**
@@ -8,11 +8,11 @@ export = class Biometry extends BaseModel {
      */
     private _id: number;
     public set id(value: number) {
-        this._id = value;
+      this._id = value;
     }
 
     public get id() {
-        return this._id;
+      return this._id;
     }
     
     /**
@@ -20,11 +20,11 @@ export = class Biometry extends BaseModel {
      */
     private _biometricManufacturer:BiometricManufacturer;
     public set biometricManufacturer(value: BiometricManufacturer) {
-        this._biometricManufacturer = value;
+      this._biometricManufacturer = value;
     }
 
     public get biometricManufacturer() {
-        return this._biometricManufacturer;
+      return this._biometricManufacturer;
     }
     
     /**
@@ -32,11 +32,11 @@ export = class Biometry extends BaseModel {
      */
     private _templates:List<BiometryTemplate>;
     public set templates(value: List<BiometryTemplate>) {
-        this._templates = value;
+      this._templates = value;
     }
 
     public get _emplates() {
-        return this._templates;
+      return this._templates;
     }
         
 }

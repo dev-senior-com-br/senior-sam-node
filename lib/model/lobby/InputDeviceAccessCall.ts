@@ -1,5 +1,5 @@
-import { BaseModel } from "../BaseModel";
-import { InputDevice } from "../../..";
+import { BaseModel } from '../BaseModel';
+import { InputDevice } from '../../..';
 
 export = class InputDeviceAccessCall extends BaseModel {
     /**
@@ -7,11 +7,11 @@ export = class InputDeviceAccessCall extends BaseModel {
      */
     private _id: number;
     public set id(value: number) {
-        this._id = value;
+      this._id = value;
     }
 
     public get id() {
-        return this._id;
+      return this._id;
     }
 
     /**
@@ -19,10 +19,10 @@ export = class InputDeviceAccessCall extends BaseModel {
      */
     private _inputDevice:InputDevice;
     public set inputDevice(value: InputDevice) {
-        this._inputDevice = value;
+      this._inputDevice = value;
     }
 
     public get inputDevice() {
-        return this._inputDevice;
+      return this._inputDevice;
     }    
 }

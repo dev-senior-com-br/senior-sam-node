@@ -1,8 +1,8 @@
-import { BaseModel } from "../BaseModel";
-import Person from "./Person";
-import { CredentialFormat, PhysicalLocation } from "../../..";
-import Role from "./Role";
-import Group from "./Group";
+import { BaseModel } from '../BaseModel';
+import Person from './Person';
+import { CredentialFormat, PhysicalLocation } from '../../..';
+import Role from './Role';
+import Group from './Group';
 
 export = class ScheduledCredential extends BaseModel {
     /**
@@ -10,11 +10,11 @@ export = class ScheduledCredential extends BaseModel {
     */
     private _id: number;
     public set id(value: number) {
-        this._id = value;
+      this._id = value;
     }
 
     public get id() {
-        return this._id;
+      return this._id;
     }
 
     /**

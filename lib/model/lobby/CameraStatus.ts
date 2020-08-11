@@ -2,11 +2,11 @@ enum CameraStatus {
     /**
      * Câmera Ativa
      */
-    ACTIVE = "ACTIVE",
+    ACTIVE = 'ACTIVE',
 
     /**
      * Câmera Inativa
      */
-    INACTIVE = "INACTIVE"
+    INACTIVE = 'INACTIVE'
 }
 export = CameraStatus;

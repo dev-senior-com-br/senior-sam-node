@@ -2,17 +2,17 @@ enum VisitLimitControl {
     /**
      * Não Controla
      */
-    DOES_NOT_CONTROL = "DOES_NOT_CONTROL",
+    DOES_NOT_CONTROL = 'DOES_NOT_CONTROL',
 
     /**
      * Alerta
      */
-    ALERT = "ALERT",
+    ALERT = 'ALERT',
 
     /**
      * Bloqueia
      */
-    BLOCK = "BLOCK"
+    BLOCK = 'BLOCK'
 }
 
 export = VisitLimitControl;

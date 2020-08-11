@@ -1,7 +1,7 @@
 
-import { Device } from "../../..";
-import IncidentTypeActionType from "./IncidentTypeActionType";
-import { BaseModel } from "../BaseModel";
+import { Device } from '../../..';
+import IncidentTypeActionType from './IncidentTypeActionType';
+import { BaseModel } from '../BaseModel';
 
 export = class IncidentTypeAction extends BaseModel {
     /**
@@ -9,11 +9,11 @@ export = class IncidentTypeAction extends BaseModel {
     */
     private _id: number;
     private set id(value: number) {
-        this._id = value;
+      this._id = value;
     }
 
     private get id() {
-        return this._id;
+      return this._id;
     }
 
     /**
@@ -21,11 +21,11 @@ export = class IncidentTypeAction extends BaseModel {
     */
     private _outputDevice: Device;
     private set outputDevice(value: Device) {
-        this._outputDevice = value;
+      this._outputDevice = value;
     }
 
     private get outputDevice() {
-        return this._outputDevice;
+      return this._outputDevice;
     }
 
     /**
@@ -33,11 +33,11 @@ export = class IncidentTypeAction extends BaseModel {
      */
     private _incidentTypeActionType: IncidentTypeActionType;
     private set incidentTypeActionType(value: IncidentTypeActionType) {
-        this._incidentTypeActionType = value;
+      this._incidentTypeActionType = value;
     }
 
     private get incidentTypeActionType() {
-        return this._incidentTypeActionType;
+      return this._incidentTypeActionType;
     }
 
     /**
@@ -45,11 +45,11 @@ export = class IncidentTypeAction extends BaseModel {
      */
     private _actionTime: number;
     private set actionTime(value: number) {
-        this._actionTime = value;
+      this._actionTime = value;
     }
 
     private get actionTime() {
-        return this._actionTime;
+      return this._actionTime;
     }
 
 }

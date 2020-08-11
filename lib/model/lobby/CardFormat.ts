@@ -1,4 +1,4 @@
-import { BaseModel } from "../BaseModel";
+import { BaseModel } from '../BaseModel';
 
 export = class CardFormat extends BaseModel {
     /**
@@ -6,11 +6,11 @@ export = class CardFormat extends BaseModel {
      */
     private _id: number;
     public set id(value: number) {
-        this._id = value;
+      this._id = value;
     }
 
     public get id() {
-        return this._id;
+      return this._id;
     }
 
     /**
@@ -18,11 +18,11 @@ export = class CardFormat extends BaseModel {
      */
     private _name: string;
     public set name(value: string) {
-        this._name = value;
+      this._name = value;
     }
 
     public get name() {
-        return this._name;
+      return this._name;
     }
 
     /**
@@ -30,11 +30,11 @@ export = class CardFormat extends BaseModel {
      */
     private _facilityCode: number;
     public set facilityCode(value: number) {
-        this._facilityCode = value;
+      this._facilityCode = value;
     }
 
     public get facilityCode() {
-        return this._facilityCode;
+      return this._facilityCode;
     }
 
     /**
@@ -42,11 +42,11 @@ export = class CardFormat extends BaseModel {
      */
     private _bitsShift: number;
     public set bitsShift(value: number) {
-        this._bitsShift = value;
+      this._bitsShift = value;
     }
 
     public get bitsShift() {
-        return this._bitsShift;
+      return this._bitsShift;
     }
 
     /**
@@ -54,11 +54,11 @@ export = class CardFormat extends BaseModel {
      */
     private _cardLength: number;
     public set cardLength(value: number) {
-        this._cardLength = value;
+      this._cardLength = value;
     }
 
     public get cardLength() {
-        return this._cardLength;
+      return this._cardLength;
     }
 
     /**
@@ -66,11 +66,11 @@ export = class CardFormat extends BaseModel {
      */
     private _oddBitsLength: number;
     public set oddBitsLength(value: number) {
-        this._oddBitsLength = value;
+      this._oddBitsLength = value;
     }
 
     public get oddBitsLength() {
-        return this._oddBitsLength;
+      return this._oddBitsLength;
     }
 
     /**
@@ -78,11 +78,11 @@ export = class CardFormat extends BaseModel {
      */
     private _evenBitsLength: number;
     public set evenBitsLength(value: number) {
-        this._evenBitsLength = value;
+      this._evenBitsLength = value;
     }
 
     public get evenBitsLength() {
-        return this._evenBitsLength;
+      return this._evenBitsLength;
     }
 
     /**
@@ -90,11 +90,11 @@ export = class CardFormat extends BaseModel {
      */
     private _facilityCodeLength: number;
     public set facilityCodeLength(value: number) {
-        this._facilityCodeLength = value;
+      this._facilityCodeLength = value;
     }
 
     public get facilityCodeLength() {
-        return this._facilityCodeLength;
+      return this._facilityCodeLength;
     }
 
     /**
@@ -102,11 +102,11 @@ export = class CardFormat extends BaseModel {
      */
     private _facilityCodeStart: number;
     public set facilityCodeStart(value: number) {
-        this._facilityCodeStart = value;
+      this._facilityCodeStart = value;
     }
 
     public get facilityCodeStart() {
-        return this._facilityCodeStart;
+      return this._facilityCodeStart;
     }
 
     /**
@@ -114,11 +114,11 @@ export = class CardFormat extends BaseModel {
      */
     private _cardNumberLength: number;
     public set cardNumberLength(value: number) {
-        this._cardNumberLength = value;
+      this._cardNumberLength = value;
     }
 
     public get cardNumberLength() {
-        return this._cardNumberLength;
+      return this._cardNumberLength;
     }
 
     /**
@@ -126,11 +126,11 @@ export = class CardFormat extends BaseModel {
      */
     private _cardNumberStart: number;
     public set cardNumberStart(value: number) {
-        this._cardNumberStart = value;
+      this._cardNumberStart = value;
     }
 
     public get cardNumberStart() {
-        return this._cardNumberStart;
+      return this._cardNumberStart;
     }
 
     /**
@@ -138,11 +138,11 @@ export = class CardFormat extends BaseModel {
      */
     private _defaultAllReaders: boolean;
     public set defaultAllReaders(value: boolean) {
-        this._defaultAllReaders = value;
+      this._defaultAllReaders = value;
     }
 
     public get defaultAllReaders() {
-        return this._defaultAllReaders;
+      return this._defaultAllReaders;
     }
 
 }

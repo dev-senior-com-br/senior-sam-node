@@ -2,31 +2,31 @@ enum ReaderDeviceTechnology {
     /**
        * Código de Barras
        */
-    BARCODE_CARD = "BARCODE_CARD",
+    BARCODE_CARD = 'BARCODE_CARD',
 
     /**
      * RFID
      */
-    RFID_CARD = "RFID_CARD",
+    RFID_CARD = 'RFID_CARD',
 
     /**
      * Smart
      */
-    SMART_CARD = "SMART_CARD",
+    SMART_CARD = 'SMART_CARD',
 
     /**
      * Biometria
      */
-    BIOMETRIC = "BIOMETRIC",
+    BIOMETRIC = 'BIOMETRIC',
 
     /**
      * QR Code
      */
-    QRCODE = "QRCODE",
+    QRCODE = 'QRCODE',
 
     /**
      * Bluetooth
      */
-    BLUETOOTH = "BLUETOOTH"
+    BLUETOOTH = 'BLUETOOTH'
 }
 export = ReaderDeviceTechnology;
