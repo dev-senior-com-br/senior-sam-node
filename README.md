@@ -18,13 +18,6 @@ npm i @seniorsistemas/senior-sam --save
 ## Ambiente
 Atualmente o ambiente padrão para o desenvolvimento é o da Homologx.
 
-## Fontes
-```sh
-$ git clone https://github.com/dev-senior-com-br/senior-sam-node.git
-$ cd senior-sam-node
-$ npm install
-```
-
 ### Configurações
 Os comando abaixo permitem configuração de proxy:
  - npm config set proxy <ALTERAR_PARA_PROXY_HTTP>
@@ -65,7 +58,10 @@ Exemplo:
 No arquivo `examples/lobby.js` usamos a variavel de ambiente: `process.env.SENIOR_USERNAME`, sendo assim no arquivo `.env` você vai colocar o seguinte:
 ```
 SENIOR_USERNAME=<seu_usuario_da_plataforma>
+PASS=<seu_password_da_plataforma>
 ```
+
+Essa configuração é igual ao colocar variáveis de ambiente, o `.env` é só um falicitador para o node.
 
 ### Links
 * [Documentação da API](https://dev.senior.com.br/api/platform/)
