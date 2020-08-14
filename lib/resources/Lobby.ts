@@ -13,7 +13,7 @@ export = class Lobby extends RequestClient {
   listPersonLookup(listPersonLookupIn: ListPersonLookupIn): Promise<RequestReturn> {
     const listPersonLookupInJSON = listPersonLookupIn.toJson();
     const clientOptions = {
-      url: '/sam/lobby/queries/listPersonLookup',
+      url: this.getUrlPath('queries/listPersonLookup'),
       method: HttpMethod.POST,
       data: listPersonLookupInJSON,
       headers: {
@@ -29,7 +29,7 @@ export = class Lobby extends RequestClient {
   ): Promise<RequestReturn> {
     const lobbyCredentialTechnologiesInJSON = lobbyCredentialTechnologiesIn.toJson();
     const clientOptions = {
-      url: `/sam/lobby/entities/lobby/${parentId}/lobbyCredentialTechnologies`,
+      url: this.getUrlPath(`entities/lobby/${parentId}/lobbyCredentialTechnologies`),
       method: HttpMethod.POST,
       data: lobbyCredentialTechnologiesInJSON,
       headers: {
@@ -44,7 +44,7 @@ export = class Lobby extends RequestClient {
   ): Promise<RequestReturn> {
     const createPersonProvisoryCredentialJSON = createPersonProvisoryCredential.toJson();
     const clientOptions = {
-      url: '/sam/lobby/actions/createPersonProvisoryCredentialCard',
+      url: this.getUrlPath('actions/createPersonProvisoryCredentialCard'),
       method: HttpMethod.POST,
       data: createPersonProvisoryCredentialJSON,
       headers: {
@@ -59,7 +59,7 @@ export = class Lobby extends RequestClient {
   ): Promise<RequestReturn> {
     const createVisitorProvisoryCredentialJSON = createVisitorProvisoryCredential.toJson();
     const clientOptions = {
-      url: '/sam/lobby/actions/createVisitorProvisoryCredentialCard',
+      url: this.getUrlPath('actions/createVisitorProvisoryCredentialCard'),
       method: HttpMethod.POST,
       data: createVisitorProvisoryCredentialJSON,
       headers: {
@@ -72,7 +72,7 @@ export = class Lobby extends RequestClient {
   getCredentials(personId: number, listPersonLookupIn: ListPersonLookupIn): Promise<RequestReturn> {
     const listPersonLookupInJSON = listPersonLookupIn.toJson();
     const clientOptions = {
-      url: `/sam/application/entities/person/${personId}/credentials`,
+      url: this.getUrlPath(`entities/person/${personId}/credentials`),
       method: HttpMethod.GET,
       data: listPersonLookupInJSON,
       headers: {
