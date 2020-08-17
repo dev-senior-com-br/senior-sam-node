@@ -1,4 +1,4 @@
-import { BaseModel } from "../BaseModel";
+import { BaseModel } from '../BaseModel';
 
 export = class Phone extends BaseModel {
     /**
@@ -6,11 +6,11 @@ export = class Phone extends BaseModel {
      */
     private _id: number;
     public set id(value: number) {
-        this._id = value;
+      this._id = value;
     }
 
     public get id() {
-        return this._id;
+      return this._id;
     }
 
     /**
@@ -18,11 +18,11 @@ export = class Phone extends BaseModel {
      */
     private _preferential = false;
     public set preferential(value: boolean) {
-        this._preferential = value;
+      this._preferential = value;
     }
 
     public get preferential() {
-        return this._preferential;
+      return this._preferential;
     }
 
 
@@ -31,11 +31,11 @@ export = class Phone extends BaseModel {
      */
     private _idd: number;
     public set idd(value: number) {
-        this._idd = value;
+      this._idd = value;
     }
 
     public get idd() {
-        return this._idd;
+      return this._idd;
     }
 
 
@@ -44,11 +44,11 @@ export = class Phone extends BaseModel {
      */
     private _number: string;
     public set number(value: string) {
-        this._number = value;
+      this._number = value;
     }
 
     public get number() {
-        return this._number;
+      return this._number;
     }
 
     /**
@@ -56,11 +56,11 @@ export = class Phone extends BaseModel {
      */
     private _phoneExtension: string;
     public set phoneExtension(value: string) {
-        this._phoneExtension = value;
+      this._phoneExtension = value;
     }
 
     public get phoneExtension() {
-        return this._phoneExtension;
+      return this._phoneExtension;
     }
 
 }

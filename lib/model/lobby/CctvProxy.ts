@@ -1,4 +1,4 @@
-import { BaseModel } from "../BaseModel";
+import { BaseModel } from '../BaseModel';
 
 export = class CctvProxy extends BaseModel {
     /**
@@ -6,11 +6,11 @@ export = class CctvProxy extends BaseModel {
      */
     private _id: number;
     public set id(value: number) {
-        this._id = value;
+      this._id = value;
     }
 
     public get id() {
-        return this._id;
+      return this._id;
     }
 
     /**
@@ -18,11 +18,11 @@ export = class CctvProxy extends BaseModel {
      */
     private _name: string;
     public set name(value: string) {
-        this._name = value;
+      this._name = value;
     }
 
     public get name() {
-        return this._name;
+      return this._name;
     }
 
     /**
@@ -30,11 +30,11 @@ export = class CctvProxy extends BaseModel {
      */
     private _host: string;
     public set host(value: string) {
-        this._host = value;
+      this._host = value;
     }
 
     public get host() {
-        return this._host;
+      return this._host;
     }
 
     /**
@@ -42,10 +42,10 @@ export = class CctvProxy extends BaseModel {
      */
     private _port: number;
     public set port(value: number) {
-        this._port = value;
+      this._port = value;
     }
 
     public get port() {
-        return this._port;
+      return this._port;
     }
 }

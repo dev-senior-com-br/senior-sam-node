@@ -2,26 +2,26 @@ enum CredentialFormat {
     /**
      * Cartão
      */
-    CARD = "CARD",
+    CARD = 'CARD',
 
     /**
      * Biometria
      */
-    BIOMETRY = "BIOMETRY",
+    BIOMETRY = 'BIOMETRY',
 
     /**
      * Placa
      */
-    LICENSE_PLATE = "LICENSE_PLATE",
+    LICENSE_PLATE = 'LICENSE_PLATE',
 
     /**
      * QR Code
      */
-    QRCODE = "QRCODE",
+    QRCODE = 'QRCODE',
 
     /**
      * Bluetooth
      */
-    BLUETOOTH = "BLUETOOTH"
+    BLUETOOTH = 'BLUETOOTH'
 }
 export = CredentialFormat;

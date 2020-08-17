@@ -1,4 +1,4 @@
-import { BaseModel } from "../BaseModel";
+import { BaseModel } from '../BaseModel';
 
 export = class InputMasking extends BaseModel {
     /**
@@ -6,11 +6,11 @@ export = class InputMasking extends BaseModel {
      */
     private _id: number;
     private set id(value: number) {
-        this._id = value;
+      this._id = value;
     }
 
     private get id() {
-        return this._id;
+      return this._id;
     }
 
     /**
@@ -18,11 +18,11 @@ export = class InputMasking extends BaseModel {
      */
     private _startHour: Date;
     private set startHour(value: Date) {
-        this._startHour = value;
+      this._startHour = value;
     }
 
     private get startHour() {
-        return this._startHour;
+      return this._startHour;
     }
 
     /**
@@ -30,11 +30,11 @@ export = class InputMasking extends BaseModel {
      */
     private _endHour: Date;
     private set endHour(value: Date) {
-        this._endHour = value;
+      this._endHour = value;
     }
 
     private get endHour() {
-        return this._endHour;
+      return this._endHour;
     }
 
     /**
@@ -42,11 +42,11 @@ export = class InputMasking extends BaseModel {
      */
     private _businessDays: boolean;
     private set businessDays(value: boolean) {
-        this._businessDays = value;
+      this._businessDays = value;
     }
 
     private get businessDays() {
-        return this._businessDays;
+      return this._businessDays;
     }
 
     /**
@@ -54,11 +54,11 @@ export = class InputMasking extends BaseModel {
      */
     private _saturday: boolean;
     private set saturday(value: boolean) {
-        this._saturday = value;
+      this._saturday = value;
     }
 
     private get saturday() {
-        return this._saturday;
+      return this._saturday;
     }
 
     /**
@@ -66,11 +66,11 @@ export = class InputMasking extends BaseModel {
      */
     private _sunday: boolean;
     private set sunday(value: boolean) {
-        this._sunday = value;
+      this._sunday = value;
     }
 
     private get sunday() {
-        return this._sunday;
+      return this._sunday;
     }
 
     /**
@@ -78,11 +78,11 @@ export = class InputMasking extends BaseModel {
      */
     private _holiday: boolean;
     private set holiday(value: boolean) {
-        this._holiday = value;
+      this._holiday = value;
     }
 
     private get holiday() {
-        return this._holiday;
+      return this._holiday;
     }
 
 }

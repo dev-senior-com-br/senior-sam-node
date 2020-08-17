@@ -1,19 +1,19 @@
-import { BaseModel } from "../BaseModel";
-import Role from "./Role";
-import { PhysicalLocation, PersonVehicle, VehicleUse } from "../../..";
-import List from "../List";
+import { BaseModel } from '../BaseModel';
+import Role from './Role';
+import { PhysicalLocation, PersonVehicle, VehicleUse } from '../../..';
+import List from '../List';
 
 export = class Vehicle extends BaseModel {
-    /**
+  /**
     * ID
     */
    private _id: number;
    public set id(value: number) {
-       this._id = value;
+     this._id = value;
    }
 
    public get id() {
-       return this._id;
+     return this._id;
    }
     
     /**

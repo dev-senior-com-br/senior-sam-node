@@ -1,21 +1,21 @@
-import { BaseModel } from "../BaseModel";
-import InformationCardCredentialRecord from "./InformationCardCredentialRecord";
-import BiometricManufacturer from "./portaria/BiometricManufacturer";
-import List from "../List";
+import { BaseModel } from '../BaseModel';
+import InformationCardCredentialRecord from './InformationCardCredentialRecord';
+import BiometricManufacturer from './portaria/BiometricManufacturer';
+import List from '../List';
 
 export = class BaseCreateProvisoryCredential extends BaseModel {
     
-   /**
+  /**
      * Se deve suspender a credencial existente
      */
     private _isCheckedOverlap: boolean;
 
     public set isCheckedOverlap(value: boolean) {
-        this._isCheckedOverlap = value;
+      this._isCheckedOverlap = value;
     }
 
     public get isCheckedOverlap() {
-        return this._isCheckedOverlap;
+      return this._isCheckedOverlap;
     }
 
     /**
@@ -24,24 +24,25 @@ export = class BaseCreateProvisoryCredential extends BaseModel {
     private _cardCredentialList: List<InformationCardCredentialRecord>;
 
     public set cardCredentialList(value: List<InformationCardCredentialRecord>) {
-        this._cardCredentialList = value;
+      this._cardCredentialList = value;
     }
 
     public get cardCredentialList() {
-        return this.cardCredentialList;
+      return this.cardCredentialList;
     }
     
     /**
-     * Id do motivo da credencial provisória, cadastro pela entidade provisoryCredentialReason. É utilizado apenas para consultas e estatísticas
+     * Id do motivo da credencial provisória, cadastro pela entidade provisoryCredentialReason. 
+     * É utilizado apenas para consultas e estatísticas
      */
     private _provisoryCredentialReasonId: number;
 
     public set provisoryCredentialReasonId(value: number) {
-        this._provisoryCredentialReasonId = value;
+      this._provisoryCredentialReasonId = value;
     }
 
     public get provisoryCredentialReasonId(){
-        return this._provisoryCredentialReasonId;
+      return this._provisoryCredentialReasonId;
     }
 
     /**
@@ -50,11 +51,11 @@ export = class BaseCreateProvisoryCredential extends BaseModel {
     private _startDate: Date;
 
     public set startDate(value: Date) {
-        this._startDate = value;
+      this._startDate = value;
     }
 
     public get startDate() {
-        return this._startDate;
+      return this._startDate;
     }
 
     /**
@@ -63,11 +64,11 @@ export = class BaseCreateProvisoryCredential extends BaseModel {
     private _endDate: Date;
 
     public set endDate(value: Date) {
-        this._endDate = value;
+      this._endDate = value;
     }
 
     public get endDate() {
-        return this._endDate;
+      return this._endDate;
     }
     
     /**
@@ -76,11 +77,11 @@ export = class BaseCreateProvisoryCredential extends BaseModel {
     private _biometricManufacturer: BiometricManufacturer;
 
     public set biometricManufacturer(value: BiometricManufacturer) {
-        this._biometricManufacturer = value;
+      this._biometricManufacturer = value;
     }
 
     public get biometricManufacturer() {
-        return this._biometricManufacturer;
+      return this._biometricManufacturer;
     }
 
     /**
@@ -88,11 +89,11 @@ export = class BaseCreateProvisoryCredential extends BaseModel {
      */
     private _biometricId: number;
     public set biometricId(value: number) {
-        this._biometricId = value;
+      this._biometricId = value;
     }
 
     public get biometricId() {
-        return this._biometricId;
+      return this._biometricId;
     }
 
     /**
@@ -101,18 +102,18 @@ export = class BaseCreateProvisoryCredential extends BaseModel {
     private _virtualLobbyId: number;
     
     public set virtualLobbyId(value: number) {
-        this._virtualLobbyId = value;
+      this._virtualLobbyId = value;
     }
 
     public get virtualLobbyId() {
-        return this._virtualLobbyId;
+      return this._virtualLobbyId;
     }
 
     constructor(isCheckedOverlap: boolean, cardCredentialList: List<InformationCardCredentialRecord>, endDate: Date){ 
-        super();
-        this.isCheckedOverlap = isCheckedOverlap;
-        this.cardCredentialList = cardCredentialList;
-        this.endDate = endDate;
+      super();
+      this.isCheckedOverlap = isCheckedOverlap;
+      this.cardCredentialList = cardCredentialList;
+      this.endDate = endDate;
     }
 
 }

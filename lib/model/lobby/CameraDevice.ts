@@ -1,5 +1,5 @@
-import { BaseModel } from "../BaseModel";
-import Device from "./Device";
+import { BaseModel } from '../BaseModel';
+import Device from './Device';
 
 export = class CameraDevice extends BaseModel {
     /**
@@ -7,11 +7,11 @@ export = class CameraDevice extends BaseModel {
      */
     private _id: number;
     public set id(value: number) {
-        this._id = value;
+      this._id = value;
     }
 
     public get id() {
-        return this._id;
+      return this._id;
     }
 
     /**
@@ -19,10 +19,10 @@ export = class CameraDevice extends BaseModel {
     */
     private _device: Device;
     public set device(value: Device) {
-        this._device = value;
+      this._device = value;
     }
 
     public get device() {
-        return this._device;
+      return this._device;
     }
 }

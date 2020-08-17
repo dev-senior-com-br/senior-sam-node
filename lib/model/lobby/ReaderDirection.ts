@@ -2,17 +2,17 @@ enum ReaderDirection {
     /**
      * Saída
      */
-    EXIT = "EXIT",
+    EXIT = 'EXIT',
 
     /**
      * Entrada
      */
-    ENTRANCE = "ENTRANCE",
+    ENTRANCE = 'ENTRANCE',
 
     /**
      * Ambos os Sentidos
      */
-    BOTH = "BOTH"
+    BOTH = 'BOTH'
 }
 
 export = ReaderDirection;

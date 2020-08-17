@@ -1,17 +1,17 @@
-import { BaseModel } from "../BaseModel";
+import { BaseModel } from '../BaseModel';
 
 export = class DocumentType extends BaseModel {
 
-    /**
+  /**
     * ID
     */
    private _id: number;
    public set id(value: number) {
-       this._id = value;
+     this._id = value;
    }
 
    public get id() {
-       return this._id;
+     return this._id;
    }
 
     /**
@@ -19,11 +19,11 @@ export = class DocumentType extends BaseModel {
      */
     private _name: string;
     public set name(value: string){
-        this._name = value;
+      this._name = value;
     }
 
     public get name(){
-        return this._name;
+      return this._name;
     }    
 
     /**
@@ -31,11 +31,11 @@ export = class DocumentType extends BaseModel {
      */
     private _label: string;
     public set label(value: string){
-        this._label = value;
+      this._label = value;
     }
 
     public get label(){
-        return this._label;
+      return this._label;
     }
 
     /**
@@ -43,11 +43,11 @@ export = class DocumentType extends BaseModel {
      */
     private _mask: string;
     public set mask(value: string) {
-        this._mask = value;
+      this._mask = value;
     }
 
     public get mask(){
-        return this._mask;
+      return this._mask;
     }
 
     /**
@@ -55,11 +55,11 @@ export = class DocumentType extends BaseModel {
      */
     private _required: boolean;
     public set required(value: boolean){
-        this._required = value;
+      this._required = value;
     }
 
     public get required() {
-        return this._required;
+      return this._required;
     }
 
     /**
@@ -67,11 +67,11 @@ export = class DocumentType extends BaseModel {
      */
     private _useOnREP: boolean;
     public set useOnREP(value: boolean) {
-        this._useOnREP = value;
+      this._useOnREP = value;
     }
 
     public get useOnREP() {
-        return this._useOnREP;
+      return this._useOnREP;
     }
 
 }

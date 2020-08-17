@@ -1,18 +1,18 @@
-import { BaseModel } from "../BaseModel";
-import { OffsetDaylightSavingType, Timezone } from "../../..";
+import { BaseModel } from '../BaseModel';
+import { OffsetDaylightSavingType, Timezone } from '../../..';
 
 export = class LocalTimezone extends BaseModel {
 
-    /**
+  /**
     * ID
     */
    private _id: number;
    public set id(value: number) {
-       this._id = value;
+     this._id = value;
    }
 
    public get id() {
-       return this._id;
+     return this._id;
    }
              
     /**
@@ -20,11 +20,11 @@ export = class LocalTimezone extends BaseModel {
      */
     private _name: string;
     public set name(value: string) {
-        this._name = value;
+      this._name = value;
     }
 
     public get name() {
-        return this._name;
+      return this._name;
     }
 
     /**
@@ -32,11 +32,11 @@ export = class LocalTimezone extends BaseModel {
      */
     private _timezone: Timezone;
     public set timezone(value: Timezone) {
-        this._timezone = value;
+      this._timezone = value;
     }
 
     public get timezone() {
-        return this.timezone;
+      return this.timezone;
     }
 
     /**
@@ -44,11 +44,11 @@ export = class LocalTimezone extends BaseModel {
      */
     private _daylightSaving: boolean;
     public set daylightSaving(value: boolean) {
-        this._daylightSaving = value;
+      this._daylightSaving = value;
     }
 
     public get daylightSaving() {
-        return this._daylightSaving;
+      return this._daylightSaving;
     }
 
     /**
@@ -56,11 +56,11 @@ export = class LocalTimezone extends BaseModel {
      */
     private _offsetDaylightSaving: OffsetDaylightSavingType;
     public set offsetDaylightSaving(value: OffsetDaylightSavingType) {
-        this._offsetDaylightSaving = value;
+      this._offsetDaylightSaving = value;
     }
 
     public get offsetDaylightSaving() {
-        return this._offsetDaylightSaving;
+      return this._offsetDaylightSaving;
     }
 
     /**
@@ -68,11 +68,11 @@ export = class LocalTimezone extends BaseModel {
      */
     private _daylightSavingStartDate: Date;
     public set daylightSavingStartDate(value: Date) {
-        this._daylightSavingStartDate = value;
+      this._daylightSavingStartDate = value;
     }
 
     public get daylightSavingStartDate() {
-        return this._daylightSavingStartDate;
+      return this._daylightSavingStartDate;
     }
 
     /**
@@ -80,10 +80,10 @@ export = class LocalTimezone extends BaseModel {
      */
     private  _daylightSavingFinishDate: Date;
     public set daylightSavingFinishDate(value: Date) {
-        this._daylightSavingFinishDate = value;
+      this._daylightSavingFinishDate = value;
     }
     
     public get daylightSavingFinishDate() {
-        return this._daylightSavingFinishDate;
+      return this._daylightSavingFinishDate;
     }
 }

@@ -12,7 +12,7 @@ A SDK suporta o Node.js na versão 10 ou superior.
  
 ## Instalação
 ```
-npm i @seniorsistemas/senior-hcm --save-dev
+npm i @seniorsistemas/senior-sam --save
 ```
 
 ## Ambiente
@@ -24,13 +24,6 @@ export enum ENVIRONMENTS {
   DEV = 'https://platform-homologx.senior.com.br/t/senior.com.br/bridge/1.0',
   PROD = 'https://api.senior.com.br',
 }
-```
-
-## Fontes
-```sh
-$ git clone https://github.com/dev-senior-com-br/senior-hcm-node.git
-$ cd senior-core-node
-$ npm install
 ```
 
 ### Configurações
@@ -49,16 +42,16 @@ _Criar arquivo *.env* na raíz do projeto_
 
 ### Iniciando a utilização
 
-Primeiro você precisa criar um arquivo `.js`, como por exemplo: `authentication-example.js`, e nele requerer a biblioteca.
+Primeiro você precisa criar um arquivo `.js`, como por exemplo: `lobby.js`, e nele requerer a biblioteca.
 
 ```javascript
-var SeniorApi = require('../senior-sam-node/index').default;
+var { SAMApi } = require('@seniorsistemas/senior-sam');
 ```
 
 Então você precisa criar instância informando usuário e senha.
 
 ```javascript
-var api = new SeniorApi(username, password);
+var api = new SAMApi(username, password);
 ```
 
 Mudando o ambiente:
@@ -70,31 +63,26 @@ api.setEnvironment(ENVIRONMENTS.PROD);
 
 ### Exemplos
 Na pasta [examples](https://github.com/dev-senior-com-br/senior-sam-node/tree/develop/examples) você encontrar alguns exemplos.
-Para executa-los, entrar na pasta examples, executar a instalação das dependencias:
+Para executa-los, basta rodar o comando abaixo com o nome do arquivo (substituir a chave <nome_arquivo>).
 ```
-npm install
-```
-
-Alterear os valores das variáveis e executar conforme o comando abaixo:
-```
-node <teste>-example
+node examples/<nome_arquivo>.js
 ``` 
 
-Alguns exemplos necessitam de propriedades específicas, descritas no inicio dos arquivos. Como o `user-example`:
+Para rodar arquivos `.ts` é necessário instalar o pacote `ts-node` globalmente (`npm i -g ts-node`) e executar o exemplo conforme abaixo.
+
 ```
-...
-//Propriedades necessárias:
-var creation_username = "<Username do novo usuário>";
-var creation_fullName = "<Nome completo>";
-var creation_email = "<Email do novo usuário>";
-var creation_password = "<Senha do novo usuário>";
-var creation_locale = "<Locale do usuário (exemplo: pt-BR)>";
-var changed_fullName = "<Nome completo para alteração do usuário>";
-var tenantName = "<Nome do tenant>";
-var group_name =  "<Nome do novo grupo>";
-var group_description = "<Descrição do grupo>";
-...
+ts-node examples/<nome_arquivo>.ts
 ```
+
+Alguns exemplos necessitam de propriedades específicas, descritas no inicio dos arquivos. Para configurar basta criar um arquivo no root do projeto chamado `.env` contendo chave=valor para cada variavel de ambiente que o exemplo necessita.
+Exemplo:
+No arquivo `examples/lobby.js` usamos a variavel de ambiente: `process.env.SENIOR_USERNAME`, sendo assim no arquivo `.env` você vai colocar o seguinte:
+```
+SENIOR_USERNAME=<seu_usuario_da_plataforma>
+PASS=<seu_password_da_plataforma>
+```
+
+Essa configuração é igual ao colocar variáveis de ambiente, o `.env` é só um falicitador para o node.
 
 Mudando o ambiente:
 
@@ -106,6 +94,18 @@ api.setEnvironment(ENVIRONMENTS.PROD);
 ### Links
 * [Documentação da API](https://dev.senior.com.br/api/platform/)
 
+### Entidades
+
+Para utilizar as entidades é necessário chamar o metódo `getEntity` da api passando por parâmetro o domínio, serviço e a entidade.
+
+```javascript
+const entity: Entity<Vacancy> = api.getEntity("hcm", "recruitment", "vacancy");
+entity.get().then(resp => console.log(resp.body));
+
+// Caso seja necessário utilizar a classe de filtro
+String filter = new FilterBuilder().field("id").equals("60B3957C72C44E00A9739451B07265C3").build();
+// O mesmo terá como retorno o seguinte : ?filter=id eq '60B3957C72C44E00A9739451B07265C3'
+```
 
 ## Obtendo versão de distribuição
 Última versão disponível em [https://www.npmjs.com/package/@seniorsistemas/senior-sam](https://www.npmjs.com/package/@seniorsistemas/senior-sam)

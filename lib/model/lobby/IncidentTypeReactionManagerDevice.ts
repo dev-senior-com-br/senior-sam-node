@@ -1,5 +1,5 @@
-import { BaseModel } from "../BaseModel";
-import { Device } from "../../..";
+import { BaseModel } from '../BaseModel';
+import { Device } from '../../..';
 
 export = class IncidentTypeReactionManagerDevice extends BaseModel {
     /**
@@ -7,11 +7,11 @@ export = class IncidentTypeReactionManagerDevice extends BaseModel {
     */
     private _id: number;
     private set id(value: number) {
-        this._id = value;
+      this._id = value;
     }
 
     private get id() {
-        return this._id;
+      return this._id;
     }
 
     /**
@@ -19,10 +19,10 @@ export = class IncidentTypeReactionManagerDevice extends BaseModel {
      */
     private _managerDevice: Device;
     private set managerDevice(value: Device) {
-        this._managerDevice = value;
+      this._managerDevice = value;
     }
 
     private get managerDevice() {
-        return this._managerDevice;
+      return this._managerDevice;
     }
 }

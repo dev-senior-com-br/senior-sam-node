@@ -1,5 +1,5 @@
-import { BaseModel } from "../BaseModel";
-import PhysicalLocationStatus from "./PhysicalLocationStatus";
+import { BaseModel } from '../BaseModel';
+import PhysicalLocationStatus from './PhysicalLocationStatus';
 
 export = class PhysicalLocation extends BaseModel {
     /**
@@ -7,11 +7,11 @@ export = class PhysicalLocation extends BaseModel {
      */
     private _id: number;
     public set id(value: number) {
-        this._id = value;
+      this._id = value;
     }
 
     public get id() {
-        return this._id;
+      return this._id;
     }
 
     /**
@@ -19,11 +19,11 @@ export = class PhysicalLocation extends BaseModel {
      */
     private _parent: number;
     public set parent(value: number) {
-        this._parent = value;
+      this._parent = value;
     }
 
     public get parent() {
-        return this._parent;
+      return this._parent;
     }
 
     /**
@@ -31,11 +31,11 @@ export = class PhysicalLocation extends BaseModel {
      */
     private _name: string;
     public set name(value: string) {
-        this._name = value;
+      this._name = value;
     }
 
     public get name() {
-        return this._name;
+      return this._name;
     }
 
     /**
@@ -43,11 +43,11 @@ export = class PhysicalLocation extends BaseModel {
      */
     private _status: PhysicalLocationStatus;
     public set status(value: PhysicalLocationStatus) {
-        this._status = value;
+      this._status = value;
     }
 
     public get status() {
-        return this._status;
+      return this._status;
     }
 
 }

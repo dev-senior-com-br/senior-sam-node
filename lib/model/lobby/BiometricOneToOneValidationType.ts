@@ -2,17 +2,17 @@ enum BiometricOneToOneValidationType {
     /**
      * Não Configurada
      */
-    NONE = "NONE",
+    NONE = 'NONE',
 
     /**
      * Requisita Somente se Existir Biometria Cadastrada
      */
-    OPTIONAL = "OPTIONAL",
+    OPTIONAL = 'OPTIONAL',
 
     /**
      * Sempre Vai Requisitar Biometria
      */
-    REQUIRED = "REQUIRED"
+    REQUIRED = 'REQUIRED'
 }
 
 export = BiometricOneToOneValidationType;

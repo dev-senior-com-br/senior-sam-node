@@ -1,5 +1,5 @@
-import { BaseModel } from "../BaseModel";
-import { StatusHistoric } from "../../..";
+import { BaseModel } from '../BaseModel';
+import { StatusHistoric } from '../../..';
 
 export = class PersonRoleSuspension extends BaseModel {
     /**
@@ -7,11 +7,11 @@ export = class PersonRoleSuspension extends BaseModel {
    */
     private _id: number;
     public set id(value: number) {
-        this._id = value;
+      this._id = value;
     }
 
     public get id() {
-        return this._id;
+      return this._id;
     }
 
     /**
@@ -19,11 +19,11 @@ export = class PersonRoleSuspension extends BaseModel {
      */
     private _startDate: Date;
     public set startDate(value: Date) {
-        this._startDate = value;
+      this._startDate = value;
     }
 
     public get startDate() {
-        return this._startDate;
+      return this._startDate;
     }
 
     /**
@@ -31,11 +31,11 @@ export = class PersonRoleSuspension extends BaseModel {
      */
     private _endDate: Date;
     public set endDate(value: Date) {
-        this._endDate = value;
+      this._endDate = value;
     }
 
     public get endDate() {
-        return this._endDate;
+      return this._endDate;
     }
 
     /**
@@ -43,11 +43,11 @@ export = class PersonRoleSuspension extends BaseModel {
      */
     private _justification: string;
     public set justification(value: string) {
-        this._justification = value;
+      this._justification = value;
     }
 
     public get justification() {
-        return this._justification;
+      return this._justification;
     }
 
     /**
@@ -55,10 +55,10 @@ export = class PersonRoleSuspension extends BaseModel {
      */
     private _status: StatusHistoric;
     public set status(value: StatusHistoric) {
-        this._status = value;
+      this._status = value;
     }
 
     public get status() {
-        return this._status;
+      return this._status;
     }
 }

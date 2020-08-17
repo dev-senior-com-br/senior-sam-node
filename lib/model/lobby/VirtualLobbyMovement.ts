@@ -1,17 +1,17 @@
-import { BaseModel } from "../BaseModel";
-import { VirtualLobby, Person, MovementDirection, Role, AccessCall} from "../../..";
+import { BaseModel } from '../BaseModel';
+import { VirtualLobby, Person, MovementDirection, Role, AccessCall } from '../../..';
 
 export = class VirtualLobbyMovement extends BaseModel {
-    /**
+  /**
     * ID
     */
    private _id: number;
    public set id(value: number) {
-       this._id = value;
+     this._id = value;
    }
 
    public get id() {
-       return this._id;
+     return this._id;
    }
 
     /**
@@ -19,11 +19,11 @@ export = class VirtualLobbyMovement extends BaseModel {
      */
     private _virtualLobby: VirtualLobby;
     public set virtualLobby(value: VirtualLobby) {
-        this._virtualLobby = value;
+      this._virtualLobby = value;
     }
 
     public get virtualLobby() {
-        return this._virtualLobby;
+      return this._virtualLobby;
     }
 
     /**
@@ -31,11 +31,11 @@ export = class VirtualLobbyMovement extends BaseModel {
      */
     private _visitor: Person;
     public set visitor(value: Person) {
-        this._visitor = value;
+      this._visitor = value;
     }
 
     public get visitor() {
-        return this._visitor;
+      return this._visitor;
     }
 
     /**
@@ -43,11 +43,11 @@ export = class VirtualLobbyMovement extends BaseModel {
      */
     private _visited: Person;
     public set visited(value: Person) {
-        this._visited = value;
+      this._visited = value;
     }
 
     public get visited() {
-        return this._visited;
+      return this._visited;
     }
 
     /**
@@ -55,11 +55,11 @@ export = class VirtualLobbyMovement extends BaseModel {
      */
     private _responsible: Person;
     public set responsible(value: Person) {
-        this._responsible = value;
+      this._responsible = value;
     }
 
     public get responsible() {
-        return this._responsible;
+      return this._responsible;
     }
 
     /**
@@ -67,11 +67,11 @@ export = class VirtualLobbyMovement extends BaseModel {
      */
     private _movementDirection: MovementDirection;
     public set movementDirection(value: MovementDirection) {
-        this._movementDirection = value;
+      this._movementDirection = value;
     }
 
     public get movementDirection() {
-        return this._movementDirection;
+      return this._movementDirection;
     }
 
     /**
@@ -79,11 +79,11 @@ export = class VirtualLobbyMovement extends BaseModel {
      */
     private _createdAt: Date;
     public set createdAt(value: Date) {
-        this._createdAt = value;
+      this._createdAt = value;
     }
 
     public get createdAt() {
-        return this._createdAt;
+      return this._createdAt;
     }
 
     /**
@@ -91,11 +91,11 @@ export = class VirtualLobbyMovement extends BaseModel {
      */
     private _role: Role;
     public set role (value: Role){
-        this._role = value;
+      this._role = value;
     }
 
     public get role() {
-        return this._role;
+      return this._role;
     }
 
     /**
@@ -103,10 +103,10 @@ export = class VirtualLobbyMovement extends BaseModel {
      */
     private _accessCall: AccessCall;
     public set accessCall(value: AccessCall){
-        this._accessCall = value;
+      this._accessCall = value;
     }
 
     public get accessCall(){
-        return this._accessCall;
+      return this._accessCall;
     }
 }

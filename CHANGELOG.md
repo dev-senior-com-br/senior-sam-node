@@ -11,6 +11,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 -   Configurado CI/CD utilizando Github Actions.
 
+### Changed
+
+-   Ajustado padrões de projeto
+
 ## [1.1.0] - 2020-08-16
 
 ### Changed

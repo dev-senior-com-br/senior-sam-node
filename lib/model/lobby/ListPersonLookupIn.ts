@@ -1,4 +1,4 @@
-import { BaseModel } from "../BaseModel";
+import { BaseModel } from '../BaseModel';
 
 export = class ListPersonLookupIn extends BaseModel {
     /**
@@ -6,11 +6,11 @@ export = class ListPersonLookupIn extends BaseModel {
      */
     private _searchText: string;
     public set searchText(value: string) {
-        this._searchText = value;
+      this._searchText = value;
     }
 
     public get searchText() {
-        return this._searchText;
+      return this._searchText;
     }
 
     /**
@@ -18,22 +18,22 @@ export = class ListPersonLookupIn extends BaseModel {
      */
     private _documentTypeId: number;
     public set documentTypeId(value: number) {
-        this._documentTypeId = value;
+      this._documentTypeId = value;
     }
 
     public get documentTypeId() {
-        return this._documentTypeId;
+      return this._documentTypeId;
     }
 
     /**Quantidade de registros por página
      */
     private _size: number;
     public set size(value: number) {
-        this._size = value;
+      this._size = value;
     }
 
     public get size() {
-        return this._size;
+      return this._size;
     }
 
     /**
@@ -41,11 +41,11 @@ export = class ListPersonLookupIn extends BaseModel {
      */
     private _offset: number;
     public set offset(value: number) {
-        this._offset = value;
+      this._offset = value;
     }
 
     public get offset() {
-        return this._offset;
+      return this._offset;
     }
 
     /**
@@ -54,11 +54,11 @@ export = class ListPersonLookupIn extends BaseModel {
     private _orderby: string;
 
     public set orderby(value: string) {
-        this._orderby = value;
+      this._orderby = value;
     }
 
     public get orderby() {
-        return this._orderby;
+      return this._orderby;
     }
 
 }

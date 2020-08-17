@@ -2,17 +2,17 @@ enum StatusHistoric {
     /**
     * Futuro
     */
-    FUTURE = "FUTURE",
+    FUTURE = 'FUTURE',
 
     /**
      * Presente
      */
-    PRESENT = "PRESENT",
+    PRESENT = 'PRESENT',
 
     /**
      * Passado
      */
-    PAST = "PAST"
+    PAST = 'PAST'
 }
 
 export = StatusHistoric;

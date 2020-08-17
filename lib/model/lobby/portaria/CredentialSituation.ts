@@ -2,11 +2,11 @@ enum CredentialSituation {
     /**
      * Liberada
      */
-    RELEASED = "RELEASED",
+    RELEASED = 'RELEASED',
 
     /**
      * Bloqueada
      */
-    BLOCKED = "BLOCKED"
+    BLOCKED = 'BLOCKED'
 }
 export = CredentialSituation;

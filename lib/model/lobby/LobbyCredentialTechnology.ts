@@ -1,6 +1,6 @@
-import { BaseModel } from "../BaseModel";
-import LobbyEntity from "./LobbyEntity";
-import CardTechnology from "./CardTechnology";
+import { BaseModel } from '../BaseModel';
+import LobbyEntity from './LobbyEntity';
+import CardTechnology from './CardTechnology';
 
 export = class LobbyCredentialTechnology extends BaseModel {
     /**
@@ -8,11 +8,11 @@ export = class LobbyCredentialTechnology extends BaseModel {
      */
     private _id: number;
     public set id(value: number) {
-        this._id = value;
+      this._id = value;
     }
 
     public get id() {
-        return this._id;
+      return this._id;
     }
 
     /**
@@ -20,11 +20,11 @@ export = class LobbyCredentialTechnology extends BaseModel {
      */
     private _lobby: LobbyEntity;
     public set lobby(value: LobbyEntity) {
-        this._lobby = value;
+      this._lobby = value;
     }
 
     public get lobby() {
-        return this._lobby;
+      return this._lobby;
     }
 
     /**
@@ -32,11 +32,11 @@ export = class LobbyCredentialTechnology extends BaseModel {
      */
     private _cardTechnology: CardTechnology;
     public set cardTechnology(value: CardTechnology) {
-        this._cardTechnology = value;
+      this._cardTechnology = value;
     }
 
     public get cardTechnologyid() {
-        return this._cardTechnology;
+      return this._cardTechnology;
     }
 
 }

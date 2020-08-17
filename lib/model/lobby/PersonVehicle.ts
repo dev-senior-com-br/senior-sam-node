@@ -1,18 +1,18 @@
-import { BaseModel } from "../BaseModel";
-import Person from "./Person";
-import StatusHistoric from "./portaria/StatusHistoric";
+import { BaseModel } from '../BaseModel';
+import Person from './Person';
+import StatusHistoric from './portaria/StatusHistoric';
 
 export = class PersonVehicle extends BaseModel {
-     /**
+  /**
      * ID
      */
     private _id:number;
     public set id(value: number) {
-        this._id = value;
+      this._id = value;
     }
 
     public get id() {
-        return this._id;
+      return this._id;
     }
 
     /**
@@ -20,11 +20,11 @@ export = class PersonVehicle extends BaseModel {
      */
     private _person:Person;
     public set person(value: Person) {
-        this._person = value;
+      this._person = value;
     }
 
     public get person() {
-        return this._person;
+      return this._person;
     }
 
     /**
@@ -32,11 +32,11 @@ export = class PersonVehicle extends BaseModel {
      */
     private _startDate:Date;
     public set startDate(value: Date) {
-        this._startDate = value;
+      this._startDate = value;
     }
 
     public get startDate() {
-        return this._startDate;
+      return this._startDate;
     }
 
     /**
@@ -44,11 +44,11 @@ export = class PersonVehicle extends BaseModel {
      */
     private _endDate:Date;
     public set endDate(value: Date) {
-        this._endDate = value;
+      this._endDate = value;
     }
 
     public get endDate() {
-        return this._endDate;
+      return this._endDate;
     }
 
     /**
@@ -56,11 +56,11 @@ export = class PersonVehicle extends BaseModel {
      */
     private _status:StatusHistoric;
     public set status(value: StatusHistoric) {
-        this._status = value;
+      this._status = value;
     }
 
     public get status() {
-        return this._status;
+      return this._status;
     }
 
 }

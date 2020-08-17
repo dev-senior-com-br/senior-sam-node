@@ -1,6 +1,6 @@
-import { BaseModel } from "../BaseModel";
-import List from "../List";
-import { VirtualLobbyActionOutput, VirtualLobbyMovementType } from "../../..";
+import { BaseModel } from '../BaseModel';
+import List from '../List';
+import { VirtualLobbyActionOutput, VirtualLobbyMovementType } from '../../..';
 
 export = class VirtualLobbyAction extends BaseModel {
     /**
@@ -8,11 +8,11 @@ export = class VirtualLobbyAction extends BaseModel {
     */
     private _id: number;
     public set id(value: number) {
-        this._id = value;
+      this._id = value;
     }
 
     public get id() {
-        return this._id;
+      return this._id;
     }
 
     /**
@@ -20,11 +20,11 @@ export = class VirtualLobbyAction extends BaseModel {
      */
     private _name: string;
     public set name(value: string) {
-        this._name = value;
+      this._name = value;
     }
 
     public get name() {
-        return this._name;
+      return this._name;
     }
 
     /**
@@ -32,11 +32,11 @@ export = class VirtualLobbyAction extends BaseModel {
      */
     private _virtualLobbyMovementType: VirtualLobbyMovementType;
     public set virtualLobbyMovementType(value: VirtualLobbyMovementType) {
-        this._virtualLobbyMovementType = value;
+      this._virtualLobbyMovementType = value;
     }
 
     public get virtualLobbyMovementType() {
-        return this._virtualLobbyMovementType;
+      return this._virtualLobbyMovementType;
     }
 
     /**
@@ -44,21 +44,21 @@ export = class VirtualLobbyAction extends BaseModel {
      */
     private _isActive: boolean;
     public set isActive(value: boolean) {
-        this._isActive = value;
+      this._isActive = value;
     }
 
     public get isActive() {
-        return this._isActive;
+      return this._isActive;
     }
     /**
      * Saídas do Acionamento
      */
     private _outputs: List<VirtualLobbyActionOutput>;
     public set outputs(value: List<VirtualLobbyActionOutput>) {
-        this._outputs = value;
+      this._outputs = value;
     }
 
     public get outputs() {
-        return this._outputs;
+      return this._outputs;
     }    
 }

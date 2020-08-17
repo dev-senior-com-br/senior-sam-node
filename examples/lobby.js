@@ -1,8 +1,6 @@
 const Visitor = require('../dist/lib/model/lobby/Visitor');
 
-require('dotenv').config({
-    path: "../.env"
-});
+require('dotenv').config();
 
 var SAMApi = require('../dist/index').SAMApi;
 var ListPersonLookupIn = require('../dist/index').ListPersonLookupIn;

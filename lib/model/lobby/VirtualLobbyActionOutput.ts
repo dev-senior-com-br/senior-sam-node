@@ -1,5 +1,5 @@
-import { BaseModel } from "../BaseModel";
-import { Device, VirtualLobbyActionType } from "../../..";
+import { BaseModel } from '../BaseModel';
+import { Device, VirtualLobbyActionType } from '../../..';
 
 export = class VirtualLobbyActionOutput extends BaseModel {
     /**
@@ -7,11 +7,11 @@ export = class VirtualLobbyActionOutput extends BaseModel {
     */
     private _id: number;
     public set id(value: number) {
-        this._id = value;
+      this._id = value;
     }
 
     public get id() {
-        return this._id;
+      return this._id;
     }
 
     /**
@@ -19,11 +19,11 @@ export = class VirtualLobbyActionOutput extends BaseModel {
      */
     private _outputDevice: Device;
     public set outputDevice(value: Device) {
-        this._outputDevice = value;
+      this._outputDevice = value;
     }
 
     public get outputDevice() {
-        return this._outputDevice;
+      return this._outputDevice;
     }
 
     /**
@@ -31,11 +31,11 @@ export = class VirtualLobbyActionOutput extends BaseModel {
      */
     private _virtualLobbyActionType: VirtualLobbyActionType;
     public set virtualLobbyActionType(value: VirtualLobbyActionType) {
-        this._virtualLobbyActionType = value;
+      this._virtualLobbyActionType = value;
     }
 
     public get virtualLobbyActionType() {
-        return this._virtualLobbyActionType;
+      return this._virtualLobbyActionType;
     }
 
     /**
@@ -43,10 +43,10 @@ export = class VirtualLobbyActionOutput extends BaseModel {
      */
     private _actionTime: number;
     public set actionTime(value: number) {
-        this._actionTime = value;
+      this._actionTime = value;
     }
 
     public get actionTime() {
-        return this._actionTime;
+      return this._actionTime;
     }
 }

@@ -2,11 +2,11 @@ enum InputState {
     /**
      * Desligado
      */
-    INACTIVE = "INACTIVE",
+    INACTIVE = 'INACTIVE',
 
     /**
      * Ligado
      */
-    ACTIVE = "ACTIVE"
+    ACTIVE = 'ACTIVE'
 }
 export = InputState;

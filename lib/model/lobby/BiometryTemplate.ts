@@ -1,4 +1,4 @@
-import { BaseModel } from "../BaseModel";
+import { BaseModel } from '../BaseModel';
 
 export = class BiometryTemplate extends BaseModel {
     /**
@@ -6,11 +6,11 @@ export = class BiometryTemplate extends BaseModel {
      */
     private _id: number;
     public set id(value: number) {
-        this._id = value;
+      this._id = value;
     }
 
     public get id() {
-        return this._id;
+      return this._id;
     }
 
     /**
@@ -18,10 +18,10 @@ export = class BiometryTemplate extends BaseModel {
      */
     private _template:Int8Array;
     public set template(value: Int8Array) {
-        this._template = value;
+      this._template = value;
     }
 
     public get template() {
-        return this._template;
+      return this._template;
     }    
 }

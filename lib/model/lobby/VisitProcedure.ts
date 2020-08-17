@@ -1,6 +1,6 @@
-import { BaseModel } from "../BaseModel";
-import VisitType from "./VisitType";
-import { Procedure } from "../../..";
+import { BaseModel } from '../BaseModel';
+import VisitType from './VisitType';
+import { Procedure } from '../../..';
 
 export = class VisitProcedure extends BaseModel {
     /**
@@ -8,11 +8,11 @@ export = class VisitProcedure extends BaseModel {
      */
     private _id: number;
     public set id(value: number) {
-        this._id = value;
+      this._id = value;
     }
 
     public get id() {
-        return this._id;
+      return this._id;
     }
 
     /**
@@ -20,11 +20,11 @@ export = class VisitProcedure extends BaseModel {
      */
     private _visitType: VisitType;
     public set visitType(value: VisitType) {
-        this._visitType = value;
+      this._visitType = value;
     }
 
     public get visitType() {
-        return this._visitType;
+      return this._visitType;
     }
 
     /**
@@ -32,11 +32,11 @@ export = class VisitProcedure extends BaseModel {
      */
     private _procedure: Procedure;
     public set procedure(value: Procedure) {
-        this._procedure = value;
+      this._procedure = value;
     }
 
     public get procedure() {
-        return this._procedure;
+      return this._procedure;
     }
 
     /**
@@ -44,11 +44,11 @@ export = class VisitProcedure extends BaseModel {
      */
     private _required: boolean;
     public set required(value: boolean) {
-        this._required = value;
+      this._required = value;
     }
 
     public get requiredd() {
-        return this._required;
+      return this._required;
     }
 
     /**
@@ -56,11 +56,11 @@ export = class VisitProcedure extends BaseModel {
      */
     private _integratedWithGAS: boolean;
     public set integratedWithGAS(value: boolean) {
-        this._integratedWithGAS = value;
+      this._integratedWithGAS = value;
     }
 
     public getintegratedWithGAS() {
-        return this._integratedWithGAS;
+      return this._integratedWithGAS;
     }
 
 }

@@ -1,4 +1,4 @@
-import { CardTechnology } from "../../..";
+import { CardTechnology } from '../../..';
 
 export = class InformationCardCredentialRecord {
     /**
@@ -6,11 +6,11 @@ export = class InformationCardCredentialRecord {
      */
     private _id: number;
     public set id(value: number) {
-        this.id = value;
+      this.id = value;
     }
 
     public get id() {
-        return this._id;
+      return this._id;
     }
     
     /**
@@ -18,11 +18,11 @@ export = class InformationCardCredentialRecord {
      */
     private _cardTechnology: CardTechnology;
     public set cardTechnology(value: CardTechnology) {
-        this._cardTechnology = value;
+      this._cardTechnology = value;
     }
 
     public get cardTechnology() {
-        return this._cardTechnology;
+      return this._cardTechnology;
     }
 
     /**
@@ -30,11 +30,11 @@ export = class InformationCardCredentialRecord {
      */
     private _cardNumber: number;
     public set cardNumber(value: number) {
-        this._cardNumber = value;
+      this._cardNumber = value;
     }
 
     public get cardNumber() {
-        return this._cardNumber;
+      return this._cardNumber;
     }
 
     constructor(cardTechnology: CardTechnology, cardNumber: number) {    

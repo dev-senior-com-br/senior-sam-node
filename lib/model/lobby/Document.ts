@@ -1,18 +1,18 @@
-import { BaseModel } from "../BaseModel";
-import { Person, DocumentType } from "../../..";
+import { BaseModel } from '../BaseModel';
+import { Person, DocumentType } from '../../..';
 
 export = class Document extends BaseModel {
 
-    /**
+  /**
     * ID
     */
    private _id: number;
    public set id(value: number) {
-       this._id = value;
+     this._id = value;
    }
 
    public get id() {
-       return this._id;
+     return this._id;
    }
     
     /**
@@ -20,11 +20,11 @@ export = class Document extends BaseModel {
      */
     private _person: Person;
     public set person(value: Person) {
-        this._person = value;
+      this._person = value;
     }
 
     public get person() {
-        return this._person;
+      return this._person;
     }
 
     /**
@@ -36,5 +36,5 @@ export = class Document extends BaseModel {
     /**
      * Documento
      */
-    private _document: String;
+    private _document: string;
 }

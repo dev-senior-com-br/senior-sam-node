@@ -1,17 +1,17 @@
-import { BaseModel } from "../BaseModel";
-import { Incident } from "../../..";
+import { BaseModel } from '../BaseModel';
+import { Incident } from '../../..';
 
 export = class IncidentViewed extends BaseModel {
-    /**
+  /**
     * ID
     */
    private _id: number;
    public set id(value: number) {
-       this._id = value;
+     this._id = value;
    }
 
    public get id() {
-       return this._id;
+     return this._id;
    }
 
     /**
@@ -19,11 +19,11 @@ export = class IncidentViewed extends BaseModel {
      */
     private _incident:Incident;
     public set incident(value: Incident) {
-        this._incident = value;
+      this._incident = value;
     }
  
     public get incident() {
-        return this._incident;
+      return this._incident;
     }
 
     /**
@@ -31,10 +31,10 @@ export = class IncidentViewed extends BaseModel {
      */
     private _viewedDate:Date;
     public set viewedDate(value: Date) {
-        this._viewedDate = value;
+      this._viewedDate = value;
     }
  
     public get viewedDate() {
-        return this._viewedDate;
+      return this._viewedDate;
     }
 }

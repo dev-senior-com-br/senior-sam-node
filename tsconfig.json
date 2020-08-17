@@ -1,19 +1,20 @@
 {
     "compilerOptions": {
         "outDir": "./dist",
-        "allowJs": true,
-        "target": "es5",
+        "target": "ES6",
+        "module": "commonjs",
         "allowSyntheticDefaultImports": true,
-        "esModuleInterop": true,
         "sourceMap": true,
-        "types": [
-            "node"
-        ],
-        "skipLibCheck": true
+        "esModuleInterop": true,
+        "declaration": true,
+        "baseUrl": "./",
+        "paths": {
+            "@seniorsistemas/senior-sam": ["./dist"],
+            "@seniorsistemas/senior-sam/*": ["./dist/*"]
+        }
     },
     "include": [
         "./lib/**/*",
         "./index.ts"
-    ],
-    "exclude": ["node_modules", "**/__tests__/*"]
+    ]
 }

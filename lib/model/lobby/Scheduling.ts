@@ -1,8 +1,8 @@
-import { BaseModel } from "../BaseModel";
-import Visitor from "./Visitor";
-import List from "../List";
-import { VisitType, PhysicalLocation, VisitedPerson, SchedulingResource, VisitSituation } from "../../..";
-import LobbyEntity from "./LobbyEntity";
+import { BaseModel } from '../BaseModel';
+import Visitor from './Visitor';
+import List from '../List';
+import { VisitType, PhysicalLocation, VisitedPerson, SchedulingResource, VisitSituation } from '../../..';
+import LobbyEntity from './LobbyEntity';
 
 export = class Scheduling extends BaseModel {
     /**
@@ -10,11 +10,11 @@ export = class Scheduling extends BaseModel {
      */
     private _id : number;
     public set id(value: number) {
-        this._id = value;
+      this._id = value;
     }
 
     public get id() {
-        return this._id;
+      return this._id;
     }
 
     /**
@@ -22,11 +22,11 @@ export = class Scheduling extends BaseModel {
      */
     private _title : string;
     public set title(value: string) {
-        this._title = value;
+      this._title = value;
     }
 
     public get title() {
-        return this._title;
+      return this._title;
     }
 
     /**
@@ -34,11 +34,11 @@ export = class Scheduling extends BaseModel {
      */
     private _expectedStartDate : Date;
     public set expectedStartDate(value: Date) {
-        this._expectedStartDate = value;
+      this._expectedStartDate = value;
     }
 
     public get expectedStartDate() {
-        return this._expectedStartDate;
+      return this._expectedStartDate;
     }
 
     /**
@@ -46,11 +46,11 @@ export = class Scheduling extends BaseModel {
      */
     private _expectedEndDate : Date;
     public set expectedEndDate(value: Date) {
-        this._expectedEndDate = value;
+      this._expectedEndDate = value;
     }
 
     public get expectedEndDate() {
-        return this._expectedEndDate;
+      return this._expectedEndDate;
     }
 
     /**
@@ -58,11 +58,11 @@ export = class Scheduling extends BaseModel {
      */
     private _visitType : VisitType;
     public set visitType(value: VisitType) {
-        this._visitType = value;
+      this._visitType = value;
     }
 
     public get visitType() {
-        return this._visitType;
+      return this._visitType;
     }
 
     /**
@@ -70,11 +70,11 @@ export = class Scheduling extends BaseModel {
      */
     private _physicalLocation : PhysicalLocation;
     public set physicalLocation(value: PhysicalLocation) {
-        this._physicalLocation = value;
+      this._physicalLocation = value;
     }
 
     public get physicalLocation() {
-        return this._physicalLocation;
+      return this._physicalLocation;
     }
 
     /**
@@ -82,11 +82,11 @@ export = class Scheduling extends BaseModel {
      */
     private _visitedPeople : VisitedPerson;
     public set visitedPeople(value: VisitedPerson) {
-        this._visitedPeople = value;
+      this._visitedPeople = value;
     }
 
     public get visitedPeople() {
-        return this._visitedPeople;
+      return this._visitedPeople;
     }
 
     /**
@@ -94,11 +94,11 @@ export = class Scheduling extends BaseModel {
      */
     private _visitors : List<Visitor>;
     public set visitors(value: List<Visitor>) {
-        this._visitors = value;
+      this._visitors = value;
     }
 
     public get visitors() {
-        return this._visitors;
+      return this._visitors;
     }
 
     /**
@@ -106,11 +106,11 @@ export = class Scheduling extends BaseModel {
      */
     private _schedulingResources : SchedulingResource;
     public set schedulingResources(value: SchedulingResource) {
-        this._schedulingResources = value;
+      this._schedulingResources = value;
     }
 
     public get schedulingResources() {
-        return this._schedulingResources;
+      return this._schedulingResources;
     }
 
     /**
@@ -118,11 +118,11 @@ export = class Scheduling extends BaseModel {
      */
     private _visitSituation : VisitSituation;
     public set visitSituation(value: VisitSituation) {
-        this._visitSituation = value;
+      this._visitSituation = value;
     }
 
     public get visitSituation() {
-        return this._visitSituation;
+      return this._visitSituation;
     }
 
     /**
@@ -130,11 +130,11 @@ export = class Scheduling extends BaseModel {
      */
     private _lobby : LobbyEntity;
     public set lobby(value: LobbyEntity) {
-        this._lobby = value;
+      this._lobby = value;
     }
 
     public get lobby() {
-        return this._lobby;
+      return this._lobby;
     }
 
 }

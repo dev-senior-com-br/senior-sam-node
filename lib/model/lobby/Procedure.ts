@@ -1,4 +1,4 @@
-import { BaseModel } from "../BaseModel"
+import { BaseModel } from '../BaseModel';
 
 export = class Procedure extends BaseModel {
     /**
@@ -6,11 +6,11 @@ export = class Procedure extends BaseModel {
      */
     private _id: number;
     public set id(value: number) {
-        this._id = value;
+      this._id = value;
     }
 
     public get id() {
-        return this._id;
+      return this._id;
     }
 
     /**
@@ -18,11 +18,11 @@ export = class Procedure extends BaseModel {
      */
     private _name: string;
     public set name(value: string) {
-        this._name = value;
+      this._name = value;
     }
 
     public get name() {
-        return this._name;
+      return this._name;
     }
 
     /**
@@ -30,11 +30,11 @@ export = class Procedure extends BaseModel {
      */
     private _description: string;
     public set description(value: string) {
-        this._description = value;
+      this._description = value;
     }
 
     public get description() {
-        return this._description;
+      return this._description;
     }
 
     /**
@@ -42,11 +42,11 @@ export = class Procedure extends BaseModel {
      */
     private _validityDays: number;
     public set validityDays(value: number) {
-        this._validityDays = value;
+      this._validityDays = value;
     }
 
     public get validityDays() {
-        return this._validityDays;
+      return this._validityDays;
     }
 
     /**
@@ -54,10 +54,10 @@ export = class Procedure extends BaseModel {
      */
     private _integratedWithGAS: boolean;
     public set integratedWithGAS(value: boolean) {
-        this._integratedWithGAS = value;
+      this._integratedWithGAS = value;
     }
 
     public get integratedWithGAS() {
-        return this._integratedWithGAS;
+      return this._integratedWithGAS;
     }
 }

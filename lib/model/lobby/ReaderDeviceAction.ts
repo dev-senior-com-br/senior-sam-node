@@ -1,6 +1,6 @@
-import { BaseModel } from "../BaseModel";
-import { AccessType } from "../../..";
-import OutputDevice from "./OutputDevice";
+import { BaseModel } from '../BaseModel';
+import { AccessType } from '../../..';
+import OutputDevice from './OutputDevice';
 
 export = class ReaderDeviceAction extends BaseModel {
     /**
@@ -8,11 +8,11 @@ export = class ReaderDeviceAction extends BaseModel {
     */
     private _id: number;
     public set id(value: number) {
-        this._id = value;
+      this._id = value;
     }
 
     public get id() {
-        return this._id;
+      return this._id;
     }
 
     /**
@@ -20,11 +20,11 @@ export = class ReaderDeviceAction extends BaseModel {
      */
     private _outputDevice: OutputDevice;
     public set outputDevice(value: OutputDevice) {
-        this._outputDevice = value;
+      this._outputDevice = value;
     }
 
     public get outputDevice() {
-        return this._outputDevice;
+      return this._outputDevice;
     }
 
     /**
@@ -32,11 +32,11 @@ export = class ReaderDeviceAction extends BaseModel {
      */
     private _accessType: AccessType;
     public set accessType(value: AccessType) {
-        this._accessType = value;
+      this._accessType = value;
     }
 
     public get accessType() {
-        return this._accessType;
+      return this._accessType;
     }
 
     /**
@@ -44,10 +44,10 @@ export = class ReaderDeviceAction extends BaseModel {
      */
     private _activationTime: number;
     public set activationTime(value: number) {
-        this._activationTime = value;
+      this._activationTime = value;
     }
 
     public get activationTime() {
-        return this._activationTime;
+      return this._activationTime;
     }
 }

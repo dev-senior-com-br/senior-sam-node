@@ -2,11 +2,11 @@ enum PersonSituationType {
     /**
      * Ativa
      */
-    ACTIVE = "ACTIVE",
+    ACTIVE = 'ACTIVE',
     
     /**
      * Bloqueada
      */
-    BLOCKED = "BLOCKED"
+    BLOCKED = 'BLOCKED'
 }
 export = PersonSituationType;

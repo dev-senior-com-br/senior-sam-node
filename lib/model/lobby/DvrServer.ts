@@ -1,5 +1,5 @@
-import { BaseModel } from "../BaseModel";
-import { DvrServerType } from "../../..";
+import { BaseModel } from '../BaseModel';
+import { DvrServerType } from '../../..';
 
 export = class DvrServer extends BaseModel {
     /**
@@ -7,11 +7,11 @@ export = class DvrServer extends BaseModel {
      */
     private _id: number;
     public set id(value: number) {
-        this._id = value;
+      this._id = value;
     }
 
     public get id() {
-        return this._id;
+      return this._id;
     }
 
     /**
@@ -19,23 +19,23 @@ export = class DvrServer extends BaseModel {
      */
     private _name:string;
     public set name(value: string) {
-        this._name = value;
+      this._name = value;
     }
 
     public get name() {
-        return this._name;
+      return this._name;
     }
 
-     /**
+    /**
      * Tipo do Servidor DVR
      */
     private _dvrServerType:DvrServerType;
     public set dvrServerType(value: DvrServerType) {
-        this._dvrServerType = value;
+      this._dvrServerType = value;
     }
 
     public get dvrServerType() {
-        return this._dvrServerType;
+      return this._dvrServerType;
     }
 
     /**
@@ -43,11 +43,11 @@ export = class DvrServer extends BaseModel {
      */
     private _user:string;
     public set user(value: string) {
-        this._user = value;
+      this._user = value;
     }
 
     public get user() {
-        return this._user;
+      return this._user;
     }
 
     /**
@@ -55,11 +55,11 @@ export = class DvrServer extends BaseModel {
      */
     private _password:string;
     public set password(value: string) {
-        this._password = value;
+      this._password = value;
     }
 
     public get password() {
-        return this._password;
+      return this._password;
     }
 
     /**
@@ -67,11 +67,11 @@ export = class DvrServer extends BaseModel {
      */
     private _host:string;
     public set host(value: string) {
-        this._host = value;
+      this._host = value;
     }
 
     public get host() {
-        return this._host;
+      return this._host;
     }
 
     /**
@@ -79,11 +79,11 @@ export = class DvrServer extends BaseModel {
      */
     private _port:number
     public set port(value: number) {
-        this._port = value;
+      this._port = value;
     }
 
     public get port() {
-        return this._port;
+      return this._port;
     }
 
     /**
@@ -91,11 +91,11 @@ export = class DvrServer extends BaseModel {
      */
     private _networkDomain:string;
     public set networkDomain(value: string) {
-        this._networkDomain = value;
+      this._networkDomain = value;
     }
 
     public get networkDomain() {
-        return this._networkDomain;
+      return this._networkDomain;
     }
 
     /**
@@ -103,11 +103,11 @@ export = class DvrServer extends BaseModel {
      */
     private _serverId:string;
     public set serverId(value: string) {
-        this._serverId = value;
+      this._serverId = value;
     }
 
     public get serverId() {
-        return this._serverId;
+      return this._serverId;
     }
 
     /**
@@ -115,10 +115,10 @@ export = class DvrServer extends BaseModel {
      */
     private _urlPrefix:string;
     public set urlPrefix(value: string) {
-        this._urlPrefix = value;
+      this._urlPrefix = value;
     }
 
     public get urlPrefix() {
-        return this._urlPrefix;
+      return this._urlPrefix;
     }
 }

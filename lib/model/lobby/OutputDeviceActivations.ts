@@ -1,4 +1,4 @@
-import { BaseModel } from "../BaseModel";
+import { BaseModel } from '../BaseModel';
 
 export = class OutputDeviceActivations extends BaseModel {
     /**
@@ -6,11 +6,11 @@ export = class OutputDeviceActivations extends BaseModel {
      */
     private _id: number;
     private set id(value: number) {
-        this._id = value;
+      this._id = value;
     }
 
     private get id() {
-        return this._id;
+      return this._id;
     }
 
     /**
@@ -18,10 +18,10 @@ export = class OutputDeviceActivations extends BaseModel {
      */
     private _activationTime: number;
     private set activationTime(value: number) {
-        this._activationTime = value;
+      this._activationTime = value;
     }
 
     private get activationTime() {
-        return this._activationTime;
+      return this._activationTime;
     }
 }

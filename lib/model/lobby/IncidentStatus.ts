@@ -2,21 +2,21 @@ enum IncidentStatus {
   /**
      * Pendente
      */
-    PENDING = "PENDING",
+    PENDING = 'PENDING',
 
     /**
      * Em Progresso
      */
-    IN_PROGRESS = "IN_PROGRESS",
+    IN_PROGRESS = 'IN_PROGRESS',
 
     /**
      * Parado
      */
-    STOPPED = "STOPPED",
+    STOPPED = 'STOPPED',
 
     /**
      * Finalizado
      */
-    DONE = "DONE"
+    DONE = 'DONE'
 }
 export = IncidentStatus;

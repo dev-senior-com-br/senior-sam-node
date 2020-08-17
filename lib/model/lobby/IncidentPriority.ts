@@ -2,26 +2,26 @@ enum IncidentPriority {
     /**
      * Planejada
      */
-    PLANNED = "PLANNED",
+    PLANNED = 'PLANNED',
 
     /**
      * Baixa
      */
-    LOW = "LOW",
+    LOW = 'LOW',
 
     /**
      * Média
      */
-    MEDIUM = "MEDIUM",
+    MEDIUM = 'MEDIUM',
 
     /**
      * Alta
      */
-    HIGH = "HIGH",
+    HIGH = 'HIGH',
 
     /**
      * Crítica
      */
-    CRITICAL = "CRITICAL"
+    CRITICAL = 'CRITICAL'
 }
 export = IncidentPriority;
