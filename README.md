@@ -110,10 +110,12 @@ String filter = new FilterBuilder().field("id").equals("60B3957C72C44E00A9739451
 ## Obtendo versão de distribuição
 Última versão disponível em [https://www.npmjs.com/package/@seniorsistemas/senior-sam](https://www.npmjs.com/package/@seniorsistemas/senior-sam)
 
+## [Guia de contribuição](https://dev.senior.com.br/guia-de-contribuicao/)
+
 ## Suporte
 
 Criar uma issue [https://github.com/dev-senior-com-br/senior-sam-node/issues](https://github.com/dev-senior-com-br/senior-sam-node/issues)
 
-### License
+## License
 
 Copyright © 2020.
