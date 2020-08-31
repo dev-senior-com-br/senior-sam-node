@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
--   Geração automática das entidades do sam/application
+-   Criação dos POJOs das entidades do `sam/application`
 
 ## [1.1.1] - 2020-08-17
 
