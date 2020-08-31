@@ -14,7 +14,7 @@
 export type BiometricOneToOneValidationType = 'NONE' | 'OPTIONAL' | 'REQUIRED';
 
 export const BiometricOneToOneValidationType = {
-    NONE: 'NONE' as BiometricOneToOneValidationType,
-    OPTIONAL: 'OPTIONAL' as BiometricOneToOneValidationType,
-    REQUIRED: 'REQUIRED' as BiometricOneToOneValidationType
+  NONE: 'NONE' as BiometricOneToOneValidationType,
+  OPTIONAL: 'OPTIONAL' as BiometricOneToOneValidationType,
+  REQUIRED: 'REQUIRED' as BiometricOneToOneValidationType
 };

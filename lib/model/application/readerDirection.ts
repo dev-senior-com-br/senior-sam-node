@@ -14,7 +14,7 @@
 export type ReaderDirection = 'EXIT' | 'ENTRANCE' | 'BOTH';
 
 export const ReaderDirection = {
-    EXIT: 'EXIT' as ReaderDirection,
-    ENTRANCE: 'ENTRANCE' as ReaderDirection,
-    BOTH: 'BOTH' as ReaderDirection
+  EXIT: 'EXIT' as ReaderDirection,
+  ENTRANCE: 'ENTRANCE' as ReaderDirection,
+  BOTH: 'BOTH' as ReaderDirection
 };

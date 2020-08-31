@@ -14,8 +14,8 @@
 export type DvrServerType = 'DIGIFORT' | 'CAMERITE' | 'MILESTONE' | 'AXXON';
 
 export const DvrServerType = {
-    DIGIFORT: 'DIGIFORT' as DvrServerType,
-    CAMERITE: 'CAMERITE' as DvrServerType,
-    MILESTONE: 'MILESTONE' as DvrServerType,
-    AXXON: 'AXXON' as DvrServerType
+  DIGIFORT: 'DIGIFORT' as DvrServerType,
+  CAMERITE: 'CAMERITE' as DvrServerType,
+  MILESTONE: 'MILESTONE' as DvrServerType,
+  AXXON: 'AXXON' as DvrServerType
 };

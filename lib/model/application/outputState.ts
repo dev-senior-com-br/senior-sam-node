@@ -14,6 +14,6 @@
 export type OutputState = 'INACTIVE' | 'ACTIVE';
 
 export const OutputState = {
-    INACTIVE: 'INACTIVE' as OutputState,
-    ACTIVE: 'ACTIVE' as OutputState
+  INACTIVE: 'INACTIVE' as OutputState,
+  ACTIVE: 'ACTIVE' as OutputState
 };

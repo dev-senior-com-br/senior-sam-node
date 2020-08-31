@@ -14,6 +14,6 @@
 export type CredentialType = 'HOLDER' | 'PROVISORY';
 
 export const CredentialType = {
-    HOLDER: 'HOLDER' as CredentialType,
-    PROVISORY: 'PROVISORY' as CredentialType
+  HOLDER: 'HOLDER' as CredentialType,
+  PROVISORY: 'PROVISORY' as CredentialType
 };

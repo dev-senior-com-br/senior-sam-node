@@ -14,7 +14,7 @@
 export type VirtualLobbyActionType = 'DISABLE_ACTION' | 'ENABLE_ACTION' | 'ENABLE_ACTION_WITH_TIMEOUT';
 
 export const VirtualLobbyActionType = {
-    DISABLEACTION: 'DISABLE_ACTION' as VirtualLobbyActionType,
-    ENABLEACTION: 'ENABLE_ACTION' as VirtualLobbyActionType,
-    ENABLEACTIONWITHTIMEOUT: 'ENABLE_ACTION_WITH_TIMEOUT' as VirtualLobbyActionType
+  DISABLEACTION: 'DISABLE_ACTION' as VirtualLobbyActionType,
+  ENABLEACTION: 'ENABLE_ACTION' as VirtualLobbyActionType,
+  ENABLEACTIONWITHTIMEOUT: 'ENABLE_ACTION_WITH_TIMEOUT' as VirtualLobbyActionType
 };

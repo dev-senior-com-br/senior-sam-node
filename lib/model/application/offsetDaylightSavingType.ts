@@ -14,7 +14,7 @@
 export type OffsetDaylightSavingType = 'NONE_OFFSET' | 'MINUS_ONE_HOUR' | 'PLUS_ONE_HOUR';
 
 export const OffsetDaylightSavingType = {
-    NONEOFFSET: 'NONE_OFFSET' as OffsetDaylightSavingType,
-    MINUSONEHOUR: 'MINUS_ONE_HOUR' as OffsetDaylightSavingType,
-    PLUSONEHOUR: 'PLUS_ONE_HOUR' as OffsetDaylightSavingType
+  NONEOFFSET: 'NONE_OFFSET' as OffsetDaylightSavingType,
+  MINUSONEHOUR: 'MINUS_ONE_HOUR' as OffsetDaylightSavingType,
+  PLUSONEHOUR: 'PLUS_ONE_HOUR' as OffsetDaylightSavingType
 };

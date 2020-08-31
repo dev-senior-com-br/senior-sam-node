@@ -14,6 +14,6 @@
 export type DeviceCommunicationStatus = 'OFFLINE' | 'ONLINE';
 
 export const DeviceCommunicationStatus = {
-    OFFLINE: 'OFFLINE' as DeviceCommunicationStatus,
-    ONLINE: 'ONLINE' as DeviceCommunicationStatus
+  OFFLINE: 'OFFLINE' as DeviceCommunicationStatus,
+  ONLINE: 'ONLINE' as DeviceCommunicationStatus
 };

@@ -14,6 +14,6 @@
 export type PhysicalLocationStatus = 'DISABLED' | 'ENABLED';
 
 export const PhysicalLocationStatus = {
-    DISABLED: 'DISABLED' as PhysicalLocationStatus,
-    ENABLED: 'ENABLED' as PhysicalLocationStatus
+  DISABLED: 'DISABLED' as PhysicalLocationStatus,
+  ENABLED: 'ENABLED' as PhysicalLocationStatus
 };

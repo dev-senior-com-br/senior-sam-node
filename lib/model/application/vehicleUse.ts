@@ -14,7 +14,7 @@
 export type VehicleUse = 'PRIVATE_USE' | 'COMMON_USE' | 'FREE_USE';
 
 export const VehicleUse = {
-    PRIVATEUSE: 'PRIVATE_USE' as VehicleUse,
-    COMMONUSE: 'COMMON_USE' as VehicleUse,
-    FREEUSE: 'FREE_USE' as VehicleUse
+  PRIVATEUSE: 'PRIVATE_USE' as VehicleUse,
+  COMMONUSE: 'COMMON_USE' as VehicleUse,
+  FREEUSE: 'FREE_USE' as VehicleUse
 };

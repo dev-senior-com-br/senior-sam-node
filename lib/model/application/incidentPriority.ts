@@ -14,9 +14,9 @@
 export type IncidentPriority = 'PLANNED' | 'LOW' | 'MEDIUM' | 'HIGH' | 'CRITICAL';
 
 export const IncidentPriority = {
-    PLANNED: 'PLANNED' as IncidentPriority,
-    LOW: 'LOW' as IncidentPriority,
-    MEDIUM: 'MEDIUM' as IncidentPriority,
-    HIGH: 'HIGH' as IncidentPriority,
-    CRITICAL: 'CRITICAL' as IncidentPriority
+  PLANNED: 'PLANNED' as IncidentPriority,
+  LOW: 'LOW' as IncidentPriority,
+  MEDIUM: 'MEDIUM' as IncidentPriority,
+  HIGH: 'HIGH' as IncidentPriority,
+  CRITICAL: 'CRITICAL' as IncidentPriority
 };

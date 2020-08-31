@@ -14,9 +14,9 @@
 export type CredentialFormat = 'CARD' | 'BIOMETRY' | 'LICENSE_PLATE' | 'QRCODE' | 'BLUETOOTH';
 
 export const CredentialFormat = {
-    CARD: 'CARD' as CredentialFormat,
-    BIOMETRY: 'BIOMETRY' as CredentialFormat,
-    LICENSEPLATE: 'LICENSE_PLATE' as CredentialFormat,
-    QRCODE: 'QRCODE' as CredentialFormat,
-    BLUETOOTH: 'BLUETOOTH' as CredentialFormat
+  CARD: 'CARD' as CredentialFormat,
+  BIOMETRY: 'BIOMETRY' as CredentialFormat,
+  LICENSEPLATE: 'LICENSE_PLATE' as CredentialFormat,
+  QRCODE: 'QRCODE' as CredentialFormat,
+  BLUETOOTH: 'BLUETOOTH' as CredentialFormat
 };

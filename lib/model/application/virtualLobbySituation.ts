@@ -14,6 +14,6 @@
 export type VirtualLobbySituation = 'INACTIVE' | 'ACTIVE';
 
 export const VirtualLobbySituation = {
-    INACTIVE: 'INACTIVE' as VirtualLobbySituation,
-    ACTIVE: 'ACTIVE' as VirtualLobbySituation
+  INACTIVE: 'INACTIVE' as VirtualLobbySituation,
+  ACTIVE: 'ACTIVE' as VirtualLobbySituation
 };

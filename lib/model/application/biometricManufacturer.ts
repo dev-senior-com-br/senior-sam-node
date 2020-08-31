@@ -14,13 +14,13 @@
 export type BiometricManufacturer = 'NONE' | 'FINGERPRINT_SAGEM' | 'FINGERPRINT_SUPREMA' | 'FINGERPRINT_VIRDI' | 'FINGERPRINT_NITGEN' | 'FINGERPRINT_CAMA' | 'FINGERPRINT_INNOVATRICS' | 'HANDKEY_IR' | 'FACIAL';
 
 export const BiometricManufacturer = {
-    NONE: 'NONE' as BiometricManufacturer,
-    FINGERPRINTSAGEM: 'FINGERPRINT_SAGEM' as BiometricManufacturer,
-    FINGERPRINTSUPREMA: 'FINGERPRINT_SUPREMA' as BiometricManufacturer,
-    FINGERPRINTVIRDI: 'FINGERPRINT_VIRDI' as BiometricManufacturer,
-    FINGERPRINTNITGEN: 'FINGERPRINT_NITGEN' as BiometricManufacturer,
-    FINGERPRINTCAMA: 'FINGERPRINT_CAMA' as BiometricManufacturer,
-    FINGERPRINTINNOVATRICS: 'FINGERPRINT_INNOVATRICS' as BiometricManufacturer,
-    HANDKEYIR: 'HANDKEY_IR' as BiometricManufacturer,
-    FACIAL: 'FACIAL' as BiometricManufacturer
+  NONE: 'NONE' as BiometricManufacturer,
+  FINGERPRINTSAGEM: 'FINGERPRINT_SAGEM' as BiometricManufacturer,
+  FINGERPRINTSUPREMA: 'FINGERPRINT_SUPREMA' as BiometricManufacturer,
+  FINGERPRINTVIRDI: 'FINGERPRINT_VIRDI' as BiometricManufacturer,
+  FINGERPRINTNITGEN: 'FINGERPRINT_NITGEN' as BiometricManufacturer,
+  FINGERPRINTCAMA: 'FINGERPRINT_CAMA' as BiometricManufacturer,
+  FINGERPRINTINNOVATRICS: 'FINGERPRINT_INNOVATRICS' as BiometricManufacturer,
+  HANDKEYIR: 'HANDKEY_IR' as BiometricManufacturer,
+  FACIAL: 'FACIAL' as BiometricManufacturer
 };

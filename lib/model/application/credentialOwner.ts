@@ -14,6 +14,6 @@
 export type CredentialOwner = 'PERSON' | 'VEHICLE';
 
 export const CredentialOwner = {
-    PERSON: 'PERSON' as CredentialOwner,
-    VEHICLE: 'VEHICLE' as CredentialOwner
+  PERSON: 'PERSON' as CredentialOwner,
+  VEHICLE: 'VEHICLE' as CredentialOwner
 };

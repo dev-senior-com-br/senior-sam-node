@@ -14,6 +14,6 @@
 export type DeviceSituation = 'INACTIVE' | 'ACTIVE';
 
 export const DeviceSituation = {
-    INACTIVE: 'INACTIVE' as DeviceSituation,
-    ACTIVE: 'ACTIVE' as DeviceSituation
+  INACTIVE: 'INACTIVE' as DeviceSituation,
+  ACTIVE: 'ACTIVE' as DeviceSituation
 };

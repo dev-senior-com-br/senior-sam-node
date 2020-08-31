@@ -14,6 +14,6 @@
 export type CredentialSituation = 'RELEASED' | 'BLOCKED';
 
 export const CredentialSituation = {
-    RELEASED: 'RELEASED' as CredentialSituation,
-    BLOCKED: 'BLOCKED' as CredentialSituation
+  RELEASED: 'RELEASED' as CredentialSituation,
+  BLOCKED: 'BLOCKED' as CredentialSituation
 };

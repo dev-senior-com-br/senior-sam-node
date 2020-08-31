@@ -14,6 +14,6 @@
 export type AccessType = 'ACCESS_VALID' | 'ACCESS_DENIED';
 
 export const AccessType = {
-    VALID: 'ACCESS_VALID' as AccessType,
-    DENIED: 'ACCESS_DENIED' as AccessType
+  VALID: 'ACCESS_VALID' as AccessType,
+  DENIED: 'ACCESS_DENIED' as AccessType
 };

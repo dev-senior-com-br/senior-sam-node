@@ -14,10 +14,10 @@
 export type ReaderValidationType = 'BLOCK_ACCESS' | 'CARD' | 'CARD_OR_PIN' | 'CARD_AND_PIN' | 'ALLOW_ACCESS' | 'FACILITY_CODE';
 
 export const ReaderValidationType = {
-    BLOCKACCESS: 'BLOCK_ACCESS' as ReaderValidationType,
-    CARD: 'CARD' as ReaderValidationType,
-    CARDORPIN: 'CARD_OR_PIN' as ReaderValidationType,
-    CARDANDPIN: 'CARD_AND_PIN' as ReaderValidationType,
-    ALLOWACCESS: 'ALLOW_ACCESS' as ReaderValidationType,
-    FACILITYCODE: 'FACILITY_CODE' as ReaderValidationType
+  BLOCKACCESS: 'BLOCK_ACCESS' as ReaderValidationType,
+  CARD: 'CARD' as ReaderValidationType,
+  CARDORPIN: 'CARD_OR_PIN' as ReaderValidationType,
+  CARDANDPIN: 'CARD_AND_PIN' as ReaderValidationType,
+  ALLOWACCESS: 'ALLOW_ACCESS' as ReaderValidationType,
+  FACILITYCODE: 'FACILITY_CODE' as ReaderValidationType
 };

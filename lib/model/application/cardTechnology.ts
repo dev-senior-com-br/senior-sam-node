@@ -14,8 +14,8 @@
 export type CardTechnology = 'NONE' | 'BARCODE_CARD' | 'RFID_CARD' | 'SMART_CARD';
 
 export const CardTechnology = {
-    NONE: 'NONE' as CardTechnology,
-    BARCODECARD: 'BARCODE_CARD' as CardTechnology,
-    RFIDCARD: 'RFID_CARD' as CardTechnology,
-    SMARTCARD: 'SMART_CARD' as CardTechnology
+  NONE: 'NONE' as CardTechnology,
+  BARCODECARD: 'BARCODE_CARD' as CardTechnology,
+  RFIDCARD: 'RFID_CARD' as CardTechnology,
+  SMARTCARD: 'SMART_CARD' as CardTechnology
 };

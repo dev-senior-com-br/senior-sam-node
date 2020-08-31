@@ -14,7 +14,7 @@
 export type ValidationSetup = 'DISABLED' | 'ENABLED' | 'NOT_CONFIGURED';
 
 export const ValidationSetup = {
-    DISABLED: 'DISABLED' as ValidationSetup,
-    ENABLED: 'ENABLED' as ValidationSetup,
-    NOTCONFIGURED: 'NOT_CONFIGURED' as ValidationSetup
+  DISABLED: 'DISABLED' as ValidationSetup,
+  ENABLED: 'ENABLED' as ValidationSetup,
+  NOTCONFIGURED: 'NOT_CONFIGURED' as ValidationSetup
 };

@@ -14,15 +14,15 @@
 export type VehicleColor = 'UNDEFINED' | 'BLACK' | 'WHITE' | 'SILVER' | 'RED' | 'GREY' | 'BLUE' | 'YELLOW' | 'GREEN' | 'ORANGE' | 'OTHERS';
 
 export const VehicleColor = {
-    UNDEFINED: 'UNDEFINED' as VehicleColor,
-    BLACK: 'BLACK' as VehicleColor,
-    WHITE: 'WHITE' as VehicleColor,
-    SILVER: 'SILVER' as VehicleColor,
-    RED: 'RED' as VehicleColor,
-    GREY: 'GREY' as VehicleColor,
-    BLUE: 'BLUE' as VehicleColor,
-    YELLOW: 'YELLOW' as VehicleColor,
-    GREEN: 'GREEN' as VehicleColor,
-    ORANGE: 'ORANGE' as VehicleColor,
-    OTHERS: 'OTHERS' as VehicleColor
+  UNDEFINED: 'UNDEFINED' as VehicleColor,
+  BLACK: 'BLACK' as VehicleColor,
+  WHITE: 'WHITE' as VehicleColor,
+  SILVER: 'SILVER' as VehicleColor,
+  RED: 'RED' as VehicleColor,
+  GREY: 'GREY' as VehicleColor,
+  BLUE: 'BLUE' as VehicleColor,
+  YELLOW: 'YELLOW' as VehicleColor,
+  GREEN: 'GREEN' as VehicleColor,
+  ORANGE: 'ORANGE' as VehicleColor,
+  OTHERS: 'OTHERS' as VehicleColor
 };

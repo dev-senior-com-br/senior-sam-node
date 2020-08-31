@@ -14,7 +14,7 @@
 export type Gender = 'UNKNOWN' | 'MALE' | 'FEMALE';
 
 export const Gender = {
-    UNKNOWN: 'UNKNOWN' as Gender,
-    MALE: 'MALE' as Gender,
-    FEMALE: 'FEMALE' as Gender
+  UNKNOWN: 'UNKNOWN' as Gender,
+  MALE: 'MALE' as Gender,
+  FEMALE: 'FEMALE' as Gender
 };

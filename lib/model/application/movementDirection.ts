@@ -14,6 +14,6 @@
 export type MovementDirection = 'EXIT' | 'ENTRANCE';
 
 export const MovementDirection = {
-    EXIT: 'EXIT' as MovementDirection,
-    ENTRANCE: 'ENTRANCE' as MovementDirection
+  EXIT: 'EXIT' as MovementDirection,
+  ENTRANCE: 'ENTRANCE' as MovementDirection
 };

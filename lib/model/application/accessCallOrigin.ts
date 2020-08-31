@@ -14,7 +14,7 @@
 export type AccessCallOrigin = 'DEVICE_INPUT' | 'DEVICE_READER' | 'SELFSERVICE_TERMINAL';
 
 export const AccessCallOrigin = {
-    DEVICEINPUT: 'DEVICE_INPUT' as AccessCallOrigin,
-    DEVICEREADER: 'DEVICE_READER' as AccessCallOrigin,
-    SELFSERVICETERMINAL: 'SELFSERVICE_TERMINAL' as AccessCallOrigin
+  DEVICEINPUT: 'DEVICE_INPUT' as AccessCallOrigin,
+  DEVICEREADER: 'DEVICE_READER' as AccessCallOrigin,
+  SELFSERVICETERMINAL: 'SELFSERVICE_TERMINAL' as AccessCallOrigin
 };

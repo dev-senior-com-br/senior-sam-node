@@ -14,6 +14,6 @@
 export type PersonSituationType = 'ACTIVE' | 'BLOCKED';
 
 export const PersonSituationType = {
-    ACTIVE: 'ACTIVE' as PersonSituationType,
-    BLOCKED: 'BLOCKED' as PersonSituationType
+  ACTIVE: 'ACTIVE' as PersonSituationType,
+  BLOCKED: 'BLOCKED' as PersonSituationType
 };

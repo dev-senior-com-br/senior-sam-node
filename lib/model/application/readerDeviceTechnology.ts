@@ -14,11 +14,11 @@
 export type ReaderDeviceTechnology = 'BARCODE_CARD' | 'RFID_CARD' | 'SMART_CARD' | 'BIOMETRIC' | 'QRCODE' | 'BLUETOOTH' | 'KEYBOARD';
 
 export const ReaderDeviceTechnology = {
-    BARCODECARD: 'BARCODE_CARD' as ReaderDeviceTechnology,
-    RFIDCARD: 'RFID_CARD' as ReaderDeviceTechnology,
-    SMARTCARD: 'SMART_CARD' as ReaderDeviceTechnology,
-    BIOMETRIC: 'BIOMETRIC' as ReaderDeviceTechnology,
-    QRCODE: 'QRCODE' as ReaderDeviceTechnology,
-    BLUETOOTH: 'BLUETOOTH' as ReaderDeviceTechnology,
-    KEYBOARD: 'KEYBOARD' as ReaderDeviceTechnology
+  BARCODECARD: 'BARCODE_CARD' as ReaderDeviceTechnology,
+  RFIDCARD: 'RFID_CARD' as ReaderDeviceTechnology,
+  SMARTCARD: 'SMART_CARD' as ReaderDeviceTechnology,
+  BIOMETRIC: 'BIOMETRIC' as ReaderDeviceTechnology,
+  QRCODE: 'QRCODE' as ReaderDeviceTechnology,
+  BLUETOOTH: 'BLUETOOTH' as ReaderDeviceTechnology,
+  KEYBOARD: 'KEYBOARD' as ReaderDeviceTechnology
 };

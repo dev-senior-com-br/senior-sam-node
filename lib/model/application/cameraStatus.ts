@@ -14,6 +14,6 @@
 export type CameraStatus = 'ACTIVE' | 'INACTIVE';
 
 export const CameraStatus = {
-    ACTIVE: 'ACTIVE' as CameraStatus,
-    INACTIVE: 'INACTIVE' as CameraStatus
+  ACTIVE: 'ACTIVE' as CameraStatus,
+  INACTIVE: 'INACTIVE' as CameraStatus
 };

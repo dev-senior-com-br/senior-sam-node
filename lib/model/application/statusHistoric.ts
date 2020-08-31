@@ -14,7 +14,7 @@
 export type StatusHistoric = 'FUTURE' | 'PRESENT' | 'PAST';
 
 export const StatusHistoric = {
-    FUTURE: 'FUTURE' as StatusHistoric,
-    PRESENT: 'PRESENT' as StatusHistoric,
-    PAST: 'PAST' as StatusHistoric
+  FUTURE: 'FUTURE' as StatusHistoric,
+  PRESENT: 'PRESENT' as StatusHistoric,
+  PAST: 'PAST' as StatusHistoric
 };

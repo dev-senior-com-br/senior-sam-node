@@ -14,11 +14,11 @@
 export type WeekDay = 'SUNDAY' | 'MONDAY' | 'TUESDAY' | 'WEDNESDAY' | 'THURSDAY' | 'FRIDAY' | 'SATURDAY';
 
 export const WeekDay = {
-    SUNDAY: 'SUNDAY' as WeekDay,
-    MONDAY: 'MONDAY' as WeekDay,
-    TUESDAY: 'TUESDAY' as WeekDay,
-    WEDNESDAY: 'WEDNESDAY' as WeekDay,
-    THURSDAY: 'THURSDAY' as WeekDay,
-    FRIDAY: 'FRIDAY' as WeekDay,
-    SATURDAY: 'SATURDAY' as WeekDay
+  SUNDAY: 'SUNDAY' as WeekDay,
+  MONDAY: 'MONDAY' as WeekDay,
+  TUESDAY: 'TUESDAY' as WeekDay,
+  WEDNESDAY: 'WEDNESDAY' as WeekDay,
+  THURSDAY: 'THURSDAY' as WeekDay,
+  FRIDAY: 'FRIDAY' as WeekDay,
+  SATURDAY: 'SATURDAY' as WeekDay
 };

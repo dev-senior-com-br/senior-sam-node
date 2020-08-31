@@ -14,6 +14,6 @@
 export type InputState = 'INACTIVE' | 'ACTIVE';
 
 export const InputState = {
-    INACTIVE: 'INACTIVE' as InputState,
-    ACTIVE: 'ACTIVE' as InputState
+  INACTIVE: 'INACTIVE' as InputState,
+  ACTIVE: 'ACTIVE' as InputState
 };

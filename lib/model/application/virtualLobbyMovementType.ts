@@ -14,7 +14,7 @@
 export type VirtualLobbyMovementType = 'ISSUE_ACCESS_CREDENTIAL' | 'REGISTER_LEAVE' | 'REGISTER_ENTRY';
 
 export const VirtualLobbyMovementType = {
-    ISSUEACCESSCREDENTIAL: 'ISSUE_ACCESS_CREDENTIAL' as VirtualLobbyMovementType,
-    REGISTERLEAVE: 'REGISTER_LEAVE' as VirtualLobbyMovementType,
-    REGISTERENTRY: 'REGISTER_ENTRY' as VirtualLobbyMovementType
+  ISSUEACCESSCREDENTIAL: 'ISSUE_ACCESS_CREDENTIAL' as VirtualLobbyMovementType,
+  REGISTERLEAVE: 'REGISTER_LEAVE' as VirtualLobbyMovementType,
+  REGISTERENTRY: 'REGISTER_ENTRY' as VirtualLobbyMovementType
 };

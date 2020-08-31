@@ -14,7 +14,7 @@
 export type BiometricValidation = 'NONE' | 'ONE_TO_ONE' | 'ONE_TO_MANY';
 
 export const BiometricValidation = {
-    NONE: 'NONE' as BiometricValidation,
-    ONETOONE: 'ONE_TO_ONE' as BiometricValidation,
-    ONETOMANY: 'ONE_TO_MANY' as BiometricValidation
+  NONE: 'NONE' as BiometricValidation,
+  ONETOONE: 'ONE_TO_ONE' as BiometricValidation,
+  ONETOMANY: 'ONE_TO_MANY' as BiometricValidation
 };

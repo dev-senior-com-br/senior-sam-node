@@ -14,8 +14,8 @@
 export type CallGenerationType = 'DISABLED' | 'ALWAYS' | 'ON_ACCESS_ALLOWED' | 'ON_ACCESS_DENIED';
 
 export const CallGenerationType = {
-    DISABLED: 'DISABLED' as CallGenerationType,
-    ALWAYS: 'ALWAYS' as CallGenerationType,
-    ONACCESSALLOWED: 'ON_ACCESS_ALLOWED' as CallGenerationType,
-    ONACCESSDENIED: 'ON_ACCESS_DENIED' as CallGenerationType
+  DISABLED: 'DISABLED' as CallGenerationType,
+  ALWAYS: 'ALWAYS' as CallGenerationType,
+  ONACCESSALLOWED: 'ON_ACCESS_ALLOWED' as CallGenerationType,
+  ONACCESSDENIED: 'ON_ACCESS_DENIED' as CallGenerationType
 };
