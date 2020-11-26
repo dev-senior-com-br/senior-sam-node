@@ -15,11 +15,11 @@ import { PhysicalLocation } from './physicalLocation';
 
 export interface BlueprintPhysicalLocation { 
     blueprint?: Blueprint;
-    physicalLocation?: PhysicalLocation;
+    physicalLocation: PhysicalLocation;
     /**
      * Latitude
      */
-    latitude?: number;
+    latitude: number;
     /**
      * ID
      */
@@ -27,5 +27,5 @@ export interface BlueprintPhysicalLocation {
     /**
      * Longitude
      */
-    longitude?: number;
+    longitude: number;
 }

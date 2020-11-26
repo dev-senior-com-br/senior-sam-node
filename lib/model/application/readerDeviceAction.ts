@@ -15,7 +15,7 @@ import { ReaderDevice } from './readerDevice';
 
 
 export interface ReaderDeviceAction { 
-    accessType?: AccessType;
+    accessType: AccessType;
     outputDevice?: OutputDevice;
     /**
      * ID
@@ -25,5 +25,5 @@ export interface ReaderDeviceAction {
     /**
      * Tempo do Acionamento
      */
-    activationTime?: number;
+    activationTime: number;
 }

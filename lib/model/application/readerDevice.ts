@@ -35,8 +35,8 @@ export interface ReaderDevice {
     /**
      * Descrição do Dispositivo
      */
-    description?: string;
-    readerDeviceTechnology?: ReaderDeviceTechnology;
+    description: string;
+    readerDeviceTechnology: ReaderDeviceTechnology;
     /**
      * Identificador da Leitora HeadKey
      */
@@ -44,25 +44,25 @@ export interface ReaderDevice {
     /**
      * Dispositivo Integrado
      */
-    integrated?: boolean;
-    biometricOneToOneValidationType?: BiometricOneToOneValidationType;
-    biometricValidation?: BiometricValidation;
+    integrated: boolean;
+    biometricOneToOneValidationType: BiometricOneToOneValidationType;
+    biometricValidation: BiometricValidation;
     urnSensor?: Device;
     /**
      * Valida Veículo
      */
-    validateVehicle?: boolean;
+    validateVehicle: boolean;
     /**
      * ID
      */
     id?: number;
     originPhysicalLocation?: PhysicalLocation;
-    situation?: DeviceSituation;
+    situation: DeviceSituation;
     /**
      * Bloqueia Provisório na Saída
      */
     blockProvisoryOnExit?: boolean;
-    deviceType?: DeviceType;
+    deviceType: DeviceType;
     offlineReaderValidationType?: ReaderValidationType;
     biometricManufacturer?: BiometricManufacturer;
     /**
@@ -72,8 +72,8 @@ export interface ReaderDevice {
     /**
      * Endereço
      */
-    address?: number;
-    physicalLocation?: PhysicalLocation;
+    address: number;
+    physicalLocation: PhysicalLocation;
     /**
      * Formatos de Cartão
      */
@@ -95,7 +95,7 @@ export interface ReaderDevice {
      * Nível de Conferência Biométrica
      */
     biometryLevel?: number;
-    communicationStatus?: DeviceCommunicationStatus;
+    communicationStatus: DeviceCommunicationStatus;
     extensibleConfiguration?: ExtensibleConfiguration;
     /**
      * Saídas do Acionamento

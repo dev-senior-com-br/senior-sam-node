@@ -22,8 +22,8 @@ export interface VirtualLobby {
      * Câmeras da Portaria Virtual
      */
     cameras?: Array<VirtualLobbyCamera>;
-    destinationPhysicalLocation?: PhysicalLocation;
-    physicalLocation?: PhysicalLocation;
+    destinationPhysicalLocation: PhysicalLocation;
+    physicalLocation: PhysicalLocation;
     /**
      * Dispositivos da Portaria Virtual
      */
@@ -31,7 +31,7 @@ export interface VirtualLobby {
     /**
      * Nome
      */
-    name?: string;
+    name: string;
     /**
      * Descrição
      */
@@ -40,11 +40,11 @@ export interface VirtualLobby {
      * ID
      */
     id?: number;
-    originPhysicalLocation?: PhysicalLocation;
+    originPhysicalLocation: PhysicalLocation;
     /**
      * Acionamentos da Portaria Virtual
      */
     actions?: Array<VirtualLobbyAction>;
-    situation?: VirtualLobbySituation;
+    situation: VirtualLobbySituation;
     group?: Group;
 }

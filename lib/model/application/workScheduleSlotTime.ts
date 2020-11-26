@@ -16,7 +16,7 @@ export interface WorkScheduleSlotTime {
     /**
      * Hora Final
      */
-    endHour?: string;
+    endHour: string;
     /**
      * 
      */
@@ -32,7 +32,7 @@ export interface WorkScheduleSlotTime {
     /**
      * Hora Inicial
      */
-    startHour?: string;
+    startHour: string;
     workSchedulePeriod?: WorkSchedulePeriod;
     /**
      * 

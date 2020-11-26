@@ -17,7 +17,7 @@ export interface OrganizationalStructure {
     /**
      * Estrutura organizacional pai
      */
-    parent?: number;
+    parent: number;
     /**
      * Pessoas da estrutura organizacional
      */
@@ -25,14 +25,14 @@ export interface OrganizationalStructure {
     /**
      * Descrição
      */
-    description?: string;
+    description: string;
     /**
      * ID
      */
     id?: number;
-    organizationalStructureType?: OrganizationalStructureType;
+    organizationalStructureType: OrganizationalStructureType;
     /**
      * Realiza Validação de Papel
      */
-    integrated?: boolean;
+    integrated: boolean;
 }

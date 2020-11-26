@@ -15,7 +15,7 @@ import { InputDevice } from './inputDevice';
 
 export interface InputDeviceAccessCall { 
     accessCall?: AccessCall;
-    inputDevice?: InputDevice;
+    inputDevice: InputDevice;
     /**
      * ID
      */

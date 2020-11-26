@@ -17,7 +17,7 @@ export interface BiometryTemplate {
     /**
      * Template
      */
-    template?: string;
+    template: string;
     /**
      * ID
      */

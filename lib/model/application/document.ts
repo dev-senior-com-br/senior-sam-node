@@ -14,12 +14,12 @@ import { Person } from './person';
 
 
 export interface Document { 
-    documentType?: DocumentType;
+    documentType: DocumentType;
     person?: Person;
     /**
      * Documento
      */
-    document?: string;
+    document: string;
     /**
      * ID
      */

@@ -17,11 +17,11 @@ import { ReaderDevice } from './readerDevice';
 
 export interface ReaderDeviceAccessCall { 
     accessCall?: AccessCall;
-    credential?: Credential;
-    accessEventType?: AccessEventType;
+    credential: Credential;
+    accessEventType: AccessEventType;
     /**
      * ID
      */
     id?: number;
-    readerDevice?: ReaderDevice;
+    readerDevice: ReaderDevice;
 }

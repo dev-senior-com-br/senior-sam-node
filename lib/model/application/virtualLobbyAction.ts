@@ -24,7 +24,7 @@ export interface VirtualLobbyAction {
     /**
      * Nome
      */
-    name?: string;
+    name: string;
     /**
      * ID
      */
@@ -32,5 +32,5 @@ export interface VirtualLobbyAction {
     /**
      * Acionamento Ativo
      */
-    isActive?: boolean;
+    isActive: boolean;
 }

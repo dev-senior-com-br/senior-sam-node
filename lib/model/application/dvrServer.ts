@@ -16,7 +16,7 @@ export interface DvrServer {
     /**
      * Senha de Acesso
      */
-    password?: string;
+    password: string;
     /**
      * Porta de Comunicação
      */
@@ -28,8 +28,8 @@ export interface DvrServer {
     /**
      * Nome do Servidor
      */
-    name?: string;
-    dvrServerType?: DvrServerType;
+    name: string;
+    dvrServerType: DvrServerType;
     /**
      * Identificador de Rede
      */
@@ -41,7 +41,7 @@ export interface DvrServer {
     /**
      * Usuário de Acesso
      */
-    user?: string;
+    user: string;
     /**
      * Identificador do Servidor
      */

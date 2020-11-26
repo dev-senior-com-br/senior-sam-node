@@ -15,9 +15,9 @@ import { ScheduledCredential } from './scheduledCredential';
 
 
 export interface VisitAccessCall { 
-    personCaller?: Person;
+    personCaller: Person;
     accessCall?: AccessCall;
-    scheduledCredential?: ScheduledCredential;
+    scheduledCredential: ScheduledCredential;
     /**
      * ID
      */

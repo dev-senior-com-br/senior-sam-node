@@ -16,7 +16,7 @@ export interface PersonSituation {
     /**
      * Data do Bloqueio
      */
-    blockDate?: Date;
+    blockDate: Date;
     person?: Person;
     /**
      * Justificativa do Desbloqueio

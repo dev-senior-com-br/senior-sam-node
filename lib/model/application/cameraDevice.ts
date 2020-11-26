@@ -19,5 +19,5 @@ export interface CameraDevice {
      */
     id?: number;
     camera?: Camera;
-    device?: Device;
+    device: Device;
 }

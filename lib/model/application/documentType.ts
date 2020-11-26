@@ -15,7 +15,7 @@ export interface DocumentType {
     /**
      * Nome do Tipo de Documento
      */
-    name?: string;
+    name: string;
     /**
      * ID
      */
@@ -23,15 +23,15 @@ export interface DocumentType {
     /**
      * Label de Apresentação
      */
-    label?: string;
+    label: string;
     /**
      * Documento Utilizado pelo REP
      */
-    useOnREP?: boolean;
+    useOnREP: boolean;
     /**
      * Documento Obrigatório
      */
-    required?: boolean;
+    required: boolean;
     /**
      * Máscara
      */

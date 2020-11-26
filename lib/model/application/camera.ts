@@ -21,8 +21,8 @@ export interface Camera {
     /**
      * Câmera PTZ
      */
-    isPTZ?: boolean;
-    physicalLocation?: PhysicalLocation;
+    isPTZ: boolean;
+    physicalLocation: PhysicalLocation;
     /**
      * Relação Câmera e Dispositivos
      */
@@ -34,7 +34,7 @@ export interface Camera {
     /**
      * Nome
      */
-    name?: string;
+    name: string;
     cctvProxy?: CctvProxy;
     /**
      * ID
@@ -48,5 +48,5 @@ export interface Camera {
      * Link do Stream da Câmera
      */
     streamLink?: string;
-    status?: CameraStatus;
+    status: CameraStatus;
 }

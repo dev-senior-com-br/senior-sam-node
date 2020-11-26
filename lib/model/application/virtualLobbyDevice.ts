@@ -17,11 +17,11 @@ import { VirtualLobbyAction } from './virtualLobbyAction';
 
 export interface VirtualLobbyDevice { 
     virtualLobby?: VirtualLobby;
-    virtualLobbyAction?: VirtualLobbyAction;
+    virtualLobbyAction: VirtualLobbyAction;
     /**
      * ID
      */
     id?: number;
-    device?: Device;
-    callGenerationType?: CallGenerationType;
+    device: Device;
+    callGenerationType: CallGenerationType;
 }

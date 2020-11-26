@@ -19,27 +19,27 @@ import { PhysicalLocation } from './physicalLocation';
 
 
 export interface OutputDevice { 
-    deviceType?: DeviceType;
+    deviceType: DeviceType;
     parent?: Device;
     /**
      * Endereço
      */
-    address?: number;
-    physicalLocation?: PhysicalLocation;
-    communicationStatus?: DeviceCommunicationStatus;
-    defaultState?: OutputState;
+    address: number;
+    physicalLocation: PhysicalLocation;
+    communicationStatus: DeviceCommunicationStatus;
+    defaultState: OutputState;
     extensibleConfiguration?: ExtensibleConfiguration;
     /**
      * Descrição do Dispositivo
      */
-    description?: string;
+    description: string;
     /**
      * ID
      */
     id?: number;
-    situation?: DeviceSituation;
+    situation: DeviceSituation;
     /**
      * Dispositivo Integrado
      */
-    integrated?: boolean;
+    integrated: boolean;
 }

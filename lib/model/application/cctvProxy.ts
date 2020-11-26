@@ -15,15 +15,15 @@ export interface CctvProxy {
     /**
      * Porta de Comunicação
      */
-    port?: number;
+    port: number;
     /**
      * Nome do Proxy CFTV
      */
-    name?: string;
+    name: string;
     /**
      * Host
      */
-    host?: string;
+    host: string;
     /**
      * ID
      */

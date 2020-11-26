@@ -13,11 +13,11 @@ import { IncidentPriority } from './incidentPriority';
 
 
 export interface IncidentType { 
-    defaultPriority?: IncidentPriority;
+    defaultPriority: IncidentPriority;
     /**
      * Nome
      */
-    name?: string;
+    name: string;
     /**
      * ID
      */

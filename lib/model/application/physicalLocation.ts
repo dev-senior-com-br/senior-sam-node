@@ -24,29 +24,29 @@ export interface PhysicalLocation {
     /**
      * Local Físico Pai
      */
-    parent?: number;
+    parent: number;
     /**
      * Realiza Validação da Antidupla
      */
-    antiPassbackValidation?: boolean;
+    antiPassbackValidation: boolean;
     /**
      * Realiza validação de interjonada
      */
-    checkInBetweenWorkdays?: boolean;
+    checkInBetweenWorkdays: boolean;
     /**
      * Realiza Validação da Faixa Horária do Papel
      */
-    slotTimeRoleValidation?: boolean;
+    slotTimeRoleValidation: boolean;
     /**
      * Tempo da Antidupla
      */
-    antiPassbackTimeout?: number;
+    antiPassbackTimeout: number;
     timeSlotList?: TimeSlotList;
-    localTimezone?: LocalTimezone;
+    localTimezone: LocalTimezone;
     /**
      * Local Físico Externo
      */
-    externalPhysicalLocation?: boolean;
+    externalPhysicalLocation: boolean;
     blueprint?: Blueprint;
     /**
      * Url da Validação Customizada
@@ -55,35 +55,35 @@ export interface PhysicalLocation {
     /**
      * Realiza Validação da Suspensão do Papel
      */
-    roleSuspensionValidation?: boolean;
+    roleSuspensionValidation: boolean;
     /**
      * Realiza Validação da Faixa Horária do Local Físico
      */
-    slotTimePhysicalValidation?: boolean;
+    slotTimePhysicalValidation: boolean;
     /**
      * Realiza Validação do Autorizador do Local Físico
      */
-    physicalLocationAuthorizerValidation?: boolean;
+    physicalLocationAuthorizerValidation: boolean;
     /**
      * Realiza Validação do Autorizador do Papel
      */
-    roleAuthorizerValidation?: boolean;
+    roleAuthorizerValidation: boolean;
     /**
      * Realiza Validação de Crédito de Acesso
      */
-    accessCreditValidation?: boolean;
+    accessCreditValidation: boolean;
     /**
      * Realiza Validação de Papel
      */
-    roleValidation?: boolean;
+    roleValidation: boolean;
     /**
      * Nome
      */
-    name?: string;
+    name: string;
     /**
      * Realiza Validação Customizada
      */
-    customValidation?: boolean;
+    customValidation: boolean;
     /**
      * ID
      */
@@ -91,10 +91,10 @@ export interface PhysicalLocation {
     /**
      * Realiza Validação do Nível
      */
-    levelValidation?: boolean;
+    levelValidation: boolean;
     /**
      * Realiza Validação de Lotação
      */
-    capacityValidation?: boolean;
-    status?: PhysicalLocationStatus;
+    capacityValidation: boolean;
+    status: PhysicalLocationStatus;
 }

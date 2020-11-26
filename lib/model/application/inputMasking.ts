@@ -16,24 +16,24 @@ export interface InputMasking {
     /**
      * Hora Final
      */
-    endHour?: string;
+    endHour: string;
     /**
      * Domingo
      */
-    sunday?: boolean;
+    sunday: boolean;
     /**
      * Sábado
      */
-    saturday?: boolean;
+    saturday: boolean;
     /**
      * Hora Inicial
      */
-    startHour?: string;
+    startHour: string;
     inputDevice?: InputDevice;
     /**
      * Dias da Semana
      */
-    businessDays?: boolean;
+    businessDays: boolean;
     /**
      * ID
      */
@@ -41,5 +41,5 @@ export interface InputMasking {
     /**
      * Feriado
      */
-    holiday?: boolean;
+    holiday: boolean;
 }
