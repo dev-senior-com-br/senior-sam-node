@@ -29,15 +29,15 @@ export interface Vehicle {
      * Pessoa Veículo
      */
     personVehicles?: Array<PersonVehicle>;
-    vehicleUse?: VehicleUse;
+    vehicleUse: VehicleUse;
     /**
      * Modelo
      */
-    model?: string;
+    model: string;
     /**
      * Placa
      */
-    plate?: string;
+    plate: string;
     /**
      * Data do Último Acesso
      */
@@ -49,5 +49,5 @@ export interface Vehicle {
     /**
      * Fabricante
      */
-    manufacturer?: string;
+    manufacturer: string;
 }

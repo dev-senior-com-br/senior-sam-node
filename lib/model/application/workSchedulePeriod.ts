@@ -28,7 +28,7 @@ export interface WorkSchedulePeriod {
      * 
      */
     lastModifiedDate?: Date;
-    weekDay?: WeekDay;
+    weekDay: WeekDay;
     /**
      * 
      */

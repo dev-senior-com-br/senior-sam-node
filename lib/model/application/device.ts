@@ -17,15 +17,15 @@ import { PhysicalLocation } from './physicalLocation';
 
 
 export interface Device { 
-    deviceType?: DeviceType;
+    deviceType: DeviceType;
     parent?: Device;
-    physicalLocation?: PhysicalLocation;
-    communicationStatus?: DeviceCommunicationStatus;
+    physicalLocation: PhysicalLocation;
+    communicationStatus: DeviceCommunicationStatus;
     extensibleConfiguration?: ExtensibleConfiguration;
     /**
      * Descrição do Dispositivo
      */
-    description?: string;
+    description: string;
     /**
      * ID
      */
@@ -34,9 +34,9 @@ export interface Device {
      * Dispositivo gerenciador
      */
     managerDeviceId?: number;
-    situation?: DeviceSituation;
+    situation: DeviceSituation;
     /**
      * Dispositivo Integrado
      */
-    integrated?: boolean;
+    integrated: boolean;
 }

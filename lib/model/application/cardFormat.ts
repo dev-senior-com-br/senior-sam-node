@@ -15,11 +15,11 @@ export interface CardFormat {
     /**
      * Código de Acesso
      */
-    facilityCode?: number;
+    facilityCode: number;
     /**
      * Padrão Para Todas as Leitoras
      */
-    defaultAllReaders?: boolean;
+    defaultAllReaders: boolean;
     /**
      * 
      */
@@ -31,23 +31,23 @@ export interface CardFormat {
     /**
      * Quantidade de Bits de Paridade Ímpar
      */
-    oddBitsLength?: number;
+    oddBitsLength: number;
     /**
      * Quantidade de Bits do Cartão
      */
-    cardLength?: number;
+    cardLength: number;
     /**
      * Bit de Ínicio do Código de Acesso
      */
-    facilityCodeStart?: number;
+    facilityCodeStart: number;
     /**
      * Quantidade de Bits de Paridade Par
      */
-    evenBitsLength?: number;
+    evenBitsLength: number;
     /**
      * Quantidade de Bits do Número do Cartão
      */
-    cardNumberLength?: number;
+    cardNumberLength: number;
     /**
      * 
      */
@@ -55,7 +55,7 @@ export interface CardFormat {
     /**
      * Bit de Ínicio do Número do Cartão
      */
-    cardNumberStart?: number;
+    cardNumberStart: number;
     /**
      * 
      */
@@ -63,7 +63,7 @@ export interface CardFormat {
     /**
      * Nome do Formato
      */
-    name?: string;
+    name: string;
     /**
      * ID
      */
@@ -71,9 +71,9 @@ export interface CardFormat {
     /**
      * Quantidade de Bits do Código de Acesso
      */
-    facilityCodeLength?: number;
+    facilityCodeLength: number;
     /**
      * Deslocamento de Bits
      */
-    bitsShift?: number;
+    bitsShift: number;
 }

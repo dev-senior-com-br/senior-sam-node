@@ -19,7 +19,7 @@ export interface Group {
     /**
      * Vaga de Estacionamento em Uso
      */
-    parkingSpaceInUse?: number;
+    parkingSpaceInUse: number;
     /**
      * Caminho hierárquico completo
      */
@@ -27,7 +27,7 @@ export interface Group {
     /**
      * Nome do Grupo
      */
-    name?: string;
+    name: string;
     /**
      * ID
      */
@@ -39,5 +39,5 @@ export interface Group {
     /**
      * Vaga de Estacionamento
      */
-    parkingSpace?: number;
+    parkingSpace: number;
 }

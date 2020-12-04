@@ -19,5 +19,5 @@ export interface VirtualLobbyCamera {
      * ID
      */
     id?: number;
-    camera?: Camera;
+    camera: Camera;
 }

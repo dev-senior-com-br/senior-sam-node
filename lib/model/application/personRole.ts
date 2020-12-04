@@ -33,6 +33,6 @@ export interface PersonRole {
     /**
      * Data Início
      */
-    startDate?: Date;
+    startDate: Date;
     status?: StatusHistoric;
 }

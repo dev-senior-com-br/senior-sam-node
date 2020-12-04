@@ -14,7 +14,7 @@ import { OutputDevice } from './outputDevice';
 
 
 export interface OutputDeviceActivations { 
-    outputDevice?: OutputDevice;
+    outputDevice: OutputDevice;
     inputDevice?: InputDevice;
     /**
      * ID
@@ -23,5 +23,5 @@ export interface OutputDeviceActivations {
     /**
      * Tempo do Acionamento
      */
-    activationTime?: number;
+    activationTime: number;
 }

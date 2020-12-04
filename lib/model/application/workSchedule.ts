@@ -32,7 +32,7 @@ export interface WorkSchedule {
     /**
      * Nome
      */
-    name?: string;
+    name: string;
     /**
      * Períodos da Escala
      */
@@ -44,5 +44,5 @@ export interface WorkSchedule {
     /**
      * Data Inicial
      */
-    startDate?: string;
+    startDate: string;
 }

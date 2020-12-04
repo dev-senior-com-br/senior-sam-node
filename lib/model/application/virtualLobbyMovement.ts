@@ -17,19 +17,19 @@ import { VirtualLobby } from './virtualLobby';
 
 
 export interface VirtualLobbyMovement { 
-    virtualLobby?: VirtualLobby;
+    virtualLobby: VirtualLobby;
     /**
      * Data de criação
      */
-    createdAt?: Date;
-    role?: Role;
-    movementDirection?: MovementDirection;
+    createdAt: Date;
+    role: Role;
+    movementDirection: MovementDirection;
     accessCall?: AccessCall;
-    responsible?: Person;
-    visited?: Person;
+    responsible: Person;
+    visited: Person;
     /**
      * ID
      */
     id?: number;
-    visitor?: Person;
+    visitor: Person;
 }

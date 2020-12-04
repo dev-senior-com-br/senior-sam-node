@@ -16,7 +16,7 @@ export interface Holiday {
     /**
      * Nome do feriado
      */
-    name?: string;
+    name: string;
     /**
      * ID
      */
@@ -25,9 +25,9 @@ export interface Holiday {
     /**
      * Feriado Recorrente
      */
-    recurrent?: boolean;
+    recurrent: boolean;
     /**
      * Data do Feriado
      */
-    holidayDate?: string;
+    holidayDate: string;
 }

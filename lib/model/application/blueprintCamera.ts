@@ -18,14 +18,14 @@ export interface BlueprintCamera {
     /**
      * Latitude
      */
-    latitude?: number;
+    latitude: number;
     /**
      * ID
      */
     id?: number;
-    camera?: Camera;
+    camera: Camera;
     /**
      * Longitude
      */
-    longitude?: number;
+    longitude: number;
 }

@@ -21,7 +21,7 @@ export interface Phone {
     /**
      * Número do Telefone
      */
-    number?: string;
+    number: string;
     phoneType?: PhoneType;
     person?: Person;
     /**

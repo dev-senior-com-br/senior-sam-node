@@ -16,7 +16,7 @@ export interface HolidayList {
     /**
      * Nome da Lista de Feriados
      */
-    name?: string;
+    name: string;
     /**
      * ID
      */

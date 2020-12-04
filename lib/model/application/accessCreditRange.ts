@@ -16,36 +16,36 @@ export interface AccessCreditRange {
     /**
      * Hora Final
      */
-    endHour?: string;
+    endHour: string;
     /**
      * Domingo
      */
-    sunday?: boolean;
+    sunday: boolean;
     accessCreditRangeList?: AccessCreditRangeList;
     /**
      * Sábado
      */
-    saturday?: boolean;
+    saturday: boolean;
     /**
      * Terça
      */
-    tuesday?: boolean;
+    tuesday: boolean;
     /**
      * Hora Inicial
      */
-    startHour?: string;
+    startHour: string;
     /**
      * Quarta
      */
-    wednesday?: boolean;
+    wednesday: boolean;
     /**
      * Quinta
      */
-    thursday?: boolean;
+    thursday: boolean;
     /**
      * Sexta
      */
-    friday?: boolean;
+    friday: boolean;
     /**
      * ID
      */
@@ -53,9 +53,9 @@ export interface AccessCreditRange {
     /**
      * Feriado
      */
-    holiday?: boolean;
+    holiday: boolean;
     /**
      * Segunda
      */
-    monday?: boolean;
+    monday: boolean;
 }

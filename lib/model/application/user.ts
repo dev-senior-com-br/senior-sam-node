@@ -15,7 +15,7 @@ import { Role } from './role';
 
 
 export interface User { 
-    person?: Person;
+    person: Person;
     localTimeZone?: LocalTimezone;
     /**
      * ID
@@ -24,6 +24,6 @@ export interface User {
     /**
      * Login
      */
-    login?: string;
+    login: string;
     credentialStandardRole?: Role;
 }

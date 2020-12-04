@@ -23,20 +23,20 @@ import { PhysicalLocation } from './physicalLocation';
 
 
 export interface InputDevice { 
-    deviceType?: DeviceType;
+    deviceType: DeviceType;
     parent?: Device;
     /**
      * Endereço
      */
-    address?: number;
-    physicalLocation?: PhysicalLocation;
-    defaultState?: InputState;
-    incidentPriority?: IncidentPriority;
-    incidentType?: IncidentType;
+    address: number;
+    physicalLocation: PhysicalLocation;
+    defaultState: InputState;
+    incidentPriority: IncidentPriority;
+    incidentType: IncidentType;
     /**
      * Descrição do Dispositivo
      */
-    description?: string;
+    description: string;
     /**
      * Mascaramentos da Entrada
      */
@@ -44,12 +44,12 @@ export interface InputDevice {
     /**
      * Dispositivo Integrado
      */
-    integrated?: boolean;
-    communicationStatus?: DeviceCommunicationStatus;
+    integrated: boolean;
+    communicationStatus: DeviceCommunicationStatus;
     /**
      * Gera Incidente
      */
-    generateIncident?: boolean;
+    generateIncident: boolean;
     extensibleConfiguration?: ExtensibleConfiguration;
     /**
      * Acionamentos
@@ -63,6 +63,6 @@ export interface InputDevice {
     /**
      * Delay de Ativação da Entrada
      */
-    activationDelay?: number;
-    situation?: DeviceSituation;
+    activationDelay: number;
+    situation: DeviceSituation;
 }

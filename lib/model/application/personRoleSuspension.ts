@@ -26,10 +26,10 @@ export interface PersonRoleSuspension {
     /**
      * Justificativa
      */
-    justification?: string;
+    justification: string;
     /**
      * Data Início
      */
-    startDate?: Date;
+    startDate: Date;
     status?: StatusHistoric;
 }

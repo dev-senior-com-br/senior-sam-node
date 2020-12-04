@@ -14,7 +14,7 @@ import { ReaderDevice } from './readerDevice';
 
 
 export interface ReaderDeviceCardFormat { 
-    cardFormat?: CardFormat;
+    cardFormat: CardFormat;
     /**
      * ID
      */
