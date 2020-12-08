@@ -90,6 +90,8 @@ Essa configuração é igual ao colocar variáveis de ambiente, o `.env` é só 
 
 - [Lobby](examples/lobby-example.js)
 
+Mudando o ambiente:
+
 ```javascript
 const { ENVIRONMENTS } = require('@seniorsistemas/senior-core');
 api.setEnvironment(ENVIRONMENTS.PROD);
