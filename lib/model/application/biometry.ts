@@ -15,7 +15,7 @@ import { Person } from './person';
 
 
 export interface Biometry { 
-    biometricManufacturer?: BiometricManufacturer;
+    biometricManufacturer: BiometricManufacturer;
     person?: Person;
     /**
      * Templates Biométricos

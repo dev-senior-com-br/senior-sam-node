@@ -22,14 +22,14 @@ export interface ScheduledCredential {
     /**
      * Data Final
      */
-    endDate?: Date;
-    person?: Person;
+    endDate: Date;
+    person: Person;
     credentialFormat?: CredentialFormat;
     visitedPlace?: PhysicalLocation;
     /**
      * Data do Agendamento
      */
-    scheludingDate?: Date;
+    scheludingDate: Date;
     /**
      * ID
      */
@@ -38,5 +38,5 @@ export interface ScheduledCredential {
      * Localizador
      */
     locator?: string;
-    group?: Group;
+    group: Group;
 }

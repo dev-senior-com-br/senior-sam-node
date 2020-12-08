@@ -25,5 +25,5 @@ export interface Email {
     /**
      * Documento
      */
-    email?: string;
+    email: string;
 }

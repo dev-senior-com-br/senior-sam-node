@@ -127,7 +127,7 @@ export interface Person {
     /**
      * Nome
      */
-    name?: string;
+    name: string;
     /**
      * Estado
      */

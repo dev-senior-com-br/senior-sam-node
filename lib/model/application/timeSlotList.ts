@@ -17,7 +17,7 @@ export interface TimeSlotList {
     /**
      * Nome
      */
-    name?: string;
+    name: string;
     /**
      * Lista de Faixas
      */

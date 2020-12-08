@@ -15,7 +15,7 @@ import { Credential } from './credential';
 
 export interface CardCredential { 
     credential?: Credential;
-    cardTechnology?: CardTechnology;
+    cardTechnology: CardTechnology;
     /**
      * ID
      */
@@ -23,5 +23,5 @@ export interface CardCredential {
     /**
      * Número do Cartão
      */
-    cardNumber?: number;
+    cardNumber: number;
 }

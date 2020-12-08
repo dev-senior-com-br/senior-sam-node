@@ -17,7 +17,7 @@ export interface AccessCreditRangeList {
     /**
      * Nome da Lista
      */
-    name?: string;
+    name: string;
     /**
      * ID
      */

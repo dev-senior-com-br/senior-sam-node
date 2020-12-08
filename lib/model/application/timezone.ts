@@ -15,11 +15,11 @@ export interface Timezone {
     /**
      * Offset em Minutos do Timezone
      */
-    timezoneOffset?: number;
+    timezoneOffset: number;
     /**
      * Nome do Timezone
      */
-    name?: string;
+    name: string;
     /**
      * ID
      */

@@ -15,7 +15,7 @@ export interface OrganizationalStructureType {
     /**
      * Nome
      */
-    name?: string;
+    name: string;
     /**
      * ID
      */

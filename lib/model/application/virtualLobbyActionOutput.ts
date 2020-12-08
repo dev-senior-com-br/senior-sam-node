@@ -19,8 +19,8 @@ export interface VirtualLobbyActionOutput {
      * Tempo do Acionamento
      */
     actionTime?: number;
-    virtualLobbyActionType?: VirtualLobbyActionType;
-    outputDevice?: Device;
+    virtualLobbyActionType: VirtualLobbyActionType;
+    outputDevice: Device;
     virtualLobbyAction?: VirtualLobbyAction;
     /**
      * ID

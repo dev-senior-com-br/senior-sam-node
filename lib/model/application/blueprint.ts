@@ -27,7 +27,7 @@ export interface Blueprint {
     /**
      * Cores Invertidas
      */
-    invertedColors?: boolean;
+    invertedColors: boolean;
     /**
      * Lista de Dispositivos
      */

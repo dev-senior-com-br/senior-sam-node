@@ -28,7 +28,7 @@ export interface PersonWorkSchedulePeriod {
      */
     lastModifiedDate?: Date;
     person?: Person;
-    weekDay?: WeekDay;
+    weekDay: WeekDay;
     /**
      * 
      */

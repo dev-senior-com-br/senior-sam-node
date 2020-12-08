@@ -21,12 +21,12 @@ export interface LocalTimezone {
     /**
      * Horário de verão
      */
-    daylightSaving?: boolean;
-    timezone?: Timezone;
+    daylightSaving: boolean;
+    timezone: Timezone;
     /**
      * Nome do Local
      */
-    name?: string;
+    name: string;
     offsetDaylightSaving?: OffsetDaylightSavingType;
     /**
      * ID

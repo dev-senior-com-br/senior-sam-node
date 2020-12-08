@@ -16,7 +16,7 @@ export interface TimeSlot {
     /**
      * Sábado
      */
-    saturday?: boolean;
+    saturday: boolean;
     /**
      * 
      */
@@ -28,24 +28,24 @@ export interface TimeSlot {
     /**
      * Quinta
      */
-    thursday?: boolean;
+    thursday: boolean;
     /**
      * Feriado
      */
-    holiday?: boolean;
+    holiday: boolean;
     timeSlotList?: TimeSlotList;
     /**
      * Hora Final
      */
-    endHour?: string;
+    endHour: string;
     /**
      * Domingo
      */
-    sunday?: boolean;
+    sunday: boolean;
     /**
      * Terça
      */
-    tuesday?: boolean;
+    tuesday: boolean;
     /**
      * 
      */
@@ -57,15 +57,15 @@ export interface TimeSlot {
     /**
      * Hora Inicial
      */
-    startHour?: string;
+    startHour: string;
     /**
      * Quarta
      */
-    wednesday?: boolean;
+    wednesday: boolean;
     /**
      * Sexta
      */
-    friday?: boolean;
+    friday: boolean;
     /**
      * ID
      */
@@ -73,5 +73,5 @@ export interface TimeSlot {
     /**
      * Segunda
      */
-    monday?: boolean;
+    monday: boolean;
 }

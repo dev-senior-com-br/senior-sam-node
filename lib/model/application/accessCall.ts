@@ -21,7 +21,7 @@ import { VisitAccessCall } from './visitAccessCall';
 
 export interface AccessCall { 
     visitAccessCall?: VisitAccessCall;
-    accessCallOrigin?: AccessCallOrigin;
+    accessCallOrigin: AccessCallOrigin;
     /**
      * Data Fim
      */
@@ -30,14 +30,14 @@ export interface AccessCall {
     /**
      * Data da Criação
      */
-    creationDate?: Date;
-    accessCallStatus?: AccessCallStatus;
+    creationDate: Date;
+    accessCallStatus: AccessCallStatus;
     /**
      * Nome usuário
      */
     userName?: string;
     virtualLobby?: VirtualLobby;
-    virtualLobbyMovementType?: VirtualLobbyMovementType;
+    virtualLobbyMovementType: VirtualLobbyMovementType;
     /**
      * ID
      */

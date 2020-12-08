@@ -18,14 +18,14 @@ export interface BlueprintDevice {
     /**
      * Latitude
      */
-    latitude?: number;
+    latitude: number;
     /**
      * ID
      */
     id?: number;
-    device?: Device;
+    device: Device;
     /**
      * Longitude
      */
-    longitude?: number;
+    longitude: number;
 }

@@ -16,7 +16,7 @@ export interface ExtensibleConfiguration {
     /**
      * Nome da Configuração Extensível
      */
-    name?: string;
+    name: string;
     /**
      * ID
      */

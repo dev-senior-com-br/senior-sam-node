@@ -34,10 +34,10 @@ export interface Credential {
      * Data Fim
      */
     endDate?: Date;
-    credentialSituation?: CredentialSituation;
+    credentialSituation: CredentialSituation;
     vehicle?: Vehicle;
-    credentialOwner?: CredentialOwner;
-    credentialType?: CredentialType;
+    credentialOwner: CredentialOwner;
+    credentialType: CredentialType;
     visitedPerson?: Person;
     virtualLobby?: VirtualLobby;
     /**
@@ -46,7 +46,7 @@ export interface Credential {
     cardCredentialList?: Array<CardCredential>;
     lobby?: Lobby;
     person?: Person;
-    credentialFormat?: CredentialFormat;
+    credentialFormat: CredentialFormat;
     scheduling?: Scheduling;
     /**
      * ID
@@ -59,7 +59,7 @@ export interface Credential {
     /**
      * Data Início
      */
-    startDate?: Date;
+    startDate: Date;
     group?: Group;
-    status?: StatusHistoric;
+    status: StatusHistoric;
 }

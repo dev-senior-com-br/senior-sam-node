@@ -29,7 +29,7 @@ export interface Role {
      */
     personRoles?: Array<PersonRole>;
     workSchedule?: WorkSchedule;
-    timeSlotValidation?: ValidationSetup;
+    timeSlotValidation: ValidationSetup;
     /**
      * Relação dos Papéis Autorizadores
      */
@@ -41,7 +41,7 @@ export interface Role {
     /**
      * Integrado com Ronda Senior
      */
-    integrated?: boolean;
+    integrated: boolean;
     /**
      * Url de Validação Customizada
      */
@@ -50,11 +50,11 @@ export interface Role {
      * Herdar Suspensões de Papéis Importados
      */
     inheritSuspensionByImportedRole?: boolean;
-    roleAuthorizerValidation?: ValidationSetup;
+    roleAuthorizerValidation: ValidationSetup;
     /**
      * Papel que Recebe Visita
      */
-    receiveVisit?: boolean;
+    receiveVisit: boolean;
     /**
      * Relação de Papel que Autoriza Local Físico
      */
@@ -67,19 +67,19 @@ export interface Role {
      * Relação Papel Lista de Faixas de Crédito de Acesso
      */
     roleAccessCreditRangeLists?: Array<RoleAccessCreditRangeList>;
-    customValidation?: ValidationSetup;
+    customValidation: ValidationSetup;
     /**
      * ID
      */
     id?: number;
-    levelValidation?: ValidationSetup;
-    inBetweenWorkdaysValidation?: ValidationSetup;
-    workScheduleValidation?: ValidationSetup;
+    levelValidation: ValidationSetup;
+    inBetweenWorkdaysValidation: ValidationSetup;
+    workScheduleValidation: ValidationSetup;
     /**
      * Relação de Papel que Acessa o Local Físico
      */
     roleAccessPhysicalLocations?: Array<RoleAccessPhysicalLocation>;
-    antiPassbackValidation?: ValidationSetup;
+    antiPassbackValidation: ValidationSetup;
     /**
      * Relação de Papel que Acessa o Dispositivo
      */
@@ -87,14 +87,14 @@ export interface Role {
     /**
      * Papel Utilizado pelo Provisório
      */
-    usedByProvisory?: boolean;
-    creditAccessValidation?: ValidationSetup;
-    physicalLocationAuthorizerValidation?: ValidationSetup;
-    physicalLocationValidation?: ValidationSetup;
+    usedByProvisory: boolean;
+    creditAccessValidation: ValidationSetup;
+    physicalLocationAuthorizerValidation: ValidationSetup;
+    physicalLocationValidation: ValidationSetup;
     /**
      * Nome
      */
-    name?: string;
-    stockingValidation?: ValidationSetup;
-    parkingSpaceValidation?: ValidationSetup;
+    name: string;
+    stockingValidation: ValidationSetup;
+    parkingSpaceValidation: ValidationSetup;
 }

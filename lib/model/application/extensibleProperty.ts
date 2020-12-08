@@ -37,9 +37,9 @@ export interface ExtensibleProperty {
     /**
      * Valor
      */
-    value?: string;
+    value: string;
     /**
      * Chave
      */
-    key?: string;
+    key: string;
 }
