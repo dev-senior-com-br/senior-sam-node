@@ -26,6 +26,8 @@ export enum ENVIRONMENTS {
 }
 ```
 
+Guia para mudar ambiente na seção [Iniciando a utilização](#iniciando-a-utilização).
+
 ### Configurações
 Os comando abaixo permitem configuração de proxy:
  - npm config set proxy <ALTERAR_PARA_PROXY_HTTP>
@@ -83,8 +85,10 @@ PASS=<seu_password_da_plataforma>
 ```
 
 Essa configuração é igual ao colocar variáveis de ambiente, o `.env` é só um falicitador para o node.
+=======
+#### Exemplos implementados
 
-Mudando o ambiente:
+- [Lobby](examples/lobby-example.js)
 
 ```javascript
 const { ENVIRONMENTS } = require('@seniorsistemas/senior-core');
