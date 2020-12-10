@@ -7,14 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.2.0] - 2020-12-10
+
 ### Added
 
 -   Criação dos POJOs das entidades do `sam/application`
 
 ### Changed
 
-- Alteração da versão da dependência senior-core. 1.3.0 > 2.0.0
-
+-   Alteração da versão da dependência senior-core. 1.3.0 > 2.0.0
 
 ## [1.1.1] - 2020-08-17
 
@@ -36,7 +37,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-[Unreleased]: https://github.com/dev-senior-com-br/senior-sam-node/compare/v1.1.1...HEAD
+[Unreleased]: https://github.com/dev-senior-com-br/senior-sam-node/compare/1.2.0...HEAD
+
+[1.2.0]: https://github.com/dev-senior-com-br/senior-sam-node/compare/1.1.1...1.2.0
 
 [1.1.1]: https://github.com/dev-senior-com-br/senior-sam-node/compare/v1.1.0...1.1.1
 
